@@ -1,0 +1,246 @@
+$button-color: $black !default
+$button-background-color: #ddd !default
+$button-border-color: #ddd !default
+
+$button-hover-color: $link-hover !default
+$button-hover-border-color: $link-hover-border !default
+
+$button-focus-color: $link-focus !default
+$button-focus-border-color: $link-focus-border !default
+$button-focus-box-shadow-size: 0 0 0 0.125em !default
+$button-focus-box-shadow-color: rgba($link, 0.25) !default
+
+$button-active-color: $link-active !default
+$button-active-border-color: $link-active-border !default
+
+$button-text-color: $text !default
+$button-text-hover-background-color: $background !default
+$button-text-hover-color: $text-strong !default
+
+$button-disabled-background-color: $white !default
+$button-disabled-border-color: $grey-lighter !default
+$button-disabled-shadow: none !default
+$button-disabled-opacity: 0.75 !default
+
+$button-static-color: $grey !default
+$button-static-background-color: $white-ter !default
+$button-static-border-color: $grey-lighter !default
+
+// The button sizes use mixins so they can be used at different breakpoints
+=button-small
+  border-radius: $radius-small
+  font-size: $size-small
+=button-medium
+  font-size: $size-medium
+=button-large
+  font-size: $size-large
+
+.button
+  +control
+  +unselectable
+  cursor: default
+  background-color: $button-background-color
+  border-color: darken($button-background-color, 1%)
+  color: lighten($button-color, 20%)
+  justify-content: center
+  height: 2.25em
+  padding-left: 2em
+  padding-right: 2em
+  // padding-top: 0.1875em
+  // padding-bottom: 0.1875em
+  text-align: center
+  white-space: nowrap
+  position: relative
+  &:not(:last-child)
+    margin-right: 0.5rem
+  strong
+    color: inherit
+  .icon
+    &,
+    &.is-small,
+    &.is-medium,
+    &.is-large
+      height: 1.5em
+      width: 1.5em
+    &:first-child:not(:last-child)
+      margin-left: calc(-0.375em - 1px)
+      margin-right: 0.1875em
+    &:last-child:not(:first-child)
+      margin-left: 0.1875em
+      margin-right: calc(-0.375em - 1px)
+    &:first-child:last-child
+      margin-left: calc(-0.375em - 1px)
+      margin-right: calc(-0.375em - 1px)
+  // States
+  &:hover,
+  &.is-hovered
+    border-color: rgba(0, 0, 0, 0.5)
+    color: $button-hover-color
+  &:focus
+    // border-color: $button-focus-border-color
+    border-color: rgba(0, 0, 0, 0.5)
+    // box-shadow: 0 0 20px lighten($button-background-color, 50%)
+    color: $button-hover-color
+  &.is-focused
+    // border-color: $button-focus-border-color
+    // border-color: rgba(0, 0, 0, 0.5)
+    box-shadow: 0 0 15px 1px $button-background-color
+    color: $button-hover-color
+  &:active,
+  &.is-active
+    border-color: rgba(0, 0, 0, 0.5)
+    color: $button-active-color
+    transform: scale(0.9)
+  // Colors
+  &.is-text
+    background-color: transparent
+    border-color: transparent
+    color: $button-text-color
+    text-decoration: underline
+    &:hover,
+    &.is-hovered,
+    &:focus,
+    &.is-focused
+      background-color: $button-text-hover-background-color
+      color: $button-text-hover-color
+    &:active,
+    &.is-active
+      background-color: darken($button-text-hover-background-color, 5%)
+      color: $button-text-hover-color
+    &[disabled]
+      background-color: transparent
+      border-color: transparent
+      box-shadow: none
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    $color-invert: nth($pair, 2)
+    &.is-#{$name}
+      background-color: $color
+      border-color: transparent
+      color: $color-invert
+      &:hover,
+      &.is-hovered
+        border-color: rgba(0, 0, 0, 0.5)
+      &.is-focused
+        // border-color: rgba(0, 0, 0, 0.5)
+        &:not(:active)
+          box-shadow: 0 0 15px 1px lighten($color, 25%)
+      &:focus
+        border-color: rgba(0, 0, 0, 0.5)
+      &:active,
+      &.is-active
+        border-color: rgba(0, 0, 0, 0.5)
+      &[disabled]
+        background-color: lighten($color, 15%)
+        border-color: transparent
+        box-shadow: none
+      &.is-inverted
+        background-color: $color-invert
+        color: $color
+        &:hover
+          background-color: darken($color-invert, 5%)
+        &[disabled]
+          background-color: $color-invert
+          border-color: transparent
+          box-shadow: none
+          color: $color
+      &.is-loading
+        &:after
+          border-color: transparent transparent $color-invert $color-invert !important
+      &.is-outlined
+        background-color: transparent
+        border-color: $color
+        color: $color
+        &:hover,
+        &:focus
+          background-color: $color
+          // border-color: $color
+          color: $color-invert
+        &.is-loading
+          &:after
+            border-color: transparent transparent $color $color !important
+        &[disabled]
+          background-color: transparent
+          border-color: $color
+          box-shadow: none
+          color: $color
+      &.is-inverted.is-outlined
+        background-color: transparent
+        border-color: $color-invert
+        color: $color-invert
+        &:hover,
+        &:focus
+          background-color: $color-invert
+          color: $color
+        &[disabled]
+          background-color: transparent
+          border-color: $color-invert
+          box-shadow: none
+          color: $color-invert
+  // Sizes
+  &.is-small
+    +button-small
+  &.is-medium
+    +button-medium
+  &.is-large
+    +button-large
+  // Modifiers
+  &[disabled]
+    background-color: $button-disabled-background-color
+    border-color: $button-disabled-border-color
+    box-shadow: $button-disabled-shadow
+    opacity: $button-disabled-opacity
+  &.is-fullwidth
+    display: flex
+    width: 100%
+  &.is-loading
+    color: transparent !important
+    pointer-events: none
+    &:after
+      +loader
+      +center(1em)
+      position: absolute !important
+      border-color: transparent transparent #666 #666 !important
+
+  &.is-static
+    background-color: $button-static-background-color
+    border-color: $button-static-border-color
+    color: $button-static-color
+    box-shadow: none
+    pointer-events: none
+  &.is-rounded
+    border-radius: $radius-rounded
+    padding-left: 1em
+    padding-right: 1em
+
+.buttons
+  align-items: center
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-start
+  .button
+    margin-bottom: 0.5rem
+    &:not(:last-child)
+      margin-right: 0.5rem
+  &:last-child
+    margin-bottom: -0.5rem
+  &:not(:last-child)
+    margin-bottom: 1rem
+  &.has-addons
+    .button
+      margin: 0
+      &:hover,
+      &.is-hovered
+        z-index: 2
+      &:focus,
+      &.is-focused,
+      &:active,
+      &.is-active,
+      &.is-selected
+        z-index: 3
+        &:hover
+          z-index: 4
+  &.is-centered
+    justify-content: center
+  &.is-right
+    justify-content: flex-end

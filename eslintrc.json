@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "no-console": "off"
+  },
+  "globals": {
+    "document": true,
+    "window": true,
+    "swal": true
+  }
+}

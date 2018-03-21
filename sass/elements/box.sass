@@ -1,0 +1,28 @@
+$box-color: $text !default
+$box-background-color: $light !default
+$box-radius: $radius-large !default
+$box-shadow: 0 3px 25px rgba($dark, 0.1) !default
+$box-padding: 1.25rem !default
+
+$box-link-hover-shadow: 0 0 25px rgba($dark, 0.1) !default
+$box-link-active-shadow: 0 0 5px rgba($dark, 0.1) !default
+
+.box
+  +block
+  background-color: $box-background-color
+  border-radius: $box-radius
+  box-shadow: $box-shadow
+  color: $box-color
+  display: block
+  padding: $box-padding
+  opacity: 0.9
+  transition: all 0.5s ease-out
+  small
+    opacity: 0.66
+
+.box
+  &:hover,
+  &:focus
+    box-shadow: $box-link-hover-shadow
+  &:active
+    box-shadow: $box-link-active-shadow

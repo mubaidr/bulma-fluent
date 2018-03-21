@@ -1,0 +1,65 @@
+$progress-bar-background-color: $border !default
+$progress-value-background-color: $text !default
+
+.progress
+  +block
+  border: none
+  display: block
+  height: $size-normal
+  overflow: hidden
+  padding: 0
+  width: 100%
+  &::-webkit-progress-bar
+    background-color: $border
+  &::-moz-progress-bar
+    background-color: $border
+  &::-ms-fill
+    background-color: $border
+    border: none
+  &::-webkit-progress-value
+    background-color: $border-hover
+  &::-moz-progress-bar
+    background-color: $border-hover
+  &::-ms-fill
+    background-color: $border-hover
+  // Colors
+  &:not([value])
+    background-color: $border-hover
+    width: 25%
+    animation: progress 2s linear 0s infinite alternate
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      &[value]
+        &::-webkit-progress-value
+          background-color: $color
+        &::-moz-progress-bar
+          background-color: $color
+        &::-ms-fill
+          background-color: $color
+      &:not([value])
+        background-color: $color
+        width: 25%
+        animation: progress 2s linear 0s infinite alternate
+  &[value]
+    appearance: none
+    -moz-appearance: none
+    -webkit-appearance: none
+  // Sizes
+  &.is-small
+    height: $size-small
+  &.is-medium
+    height: $size-medium
+  &.is-large
+    height: $size-large
+  &.is-rounded
+    border-radius: $radius-rounded
+  &.is-indeterminate
+    background-color: red
+@keyframes progress
+  0%
+    margin-left: 15%
+  50%
+    margin-left: 60%
+  100%
+    margin-left: 15%
