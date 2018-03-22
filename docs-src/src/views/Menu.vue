@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="tabs is-centered has-text-centered is-medium">
+    <div class="tabs is-centered has-text-centered">
       <ul>
         <li :class="{'is-active': $route.path === '/home' || $route.path === '/'}">
           <router-link to="/home">

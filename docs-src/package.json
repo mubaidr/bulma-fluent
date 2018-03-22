@@ -1,12 +1,15 @@
 {
   "author": "Muhammad Ubaid Raza <mubaidr@gmail.com>",
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "dependencies": {
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
-  "description":
-    "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
+  "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
@@ -38,10 +41,8 @@
   "name": "bulma-fluent",
   "private": true,
   "scripts": {
-    "build":
-      "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules",
-    "dev":
-      "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot"
+    "build": "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot"
   },
   "version": "1.0.0"
 }
