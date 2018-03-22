@@ -20,14 +20,14 @@
           <h2 class="subtitle is-6" />
           <br>
           <p>
-            <a class="button is-focused"
-               href="/demo"
-               title="View Demo">
+            <router-link class="button is-focused"
+                         to="/demo"
+                         title="View Demo">
               <span class="icon">
                 <i class="fa fa-book" />
               </span>
               <span>Demo</span>
-            </a>
+            </router-link>
             <a class="button"
                href="https://github.com/mubaidr/bulma-fluent"
                title="Github Repository"
