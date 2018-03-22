@@ -5,6 +5,7 @@
       <hr>
 
       <h2 class="subtitle is-4">Box</h2>
+      <hr>
       <div class="box">
         <article class="media">
           <div class="media-left">
@@ -50,6 +51,7 @@
       <br>
 
       <h2 class="subtitle is-4">Buttons</h2>
+      <hr>
       <div>
         <div class="block">
           <a class="button is-primary">Primary</a>
@@ -196,6 +198,7 @@
       <br><br>
 
       <h2 class="subtitle is-4">Progress bars</h2>
+      <hr>
       <div id="progress">
         <progress class="progress"
                   max="1000" />
@@ -228,6 +231,7 @@
       <br><br>
 
       <h2 class="subtitle is-4">Notifications</h2>
+      <hr>
       <div class="columns">
         <div class="column">
           <div class="notification">
@@ -273,7 +277,8 @@
 
       <br>
 
-      <h2 class="subtitle is-4">Tag</h2>
+      <h2 class="subtitle is-4">Tags</h2>
+      <hr>
       <div class="tags">
         <div class="tags">
           <div class="tags">
@@ -336,6 +341,7 @@
       <br>
 
       <h2 class="subtitle is-4">Tables</h2>
+      <hr>
       <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
         <tr>
           <th>Company</th>

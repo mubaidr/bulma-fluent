@@ -36,6 +36,7 @@
               <span class="icon">
                 <i class="fa fa-github" />
               </span>
+              <span>Github</span>
             </a>
             <a class="button"
                href="https://twitter.com/@mubaidr"
