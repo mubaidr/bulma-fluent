@@ -9,7 +9,6 @@ import view404 from './views/404.vue'
 vue.use(VueRouter)
 
 const router = new VueRouter({
-  mode: 'history',
   root: '/',
   routes: [
     {
