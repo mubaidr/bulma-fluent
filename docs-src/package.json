@@ -41,7 +41,7 @@
     "build":
       "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules",
     "dev":
-      "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --watch"
+      "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot"
   },
   "version": "1.0.0"
 }

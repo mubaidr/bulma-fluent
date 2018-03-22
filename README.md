@@ -4,7 +4,7 @@
 
 Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
-[![npm](https://img.shields.io/npm/v/bulma-fluent.svg)](https://www.npmjs.com/package/bulma-fluent)
+[![npm version](https://badge.fury.io/js/bulma-fluent.svg)](https://badge.fury.io/js/bulma-fluent)
 [![Build Status](https://travis-ci.org/mubaidr/bulma-fluent.svg?branch=master)](https://travis-ci.org/mubaidr/bulma-fluent)
 
 ## Quick install
@@ -14,8 +14,6 @@ Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Flu
 ```sh
 npm install bulma-fluent
 ```
-
-**or**
 
 ### Yarn
 
@@ -29,13 +27,19 @@ yarn add bulma-fluent
 bower install bulma-fluent
 ```
 
-Feel free to raise an issue or submit a pull request.
+### Download from cdnjs
+
+[https://cdnjs.com/libraries/bulma-fluent](https://cdnjs.com/libraries/bulma-fluent)
+
+### Download from this Repository
+
+[https://github.com/mubaidr/bulma-fluent/tree/master/css](https://github.com/mubaidr/bulma-fluent/tree/master/css)
 
 ## Documentation
 
-The documentation resides in the [docs](docs) directory, and is built with the Ruby-based [Jekyll](https://jekyllrb.com/) tool.
+The documentation resides in the [docs](docs) directory, and is built with using [Vue.js](https://vuejs.org).
 
-Browse the [online documentation here.](https://bulma.io/documentation/overview/start/)
+Browse the [online documentation here.](https://mubaidr.github.io/bulma-fluent/)
 
 ## Copyright and license
 

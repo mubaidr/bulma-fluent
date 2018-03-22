@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <header-view/>
-    <transition :name="transitionName"
-                appear="appear"
-                mode="out-in">
-      <router-view/>
-    </transition>
+    <div class="content-custom">
+      <transition :name="transitionName"
+                  appear="appear"
+                  mode="out-in">
+        <router-view/>
+      </transition>
+    </div>
     <footer-view/>
   </div>
 </template>
@@ -45,5 +47,7 @@ export default {
 </script>
 
 <style>
-
+.content-custom {
+  min-height: 305px;
+}
 </style>
