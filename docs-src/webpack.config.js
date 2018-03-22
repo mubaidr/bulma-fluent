@@ -1,5 +1,4 @@
 const path = require('path')
-const webpack = require('webpack')
 
 module.exports = {
   entry: {
@@ -65,17 +64,14 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     hot: true,
+    open: true,
     noInfo: true,
     overlay: true
   },
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map',
-  plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin()
-  ]
+  devtool: '#eval-source-map'
 }
 
 if (process.env.NODE_ENV === 'production') {
