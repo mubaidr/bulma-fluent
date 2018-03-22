@@ -2,9 +2,11 @@ import vue from 'vue'
 import VueRouter from 'vue-router'
 
 // home
-import home from './views/Home.vue'
-import demo from './views/demo/index.vue'
-import view404 from './views/404.vue'
+import Home from './views/demo/Home.vue'
+import Form from './views/demo/Form.vue'
+import Elements from './views/demo/Elements.vue'
+import Components from './views/demo/Components.vue'
+import View404 from './views/404.vue'
 
 vue.use(VueRouter)
 
@@ -17,15 +19,23 @@ const router = new VueRouter({
     },
     {
       path: '/',
-      component: home
+      component: Home
     },
     {
-      path: '/demo',
-      component: demo
+      path: '/Form',
+      component: Form
+    },
+    {
+      path: '/Elements',
+      component: Elements
+    },
+    {
+      path: '/Components',
+      component: Components
     },
     {
       path: '*',
-      component: view404
+      component: View404
     }
   ]
 })
