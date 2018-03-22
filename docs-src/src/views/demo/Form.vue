@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <section id="form"
-             class="section">
+    <section class="section">
       <h1 class="title"> Form
       </h1>
       <h2 class="subtitle">All generic form controls, designed for consistency</h2>
@@ -151,6 +150,24 @@
                   type="submit">Choose
           </button>
         </p>
+      </div>
+      <div class="file has-name">
+        <label class="file-label">
+          <input class="file-input"
+                 type="file"
+                 name="resume">
+          <span class="file-cta">
+            <span class="file-icon">
+              <i class="fas fa-upload" />
+            </span>
+            <span class="file-label">
+              Choose a file…
+            </span>
+          </span>
+          <span class="file-name">
+            Screen Shot 2017-07-29 at 15.54.25.png
+          </span>
+        </label>
       </div>
       <br>
       <div class="field is-grouped">

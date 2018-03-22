@@ -1,48 +1,44 @@
 <template>
   <div class="container">
-    <section id="box"
-             class="section">
+    <section class="section">
       <h1 class="title">Elements</h1>
       <hr>
 
-      <h2 class="subtitle is-4">Box:</h2>
+      <h2 class="subtitle is-4">Box</h2>
       <div class="box">
         <article class="media">
           <div class="media-left">
             <figure class="image is-64x64">
-              <img src="https://s3.amazonaws.com/uifaces/faces/twitter/zeldman/128.jpg"
+              <img src="https://bulma.io/images/placeholders/128x128.png"
                    alt="Image">
             </figure>
           </div>
           <div class="media-content">
             <div class="content">
               <p>
-                <strong> John Smith
-                </strong>
-                <small> @johnsmith
-                </small>
-                <small> 31m
-                </small>
+                <strong>John Smith</strong>
+                <small>@johnsmith</small>
+                <small>31m</small>
                 <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 efficitur sit amet massa fringilla egestas. Nullam condimentum luctus
                 turpis.
               </p>
             </div>
-            <nav class="level">
+            <nav class="level is-mobile">
               <div class="level-left">
                 <a class="level-item">
                   <span class="icon is-small">
-                    <i class="fa fa-reply" />
+                    <i class="fas fa-reply" />
                   </span>
                 </a>
                 <a class="level-item">
                   <span class="icon is-small">
-                    <i class="fa fa-retweet" />
+                    <i class="fas fa-retweet" />
                   </span>
                 </a>
                 <a class="level-item">
                   <span class="icon is-small">
-                    <i class="fa fa-heart" />
+                    <i class="fas fa-heart" />
                   </span>
                 </a>
               </div>
@@ -53,43 +49,26 @@
 
       <br>
 
-      <h2 class="subtitle is-4">Buttons:</h2>
+      <h2 class="subtitle is-4">Buttons</h2>
       <div>
-        <h2 class="subtitle">Normal
-        </h2>
         <div class="block">
-          <a class="button"> Default
-          </a>
-          <a class="button is-primary"> Primary
-          </a>
-          <a class="button is-info"> Info
-          </a>
-          <a class="button is-success"> Success
-          </a>
-          <a class="button is-warning"> Warning
-          </a>
-          <a class="button is-danger"> Danger
-          </a>
-        </div>
-        <h2 class="subtitle">Revealed (is-focused)
-        </h2>
-        <div class="block">
-          <a class="button is-focused"> Default
-          </a>
-          <a class="button is-primary is-focused"> Primary
-          </a>
-          <a class="button is-info is-focused"> Info
-          </a>
-          <a class="button is-success is-focused"> Success
-          </a>
-          <a class="button is-warning is-focused"> Warning
-          </a>
-          <a class="button is-danger is-focused"> Danger
-          </a>
+          <a class="button is-primary">Primary</a>
+          <a class="button is-link">Link</a>
+          <a class="button is-info">Info</a>
+          <a class="button is-success">Success</a>
+          <a class="button is-warning">Warning</a>
+          <a class="button is-danger">Danger</a>
         </div>
 
-        <h2 class="subtitle">Loading
-        </h2>
+        <div class="block">
+          <a class="button is-outlined">Outlined</a>
+          <a class="button is-primary is-outlined">Outlined</a>
+          <a class="button is-link is-outlined">Outlined</a>
+          <a class="button is-info is-outlined">Outlined</a>
+          <a class="button is-success is-outlined">Outlined</a>
+          <a class="button is-danger is-outlined">Outlined</a>
+        </div>
+
         <div class="block">
           <a class="button is-loading"> Loading
           </a>
@@ -105,8 +84,21 @@
           </a>
         </div>
 
-        <h2 class="subtitle">Icons
-        </h2>
+        <div class="block">
+          <a class="button is-focused"> Default
+          </a>
+          <a class="button is-primary is-focused"> Primary
+          </a>
+          <a class="button is-info is-focused"> Info
+          </a>
+          <a class="button is-success is-focused"> Success
+          </a>
+          <a class="button is-warning is-focused"> Warning
+          </a>
+          <a class="button is-danger is-focused"> Danger
+          </a>
+        </div>
+
         <p class="field">
           <a class="button">
             <span class="icon is-small">
@@ -153,25 +145,6 @@
           </a>
         </p>
 
-        <h2 class="subtitle">Outlined
-        </h2>
-        <div class="block">
-          <a class="button is-outlined"> Outlined
-          </a>
-          <a class="button is-primary is-outlined"> Outlined
-          </a>
-          <a class="button is-info is-outlined"> Outlined
-          </a>
-          <a class="button is-success is-outlined"> Outlined
-          </a>
-          <a class="button is-warning is-outlined"> Outlined
-          </a>
-          <a class="button is-danger is-outlined"> Outlined
-          </a>
-        </div>
-
-        <h2 class="subtitle">Grouped
-        </h2>
         <div class="field is-grouped">
           <p class="buttons has-addons">
             <a class="button">
@@ -218,31 +191,14 @@
             </a>
           </p>
         </div>
-        <br>
-        <h2 class="subtitle">Sizes
-        </h2>
-        <div class="block">
-          <a class="button is-small"> Small
-          </a>
-          <a class="button"> Normal
-          </a>
-          <a class="button is-medium"> Medium
-          </a>
-          <a class="button is-large"> Large
-          </a>
-        </div>
       </div>
 
-      <br>
+      <br><br>
 
-      <h2 class="subtitle is-4">Progress bars:</h2>
+      <h2 class="subtitle is-4">Progress bars</h2>
       <div id="progress">
-        <h2 class="subtitle"> Indeterminate
-        </h2>
         <progress class="progress"
                   max="1000" />
-        <h2 class="subtitle"> Determinate
-        </h2>
         <progress class="progress"
                   max="100"
                   value="15"> 15%
@@ -269,9 +225,9 @@
         </progress>
       </div>
 
-      <br>
+      <br><br>
 
-      <h2 class="subtitle is-4">Notifications:</h2>
+      <h2 class="subtitle is-4">Notifications</h2>
       <div class="columns">
         <div class="column">
           <div class="notification">
@@ -317,167 +273,106 @@
 
       <br>
 
-      <h2 class="subtitle is-4">Tag:</h2>
+      <h2 class="subtitle is-4">Tag</h2>
       <div class="tags">
-        <span class="tag is-white"> White
-        </span>
-        <span class="tag is-light"> Light
-        </span>
-        <span class="tag is-dark"> Dark
-        </span>
-        <span class="tag is-black"> Black
-        </span>
-        <span class="tag is-primary"> Primary
-        </span>
-        <span class="tag is-info"> Info
-        </span>
-        <span class="tag is-success"> Success
-        </span>
-        <span class="tag is-warning"> Warning
-        </span>
-        <span class="tag is-danger"> Danger
-        </span>
-        <span class="tag is-primary is-medium"> Medium
-        </span>
-        <span class="tag is-info is-large"> Large
-        </span>
-        <span class="tag is-success"> Bar
+        <div class="tags">
+          <div class="tags">
+            <span class="tag">One</span>
+            <span class="tag">Two</span>
+            <span class="tag">Three</span>
+          </div>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag is-black">Black</span>
+        <span class="tag is-dark">Dark</span>
+        <span class="tag is-light">Light</span>
+        <span class="tag is-white">White</span>
+        <span class="tag is-primary">Primary</span>
+        <span class="tag is-link">Link</span>
+        <span class="tag is-info">Info</span>
+        <span class="tag is-success">Success</span>
+        <span class="tag is-warning">Warning</span>
+        <span class="tag is-danger">Danger</span>
+      </div>
+      <div class="tags">
+        <span class="tag is-success">
+          Bar
           <button class="delete is-small" />
         </span>
-        <span class="tag is-warning is-medium"> Hello
+        <span class="tag is-warning is-medium">
+          Hello
           <button class="delete is-small" />
         </span>
-        <span class="tag is-danger is-large"> World
+        <span class="tag is-danger is-large">
+          World
           <button class="delete" />
         </span>
       </div>
-
-      <br>
-
-      <h2 class="subtitle is-4">Tables:</h2>
-      <div class="columns">
-        <div class="column">
-          <h2 class="subtitle">Default</h2>
-          <table class="table is-fullwidth is-hoverable">
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr class="is-selected">
-              <td>Centro comercial</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </table>
-        </div>
-        <div class="column">
-
-          <h2 class="subtitle">Striped</h2>
-          <table class="table is-fullwidth is-striped">
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </table>
-        </div>
-        <div class="column">
-          <h2 class="subtitle">Bordered</h2>
-          <table class="table is-fullwidth is-bordered is-hoverable">
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </table>
+      <div class="tags">
+        <div class="tags has-addons">
+          <span class="tag is-danger">Alex Smith</span>
+          <a class="tag is-delete" />
         </div>
       </div>
+
+      <div class="tags">
+        <div class="field is-grouped is-grouped-multiline">
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">Technology</a>
+              <a class="tag is-delete" />
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag is-link">CSS</a>
+              <a class="tag is-delete" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <h2 class="subtitle is-4">Tables</h2>
+      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr class="is-selected">
+          <td>Centro comercial</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+        </tr>
+      </table>
     </section>
   </div>
 </template>
