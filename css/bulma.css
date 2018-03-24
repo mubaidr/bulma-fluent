@@ -7669,6 +7669,8 @@ label.panel-block:hover {
   margin-bottom: -1px;
   padding: 0.5em 1em;
   vertical-align: top;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease-out;
 }
 
 .tabs a:hover {
@@ -7680,13 +7682,9 @@ label.panel-block:hover {
   transition: all 0.25s ease-out;
 }
 
-.tabs li.is-active {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .tabs li.is-active a {
   color: #0063b1;
+  border-color: #0063b1;
 }
 
 .tabs li:hover:not(.is-active) a {
