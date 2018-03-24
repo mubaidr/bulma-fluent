@@ -142,7 +142,9 @@ $help-size: $size-small !default
     top: 0.33em
     padding: 0
     margin: 0
+    visibility: hidden
     &:before
+      visibility: visible
       content: ''
       height: 100%
       width: 100%
@@ -152,6 +154,7 @@ $help-size: $size-small !default
       background-color: $border
       border: 2px solid darken($border, 25%)
     &:after
+      visibility: visible
       display: none
       content: ''
       position: absolute
