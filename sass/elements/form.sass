@@ -26,7 +26,7 @@ $input-icon-active-color: $grey !default
 
 $input-radius: $radius !default
 
-$file-border-color: $border !default
+$file-border-color: $grey-custom !default
 $file-radius: $radius !default
 
 $file-cta-background-color: $white-ter !default
@@ -34,9 +34,9 @@ $file-cta-color: $grey-dark !default
 $file-cta-hover-color: $grey-darker !default
 $file-cta-active-color: $grey-darker !default
 
-$file-name-border-color: $border !default
+$file-name-border-color: $grey-custom !default
 $file-name-border-style: solid !default
-$file-name-border-width: 1px 1px 1px 0 !default
+$file-name-border-width: 2px 2px 2px 0 !default
 $file-name-max-width: 16em !default
 
 $label-color: $grey-darker !default
@@ -129,6 +129,25 @@ $help-size: $size-small !default
   &.has-fixed-size
     resize: none
 
+.toggle,
+.checkbox,
+.radio
+  cursor: pointer
+  display: inline-block
+  line-height: 1.25
+  position: relative
+  input
+    cursor: pointer
+  &:hover
+    color: $input-hover-color
+  &[disabled]
+    color: $input-disabled-color
+    cursor: not-allowed
+
+.radio
+  & + .radio
+    margin-left: 0.5em
+
 .checkbox
   line-height: 1.5em
   user-select: none
@@ -182,23 +201,109 @@ $help-size: $size-small !default
             background-color: $color
             border-color: darken($color, 1%)
 
-.checkbox,
-.radio
-  cursor: pointer
-  display: inline-block
-  line-height: 1.25
-  position: relative
-  input
-    cursor: pointer
-  &:hover
-    color: $input-hover-color
-  &[disabled]
-    color: $input-disabled-color
-    cursor: not-allowed
+.toggle
+  line-height: 1.5em
+  user-select: none
+  & > [type="checkbox"]
+    display: inline-block
+    margin-right: 1em
+    position: relative
+    z-index: -999999
+    width: 1.75em
+    height: 1.75em
+    top: 0.33em
+    padding: 0
+    margin: 0
+    visibility: hidden
+    &:before
+      visibility: visible
+      content: ''
+      height: 100%
+      width: 100%
+      position: absolute
+      top: 0
+      left: 0
+      background-color: $border
+      border: 2px solid darken($border, 25%)
+    &:after
+      visibility: visible
+      display: none
+      content: ''
+      position: absolute
+      left: 0.5em
+      top: 5%
+      height: 75%
+      width: 40%
+      border: solid #fff
+      border-width: 0 2px 2px 0
+      -webkit-transform: rotate(30deg)
+      -ms-transform: rotate(30deg)
+      transform: rotate(30deg)
+    &:checked
+      &:before
+        background-color: $primary
+        border-color: darken($primary, 1%)
+      &:after
+        display: block
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      & > [type="checkbox"]
+        &:checked
+          &:before
+            background-color: $color
+            border-color: darken($color, 1%)
 
 .radio
-  & + .radio
-    margin-left: 0.5em
+  line-height: 1.5em
+  user-select: none
+  & > [type="radio"]
+    display: inline-block
+    margin-right: 1em
+    position: relative
+    z-index: -999999
+    width: 1.75em
+    height: 1.75em
+    top: 0.33em
+    padding: 0
+    margin: 0
+    visibility: hidden
+    &:before
+      visibility: visible
+      content: ''
+      height: 100%
+      width: 100%
+      position: absolute
+      top: 0
+      left: 0
+      border-radius: 50%
+      background-color: $border
+      border: 2px solid darken($border, 25%)
+    &:after
+      visibility: visible
+      display: none
+      content: ''
+      position: absolute
+      left: calc(25% + 0.5px)
+      top: 25%
+      border-radius: 50%
+      height: 50%
+      width: 50%
+      background-color: $grey-light
+    &:checked
+      &:before
+        // background-color: $primary
+        border-color: $primary
+      &:after
+        display: block
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      & > [type="checkbox"]
+        &:checked
+          &:before
+            // background-color: $color
+            border-color: $primary
 
 .select
   display: inline-block
@@ -483,7 +588,7 @@ $help-size: $size-small !default
     justify-content: flex-start
     .control
       &:not(:last-child)
-        margin-right: -1px
+        margin-right: -2px
       &:not(:first-child):not(:last-child)
         .button,
         .input,

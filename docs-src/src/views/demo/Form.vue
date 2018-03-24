@@ -80,6 +80,14 @@
 
         <div class="field">
           <div class="control">
+            <label class="toggle is-primary">
+              <input type="checkbox"> Subscribe to news-letter
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
             <label class="radio">
               <input type="radio"
                      name="question"> Yes
