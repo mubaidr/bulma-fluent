@@ -4,16 +4,31 @@
       <ul>
         <li :class="{'is-active': $route.path === '/home' || $route.path === '/'}">
           <router-link to="/home">
+            <!-- <span class="icon is-small is-left">
+              <i class="fas fa-arrow-right" />
+            </span> -->
             Getting Started</router-link>
         </li>
         <li :class="{'is-active': $route.path === '/form'}">
-          <router-link to="/form">Form</router-link>
+          <router-link to="/form">
+            <!-- <span class="icon is-small is-left">
+              <i class="fas fa-clipboard" />
+            </span> -->
+            Form</router-link>
         </li>
         <li :class="{'is-active': $route.path === '/elements'}">
-          <router-link to="/elements">Elements</router-link>
+          <router-link to="/elements">
+            <!-- <span class="icon is-small is-left">
+              <i class="fas fa-list" />
+            </span> -->
+            Elements</router-link>
         </li>
         <li :class="{'is-active': $route.path === '/components'}">
-          <router-link to="/components">Components</router-link>
+          <router-link to="/components">
+            <!-- <span class="icon is-small is-left">
+              <i class="fas fa-box" />
+            </span> -->
+            Components</router-link>
         </li>
       </ul>
     </div>

@@ -5,7 +5,6 @@
 Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
 [![npm version](https://badge.fury.io/js/bulma-fluent.svg)](https://badge.fury.io/js/bulma-fluent)
-[![Build Status](https://travis-ci.org/mubaidr/bulma-fluent.svg?branch=master)](https://travis-ci.org/mubaidr/bulma-fluent)
 
 ## Quick install
 

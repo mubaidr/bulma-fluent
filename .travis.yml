@@ -1,7 +1,0 @@
-script:
- - "bash test/sass-compile-tester.sh"
-
-language: sass
-before_install:
- - chmod=+x test/sass-compile-tester.sh
- - gem install sass
