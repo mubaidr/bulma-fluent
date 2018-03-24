@@ -71,7 +71,7 @@
 
         <div class="field">
           <div class="control">
-            <label class="checkbox">
+            <label class="checkbox is-primary">
               <input type="checkbox"> I agree to the
               <a href="#">terms and conditions</a>
             </label>
