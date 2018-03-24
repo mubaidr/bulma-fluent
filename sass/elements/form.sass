@@ -139,7 +139,7 @@ $help-size: $size-small !default
     z-index: -999999
     width: 1.75em
     height: 1.75em
-    top: 0.5em
+    top: 0.33em
     padding: 0
     margin: 0
     &:before
@@ -174,9 +174,10 @@ $help-size: $size-small !default
     $color: nth($pair, 1)
     &.is-#{$name}
       & > [type="checkbox"]
-        &:before
-          background-color: $color
-          border-color: darken($color, 1%)
+        &:checked
+          &:before
+            background-color: $color
+            border-color: darken($color, 1%)
 
 .checkbox,
 .radio
