@@ -1,6 +1,6 @@
 $button-color: $black !default
-$button-background-color: #ddd !default
-$button-border-color: #ddd !default
+$button-background-color: $grey-custom !default
+$button-border-color: $grey-custom !default
 
 $button-hover-color: $link-hover !default
 $button-hover-border-color: $link-hover-border !default
@@ -51,6 +51,7 @@ $button-static-border-color: $grey-lighter !default
   text-align: center
   white-space: nowrap
   position: relative
+  margin-bottom: 0.5rem
   &:not(:last-child)
     margin-right: 0.5rem
   strong
@@ -219,9 +220,13 @@ $button-static-border-color: $grey-lighter !default
   flex-wrap: wrap
   justify-content: flex-start
   .button
+    border-color: transparent
     margin-bottom: 0.5rem
     &:not(:last-child)
       margin-right: 0.5rem
+    &:hover,
+    &:focus
+      border: 2px solid rgba(0,0,0,0.5)
   &:last-child
     margin-bottom: -0.5rem
   &:not(:last-child)
