@@ -9,6 +9,10 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
   border: 2px solid #eee
   padding: $notification-padding
   position: relative
+  transition: box-shadow $speed $easing
+  box-shadow: $box-shadow
+  &:hover
+    box-shadow: $box-shadow-hover
   a:not(.button)
     color: currentColor
     text-decoration: underline
