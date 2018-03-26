@@ -27,7 +27,7 @@ $panel-icon-color: $text-light !default
 
 .panel
   font-size: $size-normal
-  box-shadow: $panel-shadow
+  // box-shadow: $panel-shadow
   &:not(:last-child)
     margin-bottom: 1.5rem
 
@@ -52,16 +52,19 @@ $panel-icon-color: $text-light !default
 .panel-tabs
   align-items: flex-end
   display: flex
-  font-size: 0.875em
+  // font-size: 0.875em
   justify-content: center
   a
+    color: $text
     border-bottom: $panel-tab-border-bottom
     margin-bottom: -1px
     padding: 0.5em
+    &:hover
+      color: $panel-list-item-hover-color
     // Modifiers
     &.is-active
-      border-bottom-color: $panel-tab-active-border-bottom-color
-      color: $panel-tab-active-color
+      border-bottom-color: $panel-list-item-hover-color
+      color: $panel-list-item-hover-color
 
 .panel-list
   a

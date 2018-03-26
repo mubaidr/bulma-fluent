@@ -26,7 +26,7 @@
                          alt="Placeholder image">
                   </figure>
                 </div>
-                <div class="media-content">
+                <div>
                   <p class="title is-4">John Smith</p>
                   <p class="subtitle is-6">@johnsmith</p>
                 </div>
@@ -84,8 +84,8 @@
               </span>
             </button>
           </div>
-          <div class="dropdown-menu"
-               id="dropdown-menu"
+          <div id="dropdown-menu"
+               class="dropdown-menu"
                role="menu">
             <div class="dropdown-content">
               <a href="#"
@@ -116,64 +116,96 @@
       <hr>
       <div class="columns">
         <div class="column is-4 is-offset-4">
-          <aside class="menu">
-            <p class="menu-label">
-              General
-            </p>
-            <ul class="menu-list">
-              <li>
-                <a>Dashboard</a>
-              </li>
-              <li>
-                <a>Customers</a>
-              </li>
-            </ul>
-            <p class="menu-label">
-              Administration
-            </p>
-            <ul class="menu-list">
-              <li>
-                <a>Team Settings</a>
-              </li>
-              <li>
-                <a class="is-active">Manage Your Team</a>
-                <ul>
-                  <li>
-                    <a>Members</a>
-                  </li>
-                  <li>
-                    <a>Plugins</a>
-                  </li>
-                  <li>
-                    <a>Add a member</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Invitations</a>
-              </li>
-              <li>
-                <a>Cloud Storage Environment Settings</a>
-              </li>
-              <li>
-                <a>Authentication</a>
-              </li>
-            </ul>
-            <p class="menu-label">
-              Transactions
-            </p>
-            <ul class="menu-list">
-              <li>
-                <a>Payments</a>
-              </li>
-              <li>
-                <a>Transfers</a>
-              </li>
-              <li>
-                <a>Balance</a>
-              </li>
-            </ul>
-          </aside>
+          <div class="box no-padding">
+            <aside class="menu">
+              <p class="menu-label">
+                General
+              </p>
+              <ul class="menu-list">
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-box"
+                         aria-hidden="true" />
+                    </span> Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a class="is-active">
+                    <span class="icon">
+                      <i class="fas fa-address-card"
+                         aria-hidden="true" />
+                  </span> Customers</a>
+                </li>
+              </ul>
+              <p class="menu-label">
+                Administration
+              </p>
+              <ul class="menu-list">
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-cog"
+                         aria-hidden="true" />
+                  </span> Team Settings</a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-child"
+                         aria-hidden="true" />
+                  </span> Manage Your Team</a>
+                </li>
+                <li>
+                  <a class="is-disabled">
+                    <span class="icon">
+                      <i class="fas fa-at"
+                         aria-hidden="true" />
+                  </span> Invitations</a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-cloudversify"
+                         aria-hidden="true" />
+                  </span> Cloud Storage Settings</a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-user"
+                         aria-hidden="true" />
+                  </span> Authentication</a>
+                </li>
+              </ul>
+              <p class="menu-label">
+                Transactions
+              </p>
+              <ul class="menu-list">
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-amazon-pay"
+                         aria-hidden="true" />
+                  </span> Payments</a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-align-center"
+                         aria-hidden="true" />
+                  </span> Transfers</a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon">
+                      <i class="fas fa-briefcase"
+                         aria-hidden="true" />
+                  </span> Balance</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
         </div>
       </div>
       <br>
@@ -280,102 +312,6 @@
       <br>
       <h2 class="subtitle is-4">Navbar</h2>
       <hr>
-      <nav class="navbar">
-        <div class="navbar-brand">
-          <a class="navbar-item"
-             href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png"
-                 alt="Bulma: a modern CSS framework based on Flexbox"
-                 width="112"
-                 height="28">
-          </a>
-          <div class="navbar-burger burger"
-               data-target="navbarExampleTransparentExample">
-            <span/>
-            <span/>
-            <span/>
-          </div>
-        </div>
-
-        <div id="navbarExampleTransparentExample"
-             class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item"
-               href="https://bulma.io/">
-              Home
-            </a>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link"
-                 href="/documentation/overview/start/">
-                Docs
-              </a>
-              <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item"
-                   href="/documentation/overview/start/">
-                  Overview
-                </a>
-                <a class="navbar-item"
-                   href="https://bulma.io/documentation/modifiers/syntax/">
-                  Modifiers
-                </a>
-                <a class="navbar-item"
-                   href="https://bulma.io/documentation/columns/basics/">
-                  Columns
-                </a>
-                <a class="navbar-item"
-                   href="https://bulma.io/documentation/layout/container/">
-                  Layout
-                </a>
-                <a class="navbar-item"
-                   href="https://bulma.io/documentation/form/general/">
-                  Form
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item"
-                   href="https://bulma.io/documentation/elements/box/">
-                  Elements
-                </a>
-                <a class="navbar-item is-active"
-                   href="https://bulma.io/documentation/components/breadcrumb/">
-                  Components
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="bd-tw-button button"
-                     data-social-network="Twitter"
-                     data-social-action="tweet"
-                     data-social-target="http://localhost:4000"
-                     target="_blank"
-                     href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                    <span class="icon">
-                      <i class="fab fa-twitter" />
-                    </span>
-                    <span>
-                      Tweet
-                    </span>
-                  </a>
-                </p>
-                <p class="control">
-                  <a class="button is-primary"
-                     href="https://github.com/jgthms/bulma/archive/0.5.1.zip">
-                    <span class="icon">
-                      <i class="fas fa-download" />
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <br>
       <nav class="navbar is-primary">
         <div class="navbar-brand">
           <a class="navbar-item"
@@ -443,22 +379,18 @@
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <a class="bd-tw-button button is-primary"
-                     data-social-network="Twitter"
-                     data-social-action="tweet"
-                     data-social-target="http://localhost:4000"
-                     target="_blank"
-                     href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+                  <a class="button is-primary"
+                     href="https://github.com/mubaidr/bulma-fluent"
+                     title="Github Repository"
+                     target="_blank">
                     <span class="icon">
-                      <i class="fab fa-twitter" />
+                      <i class="fa fa-github-square" />
                     </span>
-                    <span>
-                      Tweet
-                    </span>
+                    <span>Github</span>
                   </a>
                 </p>
                 <p class="control">
-                  <a class="button is-focused"
+                  <a class="button is-primary"
                      href="https://github.com/jgthms/bulma/archive/0.5.1.zip">
                     <span class="icon">
                       <i class="fas fa-download" />
@@ -525,28 +457,28 @@
             </p>
             <div class="panel-block">
               <p class="control has-icons-left">
-                <input class="input is-small"
+                <input class="input"
                        type="text"
                        placeholder="search">
-                <span class="icon is-small is-left">
+                <span class="icon is-left">
                   <i class="fas fa-search" />
                 </span>
               </p>
             </div>
             <p class="panel-tabs">
-              <a class="is-active">all</a>
+              <a>all</a>
               <a>public</a>
               <a>private</a>
-              <a>sources</a>
+              <a class="is-active">sources</a>
               <a>forks</a>
             </p>
-            <a class="panel-block is-active">
+            <a class="panel-block">
               <span class="panel-icon">
                 <i class="fas fa-book" />
               </span>
               bulma
             </a>
-            <a class="panel-block">
+            <a class="panel-block is-active">
               <span class="panel-icon">
                 <i class="fas fa-book" />
               </span>
@@ -576,11 +508,8 @@
               </span>
               mojs
             </a>
-            <label class="panel-block">
-              <input type="checkbox"> remember me
-            </label>
             <div class="panel-block">
-              <button class="button is-link is-outlined is-fullwidth">
+              <button class="button is-primary is-fullwidth">
                 reset all filters
               </button>
             </div>
@@ -594,10 +523,10 @@
       <hr>
       <div class="tabs is-centered">
         <ul>
-          <li class="is-active">
+          <li>
             <a>Pictures</a>
           </li>
-          <li>
+          <li class="is-active">
             <a>Music</a>
           </li>
           <li>
@@ -610,7 +539,7 @@
       </div>
       <div class="tabs is-centered">
         <ul>
-          <li class="is-active">
+          <li>
             <a>
               <span class="icon is-small">
                 <i class="fas fa-image" />
@@ -626,7 +555,7 @@
               <span>Music</span>
             </a>
           </li>
-          <li>
+          <li class="is-active">
             <a>
               <span class="icon is-small">
                 <i class="fas fa-film" />
@@ -645,10 +574,6 @@
         </ul>
       </div>
     </section>
-  </div>
-  </section>
-  </div>
-  </section>
   </div>
 </template>
 

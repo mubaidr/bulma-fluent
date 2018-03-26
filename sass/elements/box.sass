@@ -10,7 +10,7 @@ $box-link-active-shadow: 0 0 5px rgba($dark, 0.1) !default
 .box
   +block
   background-color: $box-background-color
-  border: 2px solid $border
+  border: 1px solid $border
   // border-radius: $box-radius
   // box-shadow: $box-shadow
   color: $box-color
@@ -20,6 +20,8 @@ $box-link-active-shadow: 0 0 5px rgba($dark, 0.1) !default
   // transition: all 0.5s ease-out
   small
     opacity: 0.66
+  &.no-padding
+    padding: $box-padding 0
 
 .box
   &:hover,

@@ -10,7 +10,8 @@ $card-footer-border-top: 1px solid $border !default
 
 .card
   background-color: $card-background-color
-  box-shadow: $card-shadow
+  border: 1px solid $border
+  // box-shadow: $card-shadow
   color: $card-color
   max-width: 100%
   position: relative
@@ -44,6 +45,8 @@ $card-footer-border-top: 1px solid $border !default
 
 .card-content
   padding: 1.5rem
+  max-height: 16rem
+  overflow-y: scroll
 
 .card-footer
   border-top: $card-footer-border-top

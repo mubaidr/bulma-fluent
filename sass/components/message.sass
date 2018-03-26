@@ -16,7 +16,7 @@ $message-body-pre-code-background-color: transparent !default
 
 .message
   +block
-  background-color: $message-background-color
+  background-color: $white
   border-radius: $message-radius
   font-size: $size-normal
   strong
@@ -40,23 +40,28 @@ $message-body-pre-code-background-color: transparent !default
     $darken-percentage: $color-luminance * 70%
     $desaturate-percentage: $color-luminance * 30%
     &.is-#{$name}
-      background-color: lighten($color, $color-lightning)
+      // border: 1px solid $border
+      background-color: $color
+      // background-color: lighten($color, $color-lightning)
       .message-header
-        background-color: $color
-        color: $color-invert
+        // background-color: lighten($color, $color-lightning)
+        color: $white
       .message-body
-        border-color: $color
-        color: desaturate(darken($color, $darken-percentage), $desaturate-percentage)
+        color: $white
+        // border-color: $color
+        // color: desaturate(darken($color, $darken-percentage), $desaturate-percentage)
 
 .message-header
   align-items: center
-  background-color: $message-header-background-color
+  // background-color: $message-header-background-color
   border-radius: $message-header-radius $message-header-radius 0 0
   color: $message-header-color
   display: flex
   justify-content: space-between
   line-height: 1.25
-  padding: $message-header-padding
+  padding: $message-body-padding
+  padding-bottom: 0
+  font-weight: bold
   position: relative
   .delete
     flex-grow: 0

@@ -1,6 +1,6 @@
 $dropdown-content-background-color: $white !default
 $dropdown-content-arrow: $link !default
-$dropdown-content-offset: 4px !default
+$dropdown-content-offset: 2px !default
 $dropdown-content-radius: $radius !default
 $dropdown-content-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
 $dropdown-content-z: 20 !default
@@ -31,7 +31,8 @@ $dropdown-divider-background-color: $border !default
       padding-bottom: $dropdown-content-offset
       padding-top: unset
       top: auto
-
+  & .button
+    margin-bottom: 0
 .dropdown-menu
   display: none
   left: 0
@@ -40,6 +41,7 @@ $dropdown-divider-background-color: $border !default
   position: absolute
   top: 100%
   z-index: $dropdown-content-z
+  min-width: 100%
 
 .dropdown-content
   background-color: $dropdown-content-background-color

@@ -22,28 +22,41 @@ $menu-label-color: $text-light !default
 .menu-list
   line-height: 1.25
   a
-    border-radius: $menu-item-radius
+    // border-radius: $menu-item-radius
     color: $menu-item-color
+    border: 2px solid transparent
     display: block
     padding: 0.5em 0.75em
-    &:hover
+    transition: all 0.25s ease-out
+    &:hover:not(.is-disabled)
       background-color: $menu-item-hover-background-color
-      color: $menu-item-hover-color
-    // Modifiers
+      // color: $menu-item-hover-color
+      // Modifiers
+    &:active:not(.is-disabled)
+      background-color: darken($menu-item-hover-background-color, 15%)
     &.is-active
-      background-color: $menu-item-active-background-color
-      color: $menu-item-active-color
+      border-left-color: $menu-item-active-background-color
+      //color: $menu-item-active-color
+    &:focus,
+    &.is-focused
+      border-color: darken($menu-item-hover-background-color, 15%)
+    &.is-disabled
+      opacity: 0.5
+      cursor: not-allowed
+      //color: $menu-item-active-color
   li
     ul
-      border-left: $menu-list-border-left
       margin: 0.75em
-      padding-left: 0.75em
+      padding-left: 0.5em
 
 .menu-label
   color: $menu-label-color
   font-size: 0.75em
   letter-spacing: 0.1em
   text-transform: uppercase
+  margin-left: 1.5em
+  margin-right: 1.5em
+  // border-bottom: 1px solid lighten($border, 10%)
   &:not(:first-child)
     margin-top: 1em
   &:not(:last-child)
