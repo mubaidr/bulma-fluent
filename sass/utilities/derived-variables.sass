@@ -1,49 +1,31 @@
-$primary: rgba(0, 99, 177, 1) !default
-$info: rgba(0, 153, 188, 1) !default
-$success: rgba(16, 124, 16, 1) !default
-$warning: rgba(255, 140, 12, 1) !default
-$danger: rgba(232, 17, 35, 1) !default
-
-$light: $grey-custom !default
-$dark: $grey-darker !default
-
 // Invert colors
 
-$orange-invert: findColorInvert($orange) !default
-$yellow-invert: findColorInvert($yellow) !default
-$green-invert: findColorInvert($green) !default
-$turquoise-invert: findColorInvert($turquoise) !default
-$cyan-invert: findColorInvert($cyan) !default
-$blue-invert: findColorInvert($blue) !default
-$purple-invert: findColorInvert($purple) !default
-$red-invert: findColorInvert($red) !default
-$white-ter-invert: findColorInvert($white-ter) !default
+$primary-invert:        findColorInvert($primary) !default
+$info-invert:           findColorInvert($info) !default
+$success-invert:        findColorInvert($success) !default
+$warning-invert:        findColorInvert($warning) !default
+$danger-invert:         findColorInvert($danger) !default
 
-$primary-invert: findColorInvert($primary) !default
-$info-invert: findColorInvert($info) !default
-$success-invert: findColorInvert($success) !default
-$warning-invert: findColorInvert($warning) !default
-$danger-invert: findColorInvert($danger) !default
-$light-invert: $dark !default
-$dark-invert: $light !default
+$white-invert:          $black !default
+$light-invert:          $dark !default
+$dark-invert:           $light !default
+$black-invert:          $white !default
 
-// General colors
+$background:            lighten($light, 10%) !default
 
-$background: lighten($grey-custom, 10%) !default
-
-$border: lighten($grey-lighter, 80%) !default
-$border-hover: lighten($grey-lighter, 60%) !default
+$border:                $light !default
+$border-hover:          darken($light, 20%) !default
 
 // Text colors
 
-$text: $grey-dark !default
-$text-invert: findColorInvert($text) !default
-$text-light: $grey !default
-$text-strong: $grey-darker !default
+$text:                  $black !default
+$text-invert:           $white !default
+$text-light:            $light !default
+$text-strong:           $dark !default
 
 // Code colors
 
-$code: $red !default
+$code: $danger !default
 $code-background: $background !default
 
 $pre: $text !default
@@ -55,14 +37,14 @@ $link: $primary !default
 $link-invert: $primary-invert !default
 $link-visited: $purple !default
 
-$link-hover: $grey-darker !default
-$link-hover-border: $grey-lighter !default
+$link-hover: lighten($primary, 20%) !default
+$link-hover-border: $primary !default
 
-$link-focus: $grey-darker !default
+$link-focus: lighten($primary, 20%) !default
 $link-focus-border: $primary !default
 
-$link-active: $grey-darker !default
-$link-active-border: $grey-dark !default
+$link-active: $dark !default
+$link-active-border: $dark !default
 
 // Typography
 
@@ -77,6 +59,6 @@ $size-large: $size-4 !default
 // Lists and maps
 
 $colors: ("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)) !default
-$shades: ("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis) !default
+// $shades: ("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $dark, "grey-dark": $dark, "grey": $dark, "grey-light": $light, "grey-lighter": $light, "white-ter": $white, "white-bis": $white) !default
 
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default

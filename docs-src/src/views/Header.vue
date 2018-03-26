@@ -19,7 +19,7 @@
           </h2>
           <br>
           <p>
-            <a class="button"
+            <a class="button is-focused"
                href="https://github.com/mubaidr/bulma-fluent"
                title="Github Repository"
                target="_blank">
