@@ -29,20 +29,17 @@
               <div class="level-left">
                 <a class="level-item">
                   <span class="icon is-small">
-                    <i class="fas fa-reply">
-                    </i>
+                    <i class="fas fa-reply" />
                   </span>
                 </a>
                 <a class="level-item">
                   <span class="icon is-small">
-                    <i class="fas fa-retweet">
-                    </i>
+                    <i class="fas fa-retweet" />
                   </span>
                 </a>
                 <a class="level-item">
                   <span class="icon is-small">
-                    <i class="fas fa-heart">
-                    </i>
+                    <i class="fas fa-heart" />
                   </span>
                 </a>
               </div>
@@ -108,42 +105,36 @@
         <p class="field">
           <a class="button">
             <span class="icon is-small">
-              <i class="fa fa-bold">
-              </i>
+              <i class="fa fa-bold" />
             </span>
           </a>
           <a class="button">
             <span class="icon is-small">
-              <i class="fa fa-italic">
-              </i>
+              <i class="fa fa-italic" />
             </span>
           </a>
           <a class="button">
             <span class="icon is-small">
-              <i class="fa fa-underline">
-              </i>
+              <i class="fa fa-underline" />
             </span>
           </a>
           <a class="button">
             <span class="icon">
-              <i class="fa fa-github">
-              </i>
+              <i class="fa fa-github" />
             </span>
             <span> GitHub
             </span>
           </a>
           <a class="button is-primary">
             <span class="icon">
-              <i class="fa fa-twitter">
-              </i>
+              <i class="fa fa-twitter" />
             </span>
             <span> Twitter
             </span>
           </a>
           <a class="button is-success">
             <span class="icon is-small">
-              <i class="fa fa-check">
-              </i>
+              <i class="fa fa-check" />
             </span>
             <span> Save
             </span>
@@ -152,8 +143,7 @@
             <span> Delete
             </span>
             <span class="icon is-small">
-              <i class="fa fa-times">
-              </i>
+              <i class="fa fa-times" />
             </span>
           </a>
         </p>
@@ -162,48 +152,42 @@
           <p class="buttons has-addons">
             <a class="button">
               <span class="icon is-small">
-                <i class="fa fa-bold">
-                </i>
+                <i class="fa fa-bold" />
               </span>
               <span> Bold
               </span>
             </a>
             <a class="button">
               <span class="icon is-small">
-                <i class="fa fa-italic">
-                </i>
+                <i class="fa fa-italic" />
               </span>
               <span> Italic
               </span>
             </a>
             <a class="button">
               <span class="icon is-small">
-                <i class="fa fa-underline">
-                </i>
+                <i class="fa fa-underline" />
               </span>
               <span> Underline
               </span>
             </a>
             <a class="button">
               <span class="icon is-small">
-                <i class="fa fa-align-left">
-                </i>
+                <i class="fa fa-align-left" />
               </span>
               <span> Left
               </span>
             </a>
             <a class="button">
               <span class="icon is-small">
-                <i class="fa fa-align-center">
-                </i>
+                <i class="fa fa-align-center" />
               </span>
               <span> Center
               </span>
             </a>
             <a class="button">
               <span class="icon is-small">
-                <i class="fa fa-align-right">
-                </i>
+                <i class="fa fa-align-right" />
               </span>
               <span> Right
               </span>
@@ -308,23 +292,7 @@
         <span class="tag is-success">Success</span>
         <span class="tag is-warning">Warning</span>
         <span class="tag is-danger">Danger</span>
-      </div>
-      <div class="tags">
-        <span class="tag">
-          Bar
-          <button class="delete is-small" />
-        </span>
-        <span class="tag is-medium">
-          Hello
-          <button class="delete is-small" />
-        </span>
-        <span class="tag is-large">
-          World
-          <button class="delete" />
-        </span>
-      </div>
 
-      <div class="tags">
         <div class="field is-grouped is-grouped-multiline">
           <div class="control">
             <div class="tags has-addons">
@@ -340,7 +308,21 @@
             </div>
           </div>
         </div>
+        &nbsp;
+        <span class="tag">
+          Bar
+          <button class="delete is-small" />
+        </span>
+        <span class="tag is-medium">
+          Hello
+          <button class="delete is-small" />
+        </span>
+        <span class="tag is-large">
+          World
+          <button class="delete" />
+        </span>
       </div>
+
       <br>
 
       <h2 class="subtitle is-4">Tables</h2>

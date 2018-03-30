@@ -72,11 +72,13 @@
       <h2 class="subtitle is-4">Dropdown</h2>
       <hr>
       <div class="column is-4 is-offset-4">
-        <div class="dropdown is-active">
+        <div :class="{'is-active': dropdownActive}"
+             class="dropdown"
+             @click="toggleDropDown">
           <div class="dropdown-trigger">
             <button class="button"
-                    aria-haspopup="true"
-                    aria-controls="dropdown-menu">
+                    aria-controls="dropdown-menu"
+                    aria-haspopup="true">
               <span>Dropdown button</span>
               <span class="icon is-small">
                 <i class="fas fa-angle-down"
@@ -88,17 +90,17 @@
                class="dropdown-menu"
                role="menu">
             <div class="dropdown-content">
-              <a href="#"
-                 class="dropdown-item">
+              <a class="dropdown-item"
+                 href="#">
                 Dropdown item
               </a>
-              <a href="#"
-                 class="dropdown-item is-active">
-                Active dropdown item
+              <a class="dropdown-item"
+                 href="#">
+                dropdown item
               </a>
               <hr class="dropdown-divider">
-              <a href="#"
-                 class="dropdown-item">
+              <a class="dropdown-item"
+                 href="#">
                 With a divider
               </a>
             </div>
@@ -130,8 +132,8 @@
                     </span> Dashboard
                   </a>
                 </li>
-                <li>
-                  <a class="is-active">
+                <li class="is-active">
+                  <a>
                     <span class="icon">
                       <i class="fas fa-address-card"
                          aria-hidden="true" />
@@ -156,8 +158,8 @@
                          aria-hidden="true" />
                   </span> Manage Your Team</a>
                 </li>
-                <li>
-                  <a class="is-disabled">
+                <li class="is-disabled">
+                  <a>
                     <span class="icon">
                       <i class="fas fa-at"
                          aria-hidden="true" />
@@ -215,9 +217,24 @@
       <hr>
       <div class="columns">
         <div class="column">
+          <article class="message">
+            <div class="message-header">
+              <p>Default Message</p>
+              <button class="delete"
+                      aria-label="delete" />
+            </div>
+            <div class="message-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
+              nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida
+              purus diam, et dictum
+              <a>felis venenatis</a> efficitur.
+            </div>
+          </article>
+
           <article class="message is-dark">
             <div class="message-header">
-              <p>Dark</p>
+              <p>Dark Message</p>
               <button class="delete"
                       aria-label="delete" />
             </div>
@@ -232,7 +249,7 @@
 
           <article class="message is-primary">
             <div class="message-header">
-              <p>Primary</p>
+              <p>Primary Message</p>
               <button class="delete"
                       aria-label="delete" />
             </div>
@@ -247,7 +264,7 @@
 
           <article class="message is-info">
             <div class="message-header">
-              <p>Info</p>
+              <p>Info Message</p>
               <button class="delete"
                       aria-label="delete" />
             </div>
@@ -261,10 +278,23 @@
           </article>
         </div>
         <div class="column">
-
+          <article class="message is-light">
+            <div class="message-header">
+              <p>Light Message</p>
+              <button class="delete"
+                      aria-label="delete" />
+            </div>
+            <div class="message-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
+              nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida
+              purus diam, et dictum
+              <a>felis venenatis</a> efficitur.
+            </div>
+          </article>
           <article class="message is-success">
             <div class="message-header">
-              <p>Success</p>
+              <p>Success Message</p>
               <button class="delete"
                       aria-label="delete" />
             </div>
@@ -279,7 +309,7 @@
 
           <article class="message is-warning">
             <div class="message-header">
-              <p>Warning</p>
+              <p>Warning Message</p>
               <button class="delete"
                       aria-label="delete" />
             </div>
@@ -294,7 +324,7 @@
 
           <article class="message is-danger">
             <div class="message-header">
-              <p>Danger</p>
+              <p>Danger Message</p>
               <button class="delete"
                       aria-label="delete" />
             </div>
@@ -312,7 +342,7 @@
       <br>
       <h2 class="subtitle is-4">Navbar</h2>
       <hr>
-      <nav class="navbar is-primary">
+      <nav class="navbar">
         <div class="navbar-brand">
           <a class="navbar-item"
              href="https://bulma.io">
@@ -323,9 +353,11 @@
           </a>
           <div class="navbar-burger burger"
                data-target="navbarExampleTransparentExample">
-            <span/>
-            <span/>
-            <span/>
+            <span>
+              <span>
+                <span/>
+              </span>
+            </span>
           </div>
         </div>
 
@@ -379,13 +411,10 @@
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <a class="button is-primary"
+                  <a class="button"
                      href="https://github.com/mubaidr/bulma-fluent"
                      title="Github Repository"
                      target="_blank">
-                    <span class="icon">
-                      <i class="fa fa-github-square" />
-                    </span>
                     <span>Github</span>
                   </a>
                 </p>
@@ -427,8 +456,8 @@
           </li>
           <li>
             <a class="pagination-link is-current"
-               aria-label="Page 46"
-               aria-current="page">46</a>
+               aria-current="page"
+               aria-label="Page 46">46</a>
           </li>
           <li>
             <a class="pagination-link"
@@ -526,7 +555,7 @@
           <li>
             <a>Pictures</a>
           </li>
-          <li class="is-active">
+          <li>
             <a>Music</a>
           </li>
           <li>
@@ -578,7 +607,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      dropdownActive: true
+    }
+  },
+  methods: {
+    toggleDropDown() {
+      this.dropdownActive = !this.dropdownActive
+    }
+  }
+}
 </script>
 
 <style>

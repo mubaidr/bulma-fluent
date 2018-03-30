@@ -11,6 +11,7 @@ $menu-label-color: $text-light !default
 
 .menu
   font-size: $size-normal
+  user-select: none
   // Sizes
   &.is-small
     font-size: $size-small
@@ -21,21 +22,30 @@ $menu-label-color: $text-light !default
 
 .menu-list
   line-height: 1.25
-  a
+  li
     // border-radius: $menu-item-radius
     color: $menu-item-color
-    border: 2px solid transparent
+    border-left-width: 8px
+    border-left-style: solid
+    border-left-color: transparent
     display: block
     padding: 0.5em 0.75em
-    transition: all 0.25s ease-out
+    transition: border, background-color 0.25s ease-out
+    & a
+      display: block
+      color: $black
     &:hover:not(.is-disabled)
       background-color: $menu-item-hover-background-color
       // color: $menu-item-hover-color
       // Modifiers
     &:active:not(.is-disabled)
       background-color: darken($menu-item-hover-background-color, 15%)
+      & a
+        transition: all 0.25s ease-out
+        transform: scale(0.94)
     &.is-active
       border-left-color: $menu-item-active-background-color
+      background-color: lighten($menu-item-hover-background-color, 5%)
       //color: $menu-item-active-color
     &:focus,
     &.is-focused
