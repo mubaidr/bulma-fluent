@@ -25,7 +25,7 @@ $navbar-dropdown-radius: $radius-large !default
 $navbar-dropdown-z: 20 !default
 
 $navbar-dropdown-boxed-radius: $radius-large !default
-$navbar-dropdown-boxed-shadow: 0 8px 8px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
+$navbar-dropdown-boxed-shadow: 0 3px 5px rgba($black, 0.2)//, 0 0 0 1px rgba($border, 0.1) !default
 
 $navbar-dropdown-item-hover-color: $black !default
 $navbar-dropdown-item-hover-background-color: $background !default
@@ -46,7 +46,8 @@ $navbar-divider-background-color: $border !default
   right: 0
 
 .navbar
-  background-color: darken($navbar-background-color, 5%)
+  box-shadow: $box-shadow
+  background-color: $navbar-background-color
   min-height: $navbar-height
   position: relative
   @each $name, $pair in $colors
@@ -276,7 +277,7 @@ a.navbar-link
         transform: rotate(135deg) translate(0.25em, -0.25em)
       .navbar-dropdown
         border-bottom: $navbar-dropdown-border-top
-        border-radius: $navbar-dropdown-radius $navbar-dropdown-radius 0 0
+        // border-radius: $navbar-dropdown-radius $navbar-dropdown-radius 0 0
         border-top: none
         bottom: 100%
         box-shadow: 0 -8px 8px rgba($black, 0.1)
@@ -329,7 +330,7 @@ a.navbar-link
         background-color: $navbar-dropdown-item-active-background-color
         color: $navbar-dropdown-item-active-color
     &.is-boxed
-      border-radius: $navbar-dropdown-boxed-radius
+      // border-radius: $navbar-dropdown-boxed-radius
       border-top: none
       box-shadow: $navbar-dropdown-boxed-shadow
       display: block

@@ -28,12 +28,13 @@ $panel-icon-color: $text-light !default
 .panel
   font-size: $size-normal
   box-shadow: $box-shadow
+  user-select: none
   &:not(:last-child)
     margin-bottom: 1.5rem
 
 .panel-heading,
-.panel-tabs,
-.panel-block
+.panel-tabs
+//.panel-block
   border-bottom: $panel-item-border
   border-left: $panel-item-border
   border-right: $panel-item-border
@@ -43,7 +44,7 @@ $panel-icon-color: $text-light !default
 
 .panel-heading
   background-color: $panel-heading-background-color
-  border-radius: $panel-heading-radius $panel-heading-radius 0 0
+  // border-radius: $panel-heading-radius $panel-heading-radius 0 0
   color: $panel-heading-color
   font-size: $panel-heading-size
   font-weight: $panel-heading-weight
@@ -53,8 +54,9 @@ $panel-icon-color: $text-light !default
 .panel-tabs
   align-items: flex-end
   display: flex
-  // font-size: 0.875em
+  font-size: 0.875em
   justify-content: center
+  margin-bottom: 1em
   a
     color: $text
     border-bottom: $panel-tab-border-bottom
@@ -79,6 +81,8 @@ $panel-icon-color: $text-light !default
   display: flex
   justify-content: flex-start
   padding: 0.5em 0.75em
+  border-left: 4px solid transparent
+  border-right: 4px solid transparent
   input[type="checkbox"]
     margin-right: 0.75em
   & > .control
@@ -100,6 +104,8 @@ label.panel-block
   color: $panel-list-item-color
   &:hover
     background-color: $panel-block-hover-background-color
+  &:active:not(.is-active)
+    background-color: darken($panel-block-hover-background-color, 5%)
 
 .panel-icon
   +fa(14px, 1em)
