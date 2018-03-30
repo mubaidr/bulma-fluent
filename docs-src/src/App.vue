@@ -50,6 +50,9 @@ export default {
 </script>
 
 <style>
+hr {
+  background-color: #fff;
+}
 .content-custom {
   min-height: 305px;
 }

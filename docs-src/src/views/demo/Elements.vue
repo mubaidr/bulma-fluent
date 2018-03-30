@@ -242,6 +242,12 @@
             </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
             elit
           </div>
+          <div class="notification is-dark">
+            <button class="delete" /> Lorem ipsum dolor sit amet,
+            <a href="#">consectetur
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
+            elit
+          </div>
           <div class="notification is-primary">
             <button class="delete" /> Primar lorem ipsum dolor sit amet,
             <a href="#">consectetur
@@ -256,6 +262,12 @@
           </div>
         </div>
         <div class="column">
+          <div class="notification is-light">
+            <button class="delete" /> Lorem ipsum dolor sit amet,
+            <a href="#">consectetur
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
+            elit
+          </div>
           <div class="notification is-success">
             <button class="delete" /> Success lorem ipsum dolor sit amet,
             <a href="#">consectetur

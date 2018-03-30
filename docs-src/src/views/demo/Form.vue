@@ -1,9 +1,8 @@
 <template>
   <div class="container">
     <section class="section">
-      <h1 class="title"> Form
+      <h1 class="title"> Form Inputs
       </h1>
-      <h2 class="subtitle">All generic form controls, designed for consistency</h2>
       <hr>
       <div class="column is-6 is-offset-3">
         <div class="field">

@@ -4,9 +4,9 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
 
 .notification
   +block
-  background-color: $notification-background-color
+  // background-color: $notification-background-color
   border-radius: $notification-radius
-  border: 2px solid #eee
+  // border: 2px solid #eee
   padding: $notification-padding
   position: relative
   transition: box-shadow $speed $easing
@@ -28,8 +28,6 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
     right: 0.5rem
     top: 0.5rem
     transition: all 0.25s ease-out
-    &:active
-      transform: scale(0.9)
   .title,
   .subtitle,
   .content
@@ -40,5 +38,5 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
     $color-invert: nth($pair, 2)
     &.is-#{$name}
       background-color: $color
-      border: 2px solid darken($color, 1%)
+      // border: 2px solid darken($color, 1%)
       color: $color-invert

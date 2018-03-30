@@ -37,6 +37,7 @@ $panel-icon-color: $text-light !default
   border-bottom: $panel-item-border
   border-left: $panel-item-border
   border-right: $panel-item-border
+  transition: all 0.25s ease-out
   &:first-child
     border-top: $panel-item-border
 
@@ -88,6 +89,7 @@ $panel-icon-color: $text-light !default
     flex-wrap: wrap
   &.is-active
     border-left-color: $panel-block-active-border-left-color
+    background-color: lighten($panel-block-hover-background-color, 5%)
     color: $panel-block-active-color
     .panel-icon
       color: $panel-block-active-icon-color
