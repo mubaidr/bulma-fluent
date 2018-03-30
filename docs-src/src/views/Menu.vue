@@ -14,7 +14,7 @@
             <!-- <span class="icon is-small is-left">
               <i class="fas fa-clipboard" />
             </span> -->
-            Form</router-link>
+            Form Inputs</router-link>
         </li>
         <li :class="{'is-active': $route.path === '/elements'}">
           <router-link to="/elements">
@@ -29,6 +29,13 @@
               <i class="fas fa-box" />
             </span> -->
             Components</router-link>
+        </li>
+        <li :class="{'is-active': $route.path === '/extras'}">
+          <router-link to="/extras">
+            <!-- <span class="icon is-small is-left">
+              <i class="fas fa-box" />
+            </span> -->
+            Specials</router-link>
         </li>
       </ul>
     </div>

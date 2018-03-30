@@ -23,7 +23,7 @@
                href="https://github.com/mubaidr/bulma-fluent"
                title="Github Repository"
                target="_blank">
-              <span>Github</span>
+              <span>Visit Github Repo</span>
             </a>
             <a class="button is-primary"
                href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.css"

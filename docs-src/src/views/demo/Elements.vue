@@ -25,25 +25,6 @@
                 turpis.
               </p>
             </div>
-            <nav class="level is-mobile">
-              <div class="level-left">
-                <a class="level-item">
-                  <span class="icon is-small">
-                    <i class="fas fa-reply" />
-                  </span>
-                </a>
-                <a class="level-item">
-                  <span class="icon is-small">
-                    <i class="fas fa-retweet" />
-                  </span>
-                </a>
-                <a class="level-item">
-                  <span class="icon is-small">
-                    <i class="fas fa-heart" />
-                  </span>
-                </a>
-              </div>
-            </nav>
           </div>
         </article>
       </div>
@@ -55,6 +36,7 @@
       <div>
         <div class="block">
           <a class="button">Default</a>
+          <a class="button is-dark">Default</a>
           <a class="button is-primary">Primary</a>
           <a class="button is-link">Link</a>
           <a class="button is-info">Info</a>
@@ -64,17 +46,9 @@
         </div>
 
         <div class="block">
-          <a class="button is-outlined">Outlined</a>
-          <a class="button is-primary is-outlined">Outlined</a>
-          <a class="button is-link is-outlined">Outlined</a>
-          <a class="button is-info is-outlined">Outlined</a>
-          <a class="button is-success is-outlined">Outlined</a>
-          <a class="button is-danger is-outlined">Outlined</a>
-        </div>
-
-        <div class="block">
           <a class="button is-loading"> Loading
           </a>
+          <a class="button is-dark is-loading"> Loading</a>
           <a class="button is-primary is-loading"> Loading
           </a>
           <a class="button is-info is-loading"> Loading
@@ -88,7 +62,19 @@
         </div>
 
         <div class="block">
+          <a class="button is-outlined">Outlined</a>
+          <a class="button is-dark is-outlined">Outlined</a>
+          <a class="button is-primary is-outlined">Outlined</a>
+          <a class="button is-link is-outlined">Outlined</a>
+          <a class="button is-info is-outlined">Outlined</a>
+          <a class="button is-success is-outlined">Outlined</a>
+          <a class="button is-danger is-outlined">Outlined</a>
+        </div>
+
+        <div class="block">
           <a class="button is-focused"> Default
+          </a>
+          <a class="button is-dark is-focused"> Default
           </a>
           <a class="button is-primary is-focused"> Primary
           </a>
@@ -125,25 +111,25 @@
             <span> GitHub
             </span>
           </a>
-          <a class="button is-primary">
+          <a class="button">
             <span class="icon">
               <i class="fa fa-twitter" />
             </span>
             <span> Twitter
             </span>
           </a>
-          <a class="button is-success">
+          <a class="button">
             <span class="icon is-small">
               <i class="fa fa-check" />
             </span>
             <span> Save
             </span>
           </a>
-          <a class="button is-danger">
-            <span> Delete
-            </span>
+          <a class="button">
             <span class="icon is-small">
               <i class="fa fa-times" />
+            </span>
+            <span> Delete
             </span>
           </a>
         </p>

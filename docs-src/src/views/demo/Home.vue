@@ -58,6 +58,14 @@
             </li>
           </ol>
         </div>
+
+        <div class="content">
+          <h2 class="subtitle is-4">Documentation</h2>
+          <p>Visit the
+            <router-link to="extras">Specials</router-link> link to check for new classes, for everything
+            other you can follow official bulma documentaion available
+          <a href="https://bulma.io">here</a>.</p>
+        </div>
       </div>
     </section>
   </div>

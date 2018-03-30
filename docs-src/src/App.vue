@@ -3,7 +3,7 @@
     <header-view/>
     <menu-view/>
     <div class="content-custom">
-      <transition :name="transitionName"
+      <transition name="slide-right"
                   appear="appear"
                   mode="out-in">
         <router-view/>
@@ -54,6 +54,6 @@ hr {
   background-color: #fff;
 }
 .content-custom {
-  min-height: 305px;
+  min-height: 320px;
 }
 </style>

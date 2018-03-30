@@ -50,6 +50,8 @@ $navbar-divider-background-color: $border !default
   background-color: $navbar-background-color
   min-height: $navbar-height
   position: relative
+  & .button
+    margin-bottom: 0
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)

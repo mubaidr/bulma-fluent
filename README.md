@@ -1,10 +1,12 @@
 # [Bulma-Fluent](https://mubaidr.github.io/bulma-fluent)
 
-**NOTE : This theme is in alpha stages, a lot of components and features are not finished yet!**
-
 Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
 [![npm version](https://badge.fury.io/js/bulma-fluent.svg)](https://badge.fury.io/js/bulma-fluent)
+
+## [Demo](https://mubaidr.github.io/bulma-fluent/)
+
+Browse the [online demo here.](https://mubaidr.github.io/bulma-fluent/)
 
 ## Quick install
 
@@ -20,25 +22,9 @@ npm install bulma-fluent
 yarn add bulma-fluent
 ```
 
-### Bower
-
-```sh
-bower install bulma-fluent
-```
-
-### Download from cdnjs
-
-[https://cdnjs.com/libraries/bulma-fluent](https://cdnjs.com/libraries/bulma-fluent)
-
 ### Download from this Repository
 
-[https://github.com/mubaidr/bulma-fluent/tree/master/css](https://github.com/mubaidr/bulma-fluent/tree/master/css)
-
-## Documentation
-
-The documentation resides in the [docs](docs) directory, and is built with using [Vue.js](https://vuejs.org).
-
-Browse the [online documentation here.](https://mubaidr.github.io/bulma-fluent/)
+[Download](https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.css)
 
 ## Copyright and license
 

@@ -15,6 +15,15 @@
         </div>
 
         <div class="field">
+          <label class="label">Nick</label>
+          <div class="control">
+            <input class="input"
+                   type="text"
+                   placeholder="Text input">
+          </div>
+        </div>
+
+        <div class="field">
           <label class="label">Username</label>
           <div class="control has-icons-left has-icons-right">
             <input class="input is-success"
