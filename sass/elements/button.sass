@@ -77,15 +77,16 @@ $button-static-border-color: $light !default
   &.is-hovered
     border-color: rgba(0, 0, 0, 0.5)
     color: $button-hover-color
-  &:focus
+  &:focus,
+  &.is-focused
     // border-color: $button-focus-border-color
     border-color: rgba(0, 0, 0, 0.5)
     // box-shadow: 0 0 20px lighten($button-background-color, 50%)
     color: $button-hover-color
-  &.is-focused
+  &.is-highlighted
     // border-color: $button-focus-border-color
     // border-color: rgba(0, 0, 0, 0.5)
-    box-shadow: 0 0 15px 1px $button-background-color
+    box-shadow: 0 0 20px lighten($button-background-color, 25%)
     color: $button-hover-color
   &:active,
   &.is-active
@@ -122,11 +123,12 @@ $button-static-border-color: $light !default
       &:hover,
       &.is-hovered
         border-color: rgba(0, 0, 0, 0.5)
-      &.is-focused
+      &.is-highlighted
         // border-color: rgba(0, 0, 0, 0.5)
         &:not(:active)
-          box-shadow: 0 0 15px 1px lighten($color, 25%)
-      &:focus
+          box-shadow: 0 0 25px lighten($color, 25%)
+      &:focus,
+      &.is-focused
         border-color: rgba(0, 0, 0, 0.5)
       &:active,
       &.is-active

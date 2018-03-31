@@ -36,7 +36,7 @@
       <div>
         <div class="block">
           <a class="button">Default</a>
-          <a class="button is-dark">Default</a>
+          <a class="button is-dark">Dark</a>
           <a class="button is-primary">Primary</a>
           <a class="button is-link">Link</a>
           <a class="button is-info">Info</a>
@@ -69,23 +69,6 @@
           <a class="button is-info is-outlined">Outlined</a>
           <a class="button is-success is-outlined">Outlined</a>
           <a class="button is-danger is-outlined">Outlined</a>
-        </div>
-
-        <div class="block">
-          <a class="button is-focused"> Default
-          </a>
-          <a class="button is-dark is-focused"> Default
-          </a>
-          <a class="button is-primary is-focused"> Primary
-          </a>
-          <a class="button is-info is-focused"> Info
-          </a>
-          <a class="button is-success is-focused"> Success
-          </a>
-          <a class="button is-warning is-focused"> Warning
-          </a>
-          <a class="button is-danger is-focused"> Danger
-          </a>
         </div>
 
         <p class="field">
