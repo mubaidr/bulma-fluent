@@ -1,14 +1,18 @@
 .is-revealed
-  & > :focus
-    box-shadow: 0 0 25px 1px $success
+  & *
+    user-select: none
+    transition: all $speed $easing
+  & :focus
+    border-color: $success
+    box-shadow: 0 0 25px 0px $success
+    animation-name: reveal-focus-is-success
+    animation-duration: 0.5s
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
     &.is-#{$name}
-      & *
-        border-radius: 1px
       & :focus
         border-color: $color
-        box-shadow: 0 0 25px 1px $color
+        box-shadow: 0 0 25px 0px $color
         animation-name: reveal-focus-is-#{$name}
         animation-duration: 0.5s

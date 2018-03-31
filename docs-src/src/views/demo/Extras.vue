@@ -9,14 +9,70 @@
         <p>The Grid View presents a collection of items in rows and columns that can
         scroll vertically.</p>
         <hr>
-        <div class="grid-view is-small">
-          <button class="grid-item">A</button>
-          <button class="grid-item">B</button>
-          <button class="grid-item">C</button>
-          <button class="grid-item">D</button>
-          <button class="grid-item">E</button>
-          <button class="grid-item">F</button>
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <div class="grid-view is-medium is-revealed is-success">
+              <button class="grid-item"
+                      tabindex="1"
+                      autofocus>A</button>
+              <button class="grid-item"
+                      tabindex="2">B</button>
+              <button class="grid-item"
+                      tabindex="3">C</button>
+              <button class="grid-item"
+                      tabindex="4">D</button>
+              <button class="grid-item"
+                      tabindex="5">E</button>
+              <button class="grid-item"
+                      tabindex="6">F</button>
+              <button class="grid-item"
+                      tabindex="7"
+                      autofocus>A</button>
+              <button class="grid-item"
+                      tabindex="8">B</button>
+              <button class="grid-item"
+                      tabindex="9">C</button>
+              <button class="grid-item"
+                      tabindex="10">D</button>
+              <button class="grid-item"
+                      tabindex="11">E</button>
+              <button class="grid-item"
+                      tabindex="12">F</button>
+              <button class="grid-item"
+                      tabindex="13">C</button>
+              <button class="grid-item"
+                      tabindex="14">D</button>
+              <button class="grid-item"
+                      tabindex="15">E</button>
+              <button class="grid-item"
+                      tabindex="16">F</button>
+              <button class="grid-item"
+                      tabindex="17">C</button>
+              <button class="grid-item"
+                      tabindex="18">D</button>
+              <button class="grid-item"
+                      tabindex="19">E</button>
+              <button class="grid-item"
+                      tabindex="20">F</button>
+            </div>
+          </div>
         </div>
+        <h2 class="subtitle is-5">How to use</h2>
+        <details>
+          <summary>Sample Mark up Code</summary>
+          <p>
+            <pre>
+            &lt;div class="grid-view is-medium is-revealed is-success">
+              &lt;button class="grid-item"&gt; Content
+              &lt;/button&gt;
+            &lt;/div&gt;
+            </pre>
+          </p>
+        </details>
+        <br>
+        <p>Add
+          <code>is-revealed</code> class to grid view for focus reveal animation.
+        </p>
 
         <br>
 
@@ -25,26 +81,25 @@
         <p>Animates the border of focusable elements, such as buttons, when the user
         moves focus to them.</p>
         <hr>
-        <div class="is-revealed is-success has-text-centered">
+        <div class="is-revealed is-primary has-text-centered">
           <button class="button is-dark"
-                  tabindex="1"
-                  autofocus>Content</button>
+                  tabindex="30">Content</button>
           <button class="button is-dark"
-                  tabindex="2">Content</button>
+                  tabindex="31">Content</button>
           <button class="button is-dark"
-                  tabindex="3">Content</button>
+                  tabindex="32">Content</button>
           <button class="button is-dark"
-                  tabindex="4">Content</button>
+                  tabindex="33">Content</button>
           <button class="button is-dark"
-                  tabindex="5">Content</button>
+                  tabindex="34">Content</button>
           <button class="button is-dark"
-                  tabindex="6">Content</button>
+                  tabindex="35">Content</button>
         </div>
         <br>
         <h2 class="subtitle is-5">How to use</h2>
         <p>Add
           <code>is-revealed</code> class to the parent of the container. All focusable
-          childrens will be revealed when focused. You can also choose one of the
+          childrens will be revealed when focused. You can also choose any of the
           color variant i.e.
           <code>is-primary</code>,
           <code>is-info</code>
@@ -70,7 +125,7 @@
         </div>
         <h2 class="subtitle is-5">How to use</h2>
         <p>Add
-          <code>is-highlighted</code> class to the button to highglight a button.
+          <code>is-highlighted</code> class to the button to highlight a button.
         </p>
 
         <br>

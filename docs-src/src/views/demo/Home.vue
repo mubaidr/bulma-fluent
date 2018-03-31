@@ -1,5 +1,5 @@
 <template>
-  <div class="home-background">
+  <div>
     <section class="section">
       <div class="container">
         <h1 class="title">Getting started</h1>
@@ -76,27 +76,5 @@ export default {}
 </script>
 
 <style>
-.home-background {
-  background: rgb(255, 255, 255); /* Old Browsers */
-  background: -webkit-radial-gradient(
-    center,
-    rgb(255, 255, 255),
-    rgb(180, 190, 190)
-  ); /*Safari 5.1-6*/
-  background: -o-radial-gradient(
-    center,
-    rgb(255, 255, 255),
-    rgb(180, 190, 190)
-  ); /*Opera 11.1-12*/
-  background: -moz-radial-gradient(
-    center,
-    rgb(255, 255, 255),
-    rgb(180, 190, 190)
-  ); /*Fx 3.6-15*/
-  background: radial-gradient(
-    ellipse at center,
-    rgb(255, 255, 255),
-    rgb(180, 190, 190)
-  ); /*Standard*/
-}
+
 </style>

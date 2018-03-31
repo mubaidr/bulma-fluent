@@ -9,6 +9,13 @@
             </span> -->
             Getting Started</router-link>
         </li>
+        <li :class="{'is-active': $route.path === '/extras'}">
+          <router-link to="/extras">
+            <!-- <span class="icon is-small is-left">
+              <i class="fas fa-box" />
+            </span> -->
+            Fluent Design</router-link>
+        </li>
         <li :class="{'is-active': $route.path === '/form'}">
           <router-link to="/form">
             <!-- <span class="icon is-small is-left">
@@ -29,13 +36,6 @@
               <i class="fas fa-box" />
             </span> -->
             Components</router-link>
-        </li>
-        <li :class="{'is-active': $route.path === '/extras'}">
-          <router-link to="/extras">
-            <!-- <span class="icon is-small is-left">
-              <i class="fas fa-box" />
-            </span> -->
-            Specials</router-link>
         </li>
       </ul>
     </div>
