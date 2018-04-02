@@ -8,6 +8,7 @@ $box-link-hover-shadow: 0 0 25px rgba($dark, 0.1) !default
 $box-link-active-shadow: 0 0 5px rgba($dark, 0.1) !default
 
 .box
+  +has-acrylic-material
   +block
   background-color: $box-background-color
   border: 1px solid $border
@@ -21,7 +22,7 @@ $box-link-active-shadow: 0 0 5px rgba($dark, 0.1) !default
   small
     opacity: 0.66
   &.no-padding
-    padding: $box-padding 0
+    padding: 0
   &:hover
     box-shadow: $box-shadow-hover
 .box

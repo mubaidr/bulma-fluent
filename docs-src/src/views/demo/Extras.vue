@@ -5,16 +5,16 @@
         <h1 class="title">Specials</h1>
         <p>This theme has some extra classes implementing fluent design concepts. </p>
         <hr>
+
         <h2 class="subtitle is-4">Grid View</h2>
         <p>The Grid View presents a collection of items in rows and columns that can
         scroll vertically.</p>
         <hr>
         <div class="columns">
           <div class="column is-8 is-offset-2">
-            <div class="grid-view is-medium is-revealed is-success">
+            <div class="grid-view is-medium is-revealed">
               <button class="grid-item"
-                      tabindex="1"
-                      autofocus>A</button>
+                      tabindex="1">A</button>
               <button class="grid-item"
                       tabindex="2">B</button>
               <button class="grid-item"
@@ -50,10 +50,6 @@
                       tabindex="17">C</button>
               <button class="grid-item"
                       tabindex="18">D</button>
-              <button class="grid-item"
-                      tabindex="19">E</button>
-              <button class="grid-item"
-                      tabindex="20">F</button>
             </div>
           </div>
         </div>
@@ -71,7 +67,10 @@
         </details>
         <br>
         <p>Add
-          <code>is-revealed</code> class to grid view for focus reveal animation.
+          <code>is-revealed</code> class to grid view for focus reveal animation. You can
+          also choose any of the color variant i.e.
+          <code>is-primary</code>,
+          <code>is-info</code>
         </p>
 
         <br>
@@ -129,20 +128,6 @@
         </p>
 
         <br>
-
-        <h2 class="subtitle is-4">Acrylic material</h2>
-        <p>You can apply acrylic to app surfaces to add depth and help establish a visual
-        hierarchy.
-        </p>
-        <hr>
-        <div class="content">Coming soon!</div>
-        <h2 class="subtitle is-5">How to use</h2>
-        <p>Add
-          <code>has-acrylic-material</code> class to elements/components.
-        </p>
-        <br>
-        <h2 class="subtitle is-4">More coming soon!</h2>
-        <hr>
       </div>
     </section>
   </div>

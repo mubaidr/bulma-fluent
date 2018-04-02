@@ -44,7 +44,6 @@
           <a class="button is-warning">Warning</a>
           <a class="button is-danger">Danger</a>
         </div>
-
         <div class="block">
           <a class="button is-loading"> Loading
           </a>

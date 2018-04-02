@@ -19,7 +19,7 @@
           </h2>
           <br>
           <p>
-            <a class="button is-highlighted"
+            <a class="button is-highlighted has-acrylic-material"
                href="https://github.com/mubaidr/bulma-fluent"
                title="Github Repository"
                target="_blank">
