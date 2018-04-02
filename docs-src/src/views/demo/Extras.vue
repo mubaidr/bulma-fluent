@@ -14,7 +14,8 @@
           <div class="column is-8 is-offset-2">
             <div class="grid-view is-medium is-revealed">
               <button class="grid-item"
-                      tabindex="1">A</button>
+                      tabindex="1"
+                      autofocus>A</button>
               <button class="grid-item"
                       tabindex="2">B</button>
               <button class="grid-item"
@@ -26,8 +27,7 @@
               <button class="grid-item"
                       tabindex="6">F</button>
               <button class="grid-item"
-                      tabindex="7"
-                      autofocus>A</button>
+                      tabindex="7">A</button>
               <button class="grid-item"
                       tabindex="8">B</button>
               <button class="grid-item"
