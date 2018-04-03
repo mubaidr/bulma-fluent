@@ -40,7 +40,7 @@ $button-static-border-color: $light !default
   +unselectable
   cursor: default
   background-color: $button-background-color
-  border-color: darken($button-background-color, 1%)
+  border-color: $button-background-color
   color: $button-color
   justify-content: center
   height: 2.25em
@@ -222,6 +222,7 @@ $button-static-border-color: $light !default
   flex-wrap: wrap
   justify-content: flex-start
   .button
+    border-radius: 0!important
     border-color: transparent
     margin-bottom: 0.5rem
     &:not(:last-child)

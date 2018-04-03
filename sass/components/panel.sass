@@ -26,7 +26,7 @@ $panel-block-active-icon-color: $link !default
 $panel-icon-color: $text-light !default
 
 .panel
-  +has-acrylic-material
+  background-color: $white
   font-size: $size-normal
   box-shadow: $box-shadow
   user-select: none
@@ -82,8 +82,8 @@ $panel-icon-color: $text-light !default
   display: flex
   justify-content: flex-start
   padding: 0.5em 0.75em
-  border-left: 4px solid transparent
-  border-right: 4px solid transparent
+  border-left: 8px solid transparent
+  border-right: 8px solid transparent
   input[type="checkbox"]
     margin-right: 0.75em
   & > .control
@@ -94,23 +94,23 @@ $panel-icon-color: $text-light !default
     flex-wrap: wrap
   &.is-active
     border-left-color: $panel-block-active-border-left-color
-    background-color: lighten($panel-block-hover-background-color, 5%)
+    // background-color: rgba(darken($panel-block-hover-background-color, 5%), 0.5)
     color: $panel-block-active-color
     .panel-icon
-      color: $panel-block-active-icon-color
+      // color: $panel-block-active-icon-color
 
 a.panel-block,
 label.panel-block
   cursor: pointer
   color: $panel-list-item-color
   &:hover
-    background-color: $panel-block-hover-background-color
-  &:active:not(.is-active)
     background-color: darken($panel-block-hover-background-color, 5%)
+  &:active:not(.is-active)
+    background-color: darken($panel-block-hover-background-color, 10%)
 
 .panel-icon
   +fa(14px, 1em)
-  color: $panel-icon-color
+  color: $panel-list-item-color
   margin-right: 0.75em
   .fa
     font-size: inherit

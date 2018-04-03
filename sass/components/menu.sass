@@ -7,10 +7,9 @@ $menu-item-active-background-color: $link !default
 
 $menu-list-border-left: 1px solid $border !default
 
-$menu-label-color: $text-light !default
+$menu-label-color: lighten($dark, 33%) !default
 
 .menu
-  +has-acrylic-material
   font-size: $size-normal
   user-select: none
   padding: 1.25rem 0
@@ -47,8 +46,8 @@ $menu-label-color: $text-light !default
         transform: scale(0.94)
     &.is-active
       border-left-color: $menu-item-active-background-color
-      background-color: lighten($menu-item-hover-background-color, 5%)
-      //color: $menu-item-active-color
+      // background-color: lighten($menu-item-hover-background-color, 5%)
+      // color: $menu-item-active-color
     &:focus,
     &.is-focused
       border-color: darken($menu-item-hover-background-color, 15%)

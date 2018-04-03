@@ -66,12 +66,13 @@ $pagination-shadow-inset: inset 0 1px 2px rgba($black, 0.2)
 .pagination-previous,
 .pagination-next,
 .pagination-link
+  background-color: $pagination-border-color
   border-color: $pagination-border-color
   color: $pagination-color
   min-width: 2.25em
   &:hover
     border-color: $pagination-hover-border-color
-    color: $pagination-hover-color
+    color: $pagination-color
   &:focus
     border-color: $pagination-focus-border-color
   &:active
@@ -89,14 +90,14 @@ $pagination-shadow-inset: inset 0 1px 2px rgba($black, 0.2)
   padding-right: 1em
   white-space: nowrap
   &:hover:not(is-current)
-    color: $pagination-current-border-color
+    color: $pagination-color
     border-color: $pagination-current-border-color
   &:active
     transform: scale(0.9)
 
 .pagination-link
   &:hover:not(.is-current)
-    color: $pagination-current-border-color
+    color: $pagination-color
     border-color: $pagination-current-border-color
   &.is-current
     background-color: $pagination-current-background-color

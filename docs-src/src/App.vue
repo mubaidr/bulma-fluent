@@ -50,9 +50,14 @@ export default {
 </script>
 
 <style>
+body {
+  /* background-image: url('./assets/bck.jpg'); */
+}
+
 hr {
   background-color: #fff;
 }
+
 .content-custom {
   min-height: 320px;
 }
