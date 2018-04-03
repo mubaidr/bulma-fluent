@@ -482,7 +482,7 @@
         <div class="column is-4 is-offset-4">
           <nav class="panel">
             <p class="panel-heading">
-              repositories
+              Repositories
             </p>
             <div class="panel-block">
               <p class="control has-icons-left">
