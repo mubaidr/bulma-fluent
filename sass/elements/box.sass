@@ -24,6 +24,9 @@ $box-link-active-shadow: 0 0 5px rgba($dark, 0.1) !default
     padding: 0
   &:hover
     box-shadow: $box-shadow-hover
+  &.is-dark
+    color: $box-background-color
+    background-color: lighten(invert($box-background-color), 20%)
 .box
   &:hover,
   &:focus

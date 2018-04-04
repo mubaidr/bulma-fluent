@@ -6,6 +6,7 @@
   max-height: 480px
   overflow-y: auto
   & .grid-item
+    +has-acrylic-material-light
     +control
     +unselectable
     display: inline-block
@@ -30,6 +31,7 @@
     &.is-#{$name}
       // background-color: lighten($color, 50%)
       & .grid-item
+        +has-acrylic-material
         background-color: $color
         color: $white
         &:focus

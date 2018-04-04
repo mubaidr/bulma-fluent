@@ -12,7 +12,7 @@
         <hr>
         <div class="columns">
           <div class="column is-8 is-offset-2">
-            <div class="grid-view is-medium is-revealed">
+            <div class="grid-view is-medium is-revealed is-primary">
               <button class="grid-item"
                       tabindex="1"
                       autofocus>A</button>
@@ -102,6 +102,29 @@
           color variant i.e.
           <code>is-primary</code>,
           <code>is-info</code>
+        </p>
+
+        <br>
+
+        <h2 class="subtitle is-4">Acrylic Material</h2>
+        <p> Acrylic is a Fluent Design System component that adds physical texture (material)
+        and depth to your app. </p>
+        <hr>
+        <div class="block">
+          <div class="box has-acrylic-material-light">
+            Some content
+          </div>
+          <div class="box has-acrylic-material is-dark">
+            Some content
+          </div>
+        </div>
+
+        <br>
+        <h2 class="subtitle is-5">How to use</h2>
+        <p>Add
+          <code>has-acrylic-material-light</code> (for elements with light background)
+          and Add
+          <code>has-acrylic-material</code> (for elements with dark background)
         </p>
 
         <br>
