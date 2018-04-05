@@ -10,48 +10,38 @@
         <p>The Grid View presents a collection of items in rows and columns that can
         scroll vertically.</p>
         <hr>
-        <div class="columns">
-          <div class="column is-8 is-offset-2">
-            <div class="grid-view is-medium is-revealed is-primary">
-              <button class="grid-item"
-                      tabindex="1"
-                      autofocus>A</button>
-              <button class="grid-item"
-                      tabindex="2">B</button>
-              <button class="grid-item"
-                      tabindex="3">C</button>
-              <button class="grid-item"
-                      tabindex="4">D</button>
-              <button class="grid-item"
-                      tabindex="5">E</button>
-              <button class="grid-item"
-                      tabindex="6">F</button>
-              <button class="grid-item"
-                      tabindex="7">A</button>
-              <button class="grid-item"
-                      tabindex="8">B</button>
-              <button class="grid-item"
-                      tabindex="9">C</button>
-              <button class="grid-item"
-                      tabindex="10">D</button>
-              <button class="grid-item"
-                      tabindex="11">E</button>
-              <button class="grid-item"
-                      tabindex="12">F</button>
-              <button class="grid-item"
-                      tabindex="13">C</button>
-              <button class="grid-item"
-                      tabindex="14">D</button>
-              <button class="grid-item"
-                      tabindex="15">E</button>
-              <button class="grid-item"
-                      tabindex="16">F</button>
-              <button class="grid-item"
-                      tabindex="17">C</button>
-              <button class="grid-item"
-                      tabindex="18">D</button>
-            </div>
-          </div>
+        <div class="grid-view is-revealed is-medium">
+          <button class="grid-item"
+                  tabindex="1"
+                  autofocus>A</button>
+          <button class="grid-item"
+                  tabindex="2">B</button>
+          <button class="grid-item"
+                  tabindex="3">C</button>
+          <button class="grid-item"
+                  tabindex="4">D</button>
+          <button class="grid-item"
+                  tabindex="5">E</button>
+          <button class="grid-item"
+                  tabindex="6">F</button>
+          <button class="grid-item"
+                  tabindex="7">G</button>
+          <button class="grid-item"
+                  tabindex="8">H</button>
+          <button class="grid-item"
+                  tabindex="9">H</button>
+          <button class="grid-item"
+                  tabindex="10">I</button>
+          <button class="grid-item"
+                  tabindex="11">J</button>
+          <button class="grid-item"
+                  tabindex="12">K</button>
+          <button class="grid-item"
+                  tabindex="13">L</button>
+          <button class="grid-item"
+                  tabindex="14">M</button>
+          <button class="grid-item"
+                  tabindex="15">N</button>
         </div>
         <h2 class="subtitle is-5">How to use</h2>
         <details>

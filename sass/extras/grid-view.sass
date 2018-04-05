@@ -1,21 +1,20 @@
 .grid-view
   background-color: $dark
-  padding: 1.5em
+  padding: 20px
   text-align: center
   border-radius: $radius-small
-  max-height: 480px
+  max-height: 250px
   overflow-y: auto
   & .grid-item
-    +has-acrylic-material-light
     +control
     +unselectable
     display: inline-block
     background-color: $light
     color: invert($light)
-    padding: 0.5em
-    margin: 0.25em
-    width: 120px
-    height: 80px
+    padding: 5px
+    margin: 5px
+    min-width: 80px
+    height: 60px
     border: 2px solid transparent
     transition: all $speed $easing
     &:hover:not(:focus)
@@ -31,27 +30,33 @@
     &.is-#{$name}
       // background-color: lighten($color, 50%)
       & .grid-item
-        +has-acrylic-material
         background-color: $color
         color: $white
         &:focus
           border-color: lighten($color, 20%)
           box-shadow: 0 0 25px 0px lighten($color, 5%)
+  &.is-light,
+  &.is-white
+    & .grid-item
+      color: $dark
   &.is-small
+    max-height: 310px
     & .grid-item
-      width: 80px
-      height: 60px
-      pading: 0.25em
-      font-size: 0.75em
-  &.is-medium
-    & .grid-item
-      width: 120px
+      min-width: 100px
       height: 80px
-      pading: 0.5em
+      pading: 0.125em
+      font-size: 1em
+  &.is-medium
+    max-height: 430px
+    & .grid-item
+      min-width: 140px
+      height: 120px
+      pading: 0.25em
       font-size: 1.25em
   &.is-large
+    max-height: 550px
     & .grid-item
-      width: 160px
-      height: 100px
-      pading: 0.75em
-      font-size: 1.75em
+      min-width: 180px
+      height: 160px
+      pading: 0.5em
+      font-size: 1.5em
