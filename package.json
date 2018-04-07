@@ -3,8 +3,7 @@
   "bugs": {
     "url": "https://github.com/mubaidr/bulma-fluent/issues"
   },
-  "description":
-    "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
+  "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
     "autoprefixer": "^8.2.0",
     "eslint": "^4.19.1",
@@ -30,18 +29,15 @@
     "url": "git+https://github.com/mubaidr/bulma-fluent.git"
   },
   "scripts": {
-    "build":
-      "npm run build-clean && npm run build-sass && npm run build-autoprefix",
-    "build-autoprefix":
-      "postcss --use autoprefixer --map false --output css/bulma.css css/bulma.css",
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma.css css/bulma.css",
     "build-clean": "rimraf css",
     "build-docs": "cd docs-src && npm run build && cd..",
-    "build-sass":
-      "node-sass --output-style expanded --source-map true bulma.sass css/bulma.css",
+    "build-sass": "node-sass --output-style expanded --source-map true bulma.sass css/bulma.css",
     "dev": "cd docs-src && npm run dev && cd..",
     "start": "npm run build-sass -- --watch",
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "bulma/css/bulma.css",
-  "version": "0.1.19"
+  "version": "0.1.21"
 }

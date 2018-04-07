@@ -50,12 +50,8 @@ export default {
 </script>
 
 <style>
-body {
-  /* background-image: url('./assets/bck.jpg'); */
-}
-
 hr {
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 .content-custom {

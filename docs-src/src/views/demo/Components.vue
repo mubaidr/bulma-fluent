@@ -137,7 +137,7 @@
                     <span class="icon">
                       <i class="fas fa-address-card"
                          aria-hidden="true" />
-                    </span> Customers</a>
+                  </span> Customers</a>
                 </li>
               </ul>
               <p class="menu-label">
@@ -149,35 +149,35 @@
                     <span class="icon">
                       <i class="fas fa-cog"
                          aria-hidden="true" />
-                    </span> Team Settings</a>
+                  </span> Team Settings</a>
                 </li>
                 <li>
                   <a>
                     <span class="icon">
                       <i class="fas fa-child"
                          aria-hidden="true" />
-                    </span> Manage Your Team</a>
+                  </span> Manage Your Team</a>
                 </li>
                 <li class="is-disabled">
                   <a>
                     <span class="icon">
                       <i class="fas fa-at"
                          aria-hidden="true" />
-                    </span> Invitations</a>
+                  </span> Invitations</a>
                 </li>
                 <li>
                   <a>
                     <span class="icon">
                       <i class="fas fa-cloudversify"
                          aria-hidden="true" />
-                    </span> Cloud Storage Settings</a>
+                  </span> Cloud Storage Settings</a>
                 </li>
                 <li>
                   <a>
                     <span class="icon">
                       <i class="fas fa-user"
                          aria-hidden="true" />
-                    </span> Authentication</a>
+                  </span> Authentication</a>
                 </li>
               </ul>
               <p class="menu-label">
@@ -189,21 +189,21 @@
                     <span class="icon">
                       <i class="fas fa-amazon-pay"
                          aria-hidden="true" />
-                    </span> Payments</a>
+                  </span> Payments</a>
                 </li>
                 <li>
                   <a>
                     <span class="icon">
                       <i class="fas fa-align-center"
                          aria-hidden="true" />
-                    </span> Transfers</a>
+                  </span> Transfers</a>
                 </li>
                 <li>
                   <a>
                     <span class="icon">
                       <i class="fas fa-briefcase"
                          aria-hidden="true" />
-                    </span> Balance</a>
+                  </span> Balance</a>
                 </li>
               </ul>
             </aside>

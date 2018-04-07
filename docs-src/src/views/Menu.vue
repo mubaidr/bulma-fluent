@@ -14,7 +14,7 @@
             <!-- <span class="icon is-small is-left">
               <i class="fas fa-box" />
             </span> -->
-            Fluent Design</router-link>
+            Extras</router-link>
         </li>
         <li :class="{'is-active': $route.path === '/form'}">
           <router-link to="/form">

@@ -10,7 +10,7 @@
         <p>The Grid View presents a collection of items in rows and columns that can
         scroll vertically.</p>
         <hr>
-        <div class="grid-view is-revealed is-medium">
+        <div class="grid-view is-revealed is-medium is-primary">
           <button class="grid-item"
                   tabindex="1"
                   autofocus>A</button>
@@ -101,7 +101,7 @@
         and depth to your app. </p>
         <hr>
         <div class="block">
-          <div class="box has-acrylic-material-light">
+          <div class="box has-acrylic-material">
             Some content
           </div>
           <div class="box has-acrylic-material is-dark">
