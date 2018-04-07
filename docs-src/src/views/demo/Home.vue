@@ -16,10 +16,6 @@
               <strong>npm</strong> to install the bulma-fluent package
             </li>
             <li>
-              use the cdnjs
-              <strong>CDN</strong> to link to the stylesheet
-            </li>
-            <li>
               use the
               <strong>GitHub repository</strong> to get the latest development version
             </li>
@@ -38,17 +34,6 @@
             </li>
             <li>
               <p class="title is-5">
-                Use the
-                <a href="https://cdnjs.com/"
-                   target="_blank">cdnjs</a> CDN:
-              </p>
-              <p>
-                <a href="https://cdnjs.com/libraries/bulma-fluent">https://cdnjs.com/libraries/bulma-fluent</a>
-              </p>
-              <br>
-            </li>
-            <li>
-              <p class="title is-5">
                 Download from the repository:
               </p>
               <p>
@@ -62,8 +47,8 @@
         <div class="content">
           <h2 class="subtitle is-4">Documentation</h2>
           <p>Visit the
-            <router-link to="extras">Specials</router-link> link to check for new classes, for everything
-            other you can follow official bulma documentaion available
+            <router-link to="extras">Extras</router-link> link to check for new classes, for everything other
+            you can follow official bulma documentaion available
           <a href="https://bulma.io">here</a>.</p>
         </div>
       </div>
