@@ -3,8 +3,114 @@
     <section class="section">
       <div class="container">
         <h1 class="title">Specials</h1>
-        <p>This theme has some extra classes implementing fluent design concepts. </p>
+        <p>This theme has some extra components implementing fluent design concepts.
+        </p>
         <hr>
+
+        <h2 class="subtitle is-4">Navigation view</h2>
+        <p>The navigation view control provides a collapsible navigation menu for top-level
+        navigation in your app. This control implements the nav pane, or hamburger
+        menu, pattern and automatically adapts the pane's display mode to different
+        window sizes..</p>
+        <p>Navigation view is built using
+        <code>Menu</code> component.</p>
+        <hr>
+        <button class="button is-primary">
+          <span class="icon is-small">
+            <i class="fa fa-align-center" />
+        </span> &nbsp; Open Navigation view</button>
+        <div class="navigation-bar">
+          <aside class="menu">
+            <p class="menu-label">
+              General
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-box"
+                       aria-hidden="true" />
+                  </span> Dashboard
+                </a>
+              </li>
+              <li class="is-active">
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-address-card"
+                       aria-hidden="true" />
+                </span> Customers</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Administration
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-cog"
+                       aria-hidden="true" />
+                </span> Team Settings</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-child"
+                       aria-hidden="true" />
+                </span> Manage Your Team</a>
+              </li>
+              <li class="is-disabled">
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-at"
+                       aria-hidden="true" />
+                </span> Invitations</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-cloudversify"
+                       aria-hidden="true" />
+                </span> Cloud Storage Settings</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-user"
+                       aria-hidden="true" />
+                </span> Authentication</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Transactions
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-amazon-pay"
+                       aria-hidden="true" />
+                </span> Payments</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-align-center"
+                       aria-hidden="true" />
+                </span> Transfers</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-briefcase"
+                       aria-hidden="true" />
+                </span> Balance</a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <br>
+        <br>
 
         <h2 class="subtitle is-4">Grid View</h2>
         <p>The Grid View presents a collection of items in rows and columns that can
@@ -71,17 +177,17 @@
         moves focus to them.</p>
         <hr>
         <div class="is-revealed is-primary has-text-centered">
-          <button class="button is-dark"
+          <button class="button"
                   tabindex="30">Content</button>
-          <button class="button is-dark"
+          <button class="button"
                   tabindex="31">Content</button>
-          <button class="button is-dark"
+          <button class="button"
                   tabindex="32">Content</button>
-          <button class="button is-dark"
+          <button class="button"
                   tabindex="33">Content</button>
-          <button class="button is-dark"
+          <button class="button"
                   tabindex="34">Content</button>
-          <button class="button is-dark"
+          <button class="button"
                   tabindex="35">Content</button>
         </div>
         <br>

@@ -26,7 +26,7 @@
               <span>Visit Github Repo</span>
             </a>
             <a class="button is-primary"
-               href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.css"
+               href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css"
 
                title="Download"
                target="_blank">

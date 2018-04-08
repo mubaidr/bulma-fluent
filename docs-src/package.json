@@ -42,7 +42,7 @@
   "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --progress --hot --watch"
   },
   "version": "1.0.0"
 }

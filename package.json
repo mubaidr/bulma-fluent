@@ -6,6 +6,7 @@
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
     "autoprefixer": "^8.2.0",
+    "clean-css-cli": "^4.1.11",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -18,9 +19,20 @@
     "postcss-cli": "^5.0.0",
     "rimraf": "^2.6.2"
   },
-  "files": ["css", "sass", "bulma.sass", "LICENSE", "README.md"],
+  "files": [
+    "css",
+    "sass",
+    "bulma.sass",
+    "LICENSE",
+    "README.md"
+  ],
   "homepage": "https://mubaidr.github.io/bulma-fluent",
-  "keywords": ["css", "bulma", "theme", "fluent"],
+  "keywords": [
+    "css",
+    "bulma",
+    "theme",
+    "fluent"
+  ],
   "license": "MIT",
   "main": "bulma.sass",
   "name": "bulma-fluent",
@@ -29,7 +41,8 @@
     "url": "git+https://github.com/mubaidr/bulma-fluent.git"
   },
   "scripts": {
-    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix",
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
+    "build-minify": "cleancss -O2 -o css/bulma.min.css css/bulma.css",
     "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma.css css/bulma.css",
     "build-clean": "rimraf css",
     "build-docs": "cd docs-src && npm run build && cd..",
@@ -39,5 +52,5 @@
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "bulma/css/bulma.css",
-  "version": "0.1.21"
+  "version": "0.1.23"
 }
