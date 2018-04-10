@@ -50,6 +50,10 @@ export default {
 </script>
 
 <style>
+body {
+  background-image: url('./assets/logo.png');
+}
+
 hr {
   background-color: #f2f2f2;
 }

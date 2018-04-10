@@ -26,35 +26,25 @@
         <div class="field">
           <label class="label">Username</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-success"
+            <input class="input"
                    type="text"
-                   placeholder="Text input"
-                   value="bulma">
+                   placeholder="Text input">
             <span class="icon is-small is-left">
               <i class="fas fa-user" />
             </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-check" />
-            </span>
           </div>
-          <p class="help is-success">This username is available</p>
         </div>
 
         <div class="field">
           <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger"
+            <input class="input"
                    type="email"
-                   placeholder="Email input"
-                   value="hello@">
+                   placeholder="Email input">
             <span class="icon is-small is-left">
               <i class="fas fa-envelope" />
             </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-exclamation-triangle" />
-            </span>
           </div>
-          <p class="help is-danger">This email is invalid</p>
         </div>
 
         <div class="field">

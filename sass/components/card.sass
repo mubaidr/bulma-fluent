@@ -9,7 +9,6 @@ $card-header-weight: $weight-bold !default
 $card-footer-border-top: 1px solid $border !default
 
 .card
-  +has-acrylic-material
   background-color: $card-background-color
   // border: 1px solid $border
   box-shadow: $box-shadow
@@ -19,6 +18,7 @@ $card-footer-border-top: 1px solid $border !default
   transition: box-shadow $speed $easing
   &:hover
     box-shadow: $box-shadow-hover
+  +has-acrylic-material
 .card-header
   align-items: stretch
   border-bottom: $card-footer-border-top

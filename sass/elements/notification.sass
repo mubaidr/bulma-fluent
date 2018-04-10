@@ -3,7 +3,6 @@ $notification-radius: $radius !default
 $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
 
 .notification
-  +has-acrylic-material
   +block
   // background-color: $notification-background-color
   // border-radius: $notification-radius
@@ -37,7 +36,11 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     $color-invert: nth($pair, 2)
+    $color-lightning: max((100% - lightness($color)) - 2%, 0%)
+    $color-luminance: colorLuminance($color)
+    $darken-percentage: $color-luminance * 70%
+    $desaturate-percentage: $color-luminance * 30%
     &.is-#{$name}
       background-color: $color
-      // border: 2px solid darken($color, 1%)
       color: $color-invert
+  +has-acrylic-material

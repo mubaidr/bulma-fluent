@@ -118,8 +118,7 @@
         <hr>
         <div class="grid-view is-revealed is-medium is-primary">
           <button class="grid-item"
-                  tabindex="1"
-                  autofocus>A</button>
+                  tabindex="1">A</button>
           <button class="grid-item"
                   tabindex="2">B</button>
           <button class="grid-item"

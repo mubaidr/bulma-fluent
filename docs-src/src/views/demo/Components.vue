@@ -118,96 +118,94 @@
       <hr>
       <div class="columns">
         <div class="column is-4 is-offset-4">
-          <div class="box no-padding">
-            <aside class="menu">
-              <p class="menu-label">
-                General
-              </p>
-              <ul class="menu-list">
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-box"
-                         aria-hidden="true" />
-                    </span> Dashboard
-                  </a>
-                </li>
-                <li class="is-active">
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-address-card"
-                         aria-hidden="true" />
-                  </span> Customers</a>
-                </li>
-              </ul>
-              <p class="menu-label">
-                Administration
-              </p>
-              <ul class="menu-list">
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-cog"
-                         aria-hidden="true" />
-                  </span> Team Settings</a>
-                </li>
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-child"
-                         aria-hidden="true" />
-                  </span> Manage Your Team</a>
-                </li>
-                <li class="is-disabled">
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-at"
-                         aria-hidden="true" />
-                  </span> Invitations</a>
-                </li>
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-cloudversify"
-                         aria-hidden="true" />
-                  </span> Cloud Storage Settings</a>
-                </li>
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-user"
-                         aria-hidden="true" />
-                  </span> Authentication</a>
-                </li>
-              </ul>
-              <p class="menu-label">
-                Transactions
-              </p>
-              <ul class="menu-list">
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-amazon-pay"
-                         aria-hidden="true" />
-                  </span> Payments</a>
-                </li>
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-align-center"
-                         aria-hidden="true" />
-                  </span> Transfers</a>
-                </li>
-                <li>
-                  <a>
-                    <span class="icon">
-                      <i class="fas fa-briefcase"
-                         aria-hidden="true" />
-                  </span> Balance</a>
-                </li>
-              </ul>
-            </aside>
-          </div>
+          <aside class="menu">
+            <p class="menu-label">
+              General
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-box"
+                       aria-hidden="true" />
+                  </span> Dashboard
+                </a>
+              </li>
+              <li class="is-active">
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-address-card"
+                       aria-hidden="true" />
+                </span> Customers</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Administration
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-cog"
+                       aria-hidden="true" />
+                </span> Team Settings</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-child"
+                       aria-hidden="true" />
+                </span> Manage Your Team</a>
+              </li>
+              <li class="is-disabled">
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-at"
+                       aria-hidden="true" />
+                </span> Invitations</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-cloudversify"
+                       aria-hidden="true" />
+                </span> Cloud Storage Settings</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-user"
+                       aria-hidden="true" />
+                </span> Authentication</a>
+              </li>
+            </ul>
+            <p class="menu-label">
+              Transactions
+            </p>
+            <ul class="menu-list">
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-amazon-pay"
+                       aria-hidden="true" />
+                </span> Payments</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-align-center"
+                       aria-hidden="true" />
+                </span> Transfers</a>
+              </li>
+              <li>
+                <a>
+                  <span class="icon">
+                    <i class="fas fa-briefcase"
+                       aria-hidden="true" />
+                </span> Balance</a>
+              </li>
+            </ul>
+          </aside>
         </div>
       </div>
       <br>

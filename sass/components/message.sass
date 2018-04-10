@@ -15,14 +15,12 @@ $message-body-pre-background-color: $white !default
 $message-body-pre-code-background-color: transparent !default
 
 .message
-  +has-acrylic-material
   +block
   background-color: $white
   // border-radius: $message-radius
   font-size: $size-normal
   transition: box-shadow $speed $easing
   box-shadow: $box-shadow
-  opacity: 0.9
   &:hover
     box-shadow: $box-shadow-hover
   strong
