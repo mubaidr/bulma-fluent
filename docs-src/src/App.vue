@@ -51,7 +51,7 @@ export default {
 
 <style>
 body {
-  background-image: url('./assets/logo.png');
+  /* background-image: url('./assets/logo.png'); */
 }
 
 hr {
