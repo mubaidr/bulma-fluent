@@ -4760,52 +4760,52 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .notification.is-white {
-  background-color: rgba(255, 255, 255, 0.8875);
+  background-color: rgba(255, 255, 255, 0.949);
   color: rgba(0, 0, 0, 0.95);
 }
 
 .notification.is-black {
-  background-color: rgba(0, 0, 0, 0.8875);
+  background-color: rgba(0, 0, 0, 0.949);
   color: rgba(255, 255, 255, 0.95);
 }
 
 .notification.is-light {
-  background-color: rgba(210, 210, 210, 0.8875);
+  background-color: rgba(210, 210, 210, 0.949);
   color: rgba(75, 75, 75, 0.95);
 }
 
 .notification.is-dark {
-  background-color: rgba(75, 75, 75, 0.8875);
+  background-color: rgba(75, 75, 75, 0.949);
   color: rgba(210, 210, 210, 0.95);
 }
 
 .notification.is-primary {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .notification.is-link {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .notification.is-info {
-  background-color: rgba(0, 153, 188, 0.8875);
+  background-color: rgba(0, 153, 188, 0.949);
   color: #fff;
 }
 
 .notification.is-success {
-  background-color: rgba(16, 124, 16, 0.8875);
+  background-color: rgba(16, 124, 16, 0.949);
   color: #fff;
 }
 
 .notification.is-warning {
-  background-color: rgba(255, 140, 12, 0.8875);
+  background-color: rgba(255, 140, 12, 0.949);
   color: #fff;
 }
 
 .notification.is-danger {
-  background-color: rgba(232, 17, 35, 0.8875);
+  background-color: rgba(232, 17, 35, 0.949);
   color: #fff;
 }
 
@@ -5849,52 +5849,52 @@ a.tag:hover {
 }
 
 .card.is-white {
-  background-color: rgba(255, 255, 255, 0.8875);
+  background-color: rgba(255, 255, 255, 0.949);
   color: rgba(0, 0, 0, 0.95);
 }
 
 .card.is-black {
-  background-color: rgba(0, 0, 0, 0.8875);
+  background-color: rgba(0, 0, 0, 0.949);
   color: rgba(255, 255, 255, 0.95);
 }
 
 .card.is-light {
-  background-color: rgba(210, 210, 210, 0.8875);
+  background-color: rgba(210, 210, 210, 0.949);
   color: rgba(75, 75, 75, 0.95);
 }
 
 .card.is-dark {
-  background-color: rgba(75, 75, 75, 0.8875);
+  background-color: rgba(75, 75, 75, 0.949);
   color: rgba(210, 210, 210, 0.95);
 }
 
 .card.is-primary {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .card.is-link {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .card.is-info {
-  background-color: rgba(0, 153, 188, 0.8875);
+  background-color: rgba(0, 153, 188, 0.949);
   color: #fff;
 }
 
 .card.is-success {
-  background-color: rgba(16, 124, 16, 0.8875);
+  background-color: rgba(16, 124, 16, 0.949);
   color: #fff;
 }
 
 .card.is-warning {
-  background-color: rgba(255, 140, 12, 0.8875);
+  background-color: rgba(255, 140, 12, 0.949);
   color: #fff;
 }
 
 .card.is-danger {
-  background-color: rgba(232, 17, 35, 0.8875);
+  background-color: rgba(232, 17, 35, 0.949);
   color: #fff;
 }
 
@@ -6229,52 +6229,52 @@ a.dropdown-item.is-active {
 }
 
 .menu.is-white {
-  background-color: rgba(255, 255, 255, 0.8875);
+  background-color: rgba(255, 255, 255, 0.949);
   color: rgba(0, 0, 0, 0.95);
 }
 
 .menu.is-black {
-  background-color: rgba(0, 0, 0, 0.8875);
+  background-color: rgba(0, 0, 0, 0.949);
   color: rgba(255, 255, 255, 0.95);
 }
 
 .menu.is-light {
-  background-color: rgba(210, 210, 210, 0.8875);
+  background-color: rgba(210, 210, 210, 0.949);
   color: rgba(75, 75, 75, 0.95);
 }
 
 .menu.is-dark {
-  background-color: rgba(75, 75, 75, 0.8875);
+  background-color: rgba(75, 75, 75, 0.949);
   color: rgba(210, 210, 210, 0.95);
 }
 
 .menu.is-primary {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .menu.is-link {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .menu.is-info {
-  background-color: rgba(0, 153, 188, 0.8875);
+  background-color: rgba(0, 153, 188, 0.949);
   color: #fff;
 }
 
 .menu.is-success {
-  background-color: rgba(16, 124, 16, 0.8875);
+  background-color: rgba(16, 124, 16, 0.949);
   color: #fff;
 }
 
 .menu.is-warning {
-  background-color: rgba(255, 140, 12, 0.8875);
+  background-color: rgba(255, 140, 12, 0.949);
   color: #fff;
 }
 
 .menu.is-danger {
-  background-color: rgba(232, 17, 35, 0.8875);
+  background-color: rgba(232, 17, 35, 0.949);
   color: #fff;
 }
 
@@ -7282,52 +7282,52 @@ a.dropdown-item.is-active {
 }
 
 .navbar.is-white {
-  background-color: rgba(255, 255, 255, 0.8875);
+  background-color: rgba(255, 255, 255, 0.949);
   color: rgba(0, 0, 0, 0.95);
 }
 
 .navbar.is-black {
-  background-color: rgba(0, 0, 0, 0.8875);
+  background-color: rgba(0, 0, 0, 0.949);
   color: rgba(255, 255, 255, 0.95);
 }
 
 .navbar.is-light {
-  background-color: rgba(210, 210, 210, 0.8875);
+  background-color: rgba(210, 210, 210, 0.949);
   color: rgba(75, 75, 75, 0.95);
 }
 
 .navbar.is-dark {
-  background-color: rgba(75, 75, 75, 0.8875);
+  background-color: rgba(75, 75, 75, 0.949);
   color: rgba(210, 210, 210, 0.95);
 }
 
 .navbar.is-primary {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .navbar.is-link {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .navbar.is-info {
-  background-color: rgba(0, 153, 188, 0.8875);
+  background-color: rgba(0, 153, 188, 0.949);
   color: #fff;
 }
 
 .navbar.is-success {
-  background-color: rgba(16, 124, 16, 0.8875);
+  background-color: rgba(16, 124, 16, 0.949);
   color: #fff;
 }
 
 .navbar.is-warning {
-  background-color: rgba(255, 140, 12, 0.8875);
+  background-color: rgba(255, 140, 12, 0.949);
   color: #fff;
 }
 
 .navbar.is-danger {
-  background-color: rgba(232, 17, 35, 0.8875);
+  background-color: rgba(232, 17, 35, 0.949);
   color: #fff;
 }
 
@@ -7997,52 +7997,52 @@ a.navbar-link.is-active {
 }
 
 .panel.is-white {
-  background-color: rgba(255, 255, 255, 0.8875);
+  background-color: rgba(255, 255, 255, 0.949);
   color: rgba(0, 0, 0, 0.95);
 }
 
 .panel.is-black {
-  background-color: rgba(0, 0, 0, 0.8875);
+  background-color: rgba(0, 0, 0, 0.949);
   color: rgba(255, 255, 255, 0.95);
 }
 
 .panel.is-light {
-  background-color: rgba(210, 210, 210, 0.8875);
+  background-color: rgba(210, 210, 210, 0.949);
   color: rgba(75, 75, 75, 0.95);
 }
 
 .panel.is-dark {
-  background-color: rgba(75, 75, 75, 0.8875);
+  background-color: rgba(75, 75, 75, 0.949);
   color: rgba(210, 210, 210, 0.95);
 }
 
 .panel.is-primary {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .panel.is-link {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .panel.is-info {
-  background-color: rgba(0, 153, 188, 0.8875);
+  background-color: rgba(0, 153, 188, 0.949);
   color: #fff;
 }
 
 .panel.is-success {
-  background-color: rgba(16, 124, 16, 0.8875);
+  background-color: rgba(16, 124, 16, 0.949);
   color: #fff;
 }
 
 .panel.is-warning {
-  background-color: rgba(255, 140, 12, 0.8875);
+  background-color: rgba(255, 140, 12, 0.949);
   color: #fff;
 }
 
 .panel.is-danger {
-  background-color: rgba(232, 17, 35, 0.8875);
+  background-color: rgba(232, 17, 35, 0.949);
   color: #fff;
 }
 
@@ -10897,52 +10897,89 @@ label.panel-block:active:not(.is-active) {
 }
 
 .has-acrylic-material.is-white {
-  background-color: rgba(255, 255, 255, 0.8875);
+  background-color: rgba(255, 255, 255, 0.949);
   color: rgba(0, 0, 0, 0.95);
 }
 
 .has-acrylic-material.is-black {
-  background-color: rgba(0, 0, 0, 0.8875);
+  background-color: rgba(0, 0, 0, 0.949);
   color: rgba(255, 255, 255, 0.95);
 }
 
 .has-acrylic-material.is-light {
-  background-color: rgba(210, 210, 210, 0.8875);
+  background-color: rgba(210, 210, 210, 0.949);
   color: rgba(75, 75, 75, 0.95);
 }
 
 .has-acrylic-material.is-dark {
-  background-color: rgba(75, 75, 75, 0.8875);
+  background-color: rgba(75, 75, 75, 0.949);
   color: rgba(210, 210, 210, 0.95);
 }
 
 .has-acrylic-material.is-primary {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .has-acrylic-material.is-link {
-  background-color: rgba(0, 119, 209, 0.8875);
+  background-color: rgba(0, 119, 209, 0.949);
   color: #fff;
 }
 
 .has-acrylic-material.is-info {
-  background-color: rgba(0, 153, 188, 0.8875);
+  background-color: rgba(0, 153, 188, 0.949);
   color: #fff;
 }
 
 .has-acrylic-material.is-success {
-  background-color: rgba(16, 124, 16, 0.8875);
+  background-color: rgba(16, 124, 16, 0.949);
   color: #fff;
 }
 
 .has-acrylic-material.is-warning {
-  background-color: rgba(255, 140, 12, 0.8875);
+  background-color: rgba(255, 140, 12, 0.949);
   color: #fff;
 }
 
 .has-acrylic-material.is-danger {
-  background-color: rgba(232, 17, 35, 0.8875);
+  background-color: rgba(232, 17, 35, 0.949);
   color: #fff;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 33%;
+  max-width: 420px;
+  min-width: 320px;
+  transition: -webkit-transform 250ms ease-out;
+  transition: transform 250ms ease-out;
+  transition: transform 250ms ease-out, -webkit-transform 250ms ease-out;
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+  box-shadow: 5px 1px 25px rgba(0, 0, 0, 0.25);
+  z-index: 99998;
+}
+
+.navigation-bar.active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.navigation-bar > .menu {
+  padding-top: 45px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.navigation-bar > .delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  padding: 15px;
 }
 /*# sourceMappingURL=bulma.css.map */
