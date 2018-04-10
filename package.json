@@ -52,5 +52,5 @@
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "bulma/css/bulma.css",
-  "version": "0.1.25"
+  "version": "0.1.3"
 }

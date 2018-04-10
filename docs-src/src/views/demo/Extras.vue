@@ -15,11 +15,17 @@
         <p>Navigation view is built using
         <code>Menu</code> component.</p>
         <hr>
-        <button class="button is-primary">
-          <span class="icon is-small">
-            <i class="fa fa-align-center" />
-        </span> &nbsp; Open Navigation view</button>
-        <div class="navigation-bar">
+        <div class="has-text-centered">
+          <button class="button is-primary"
+                  @click="isNavigationBarOpen = !isNavigationBarOpen">
+            <span class="icon is-small">
+              <i class="fa fa-align-center" />
+          </span> &nbsp; Open Navigation view</button>
+        </div>
+        <div :class="{'active': isNavigationBarOpen}"
+             class="navigation-bar">
+          <button class="delete"
+                  @click="isNavigationBarOpen = !isNavigationBarOpen" />
           <aside class="menu">
             <p class="menu-label">
               General
@@ -109,6 +115,19 @@
             </ul>
           </aside>
         </div>
+        <h2 class="subtitle is-5">How to use</h2>
+        Toggling
+        <code>active</code> class on
+        <code>navigation-bar</code> will open/close it.
+        <details>
+          <summary>Sample Mark up Code</summary>
+          <p>
+            &lt;div class="navigation-bar"&gt; &lt;button class="delete"/&gt;
+            <br>
+            <code>Place menu component here</code>
+            <br> &lt;div&gt;
+          </p>
+        </details>
         <br>
         <br>
 
@@ -252,7 +271,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      isNavigationBarOpen: false
+    }
+  }
+}
 </script>
 
 <style>

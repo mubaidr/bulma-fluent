@@ -1,1 +1,25 @@
-//TODO: implement this
+.navigation-bar
+  position: fixed
+  top: 0
+  left: 0
+  height: 100vh
+  width: 33%
+  max-width: 420px
+  min-width: 320px
+  transition: transform $speed $easing
+  transform: translateX(-110%)
+  box-shadow: 5px 1px 25px rgba(0,0,0,0.25)
+  z-index: 99998
+  &.active
+    transform: translateX(0%)
+  & > .menu
+    padding-top: 45px
+    position: relative
+    height: 100%
+    width: 100%
+  & > .delete
+    position: absolute
+    top: 0
+    right: 0
+    z-index: 99999
+    padding: 15px
