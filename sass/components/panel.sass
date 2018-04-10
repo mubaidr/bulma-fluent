@@ -105,9 +105,10 @@ label.panel-block
   cursor: pointer
   color: $panel-list-item-color
   &:hover
-    background-color: darken($panel-block-hover-background-color, 5%)
+    background-color: transparentize($panel-block-hover-background-color, 0.5)
   &:active:not(.is-active)
-    background-color: darken($panel-block-hover-background-color, 10%)
+    // transform: scale(0.98)
+    background-color: transparentize($panel-block-hover-background-color, 0.25)
 
 .panel-icon
   +fa(14px, 1em)

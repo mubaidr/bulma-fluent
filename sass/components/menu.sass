@@ -38,11 +38,11 @@ $menu-label-color: lighten($dark, 33%) !default
       color: $black
       transition: all 0.25s ease-out
     &:hover:not(.is-disabled)
-      background-color: $menu-item-hover-background-color
+      background-color: transparentize($menu-item-hover-background-color, 0.5)
       // color: $menu-item-hover-color
       // Modifiers
     &:active:not(.is-disabled)
-      background-color: darken($menu-item-hover-background-color, 15%)
+      // background-color: transparentize($menu-item-hover-background-color, 0.25)
       & a
         transform: scale(0.98)
     &.is-active
