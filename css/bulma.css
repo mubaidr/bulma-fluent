@@ -10954,13 +10954,13 @@ label.panel-block:active:not(.is-active) {
   width: 33%;
   max-width: 420px;
   min-width: 320px;
-  transition: -webkit-transform 250ms ease-out;
-  transition: transform 250ms ease-out;
-  transition: transform 250ms ease-out, -webkit-transform 250ms ease-out;
+  transition: opacity 250ms ease-out, -webkit-transform 250ms ease-out;
+  transition: transform 250ms ease-out, opacity 250ms ease-out;
+  transition: transform 250ms ease-out, opacity 250ms ease-out, -webkit-transform 250ms ease-out;
   -webkit-transform: translateX(-110%);
           transform: translateX(-110%);
   box-shadow: 5px 1px 25px rgba(0, 0, 0, 0.25);
-  z-index: 99998;
+  z-index: 99990;
 }
 
 .navigation-bar.active {
@@ -10969,7 +10969,7 @@ label.panel-block:active:not(.is-active) {
 }
 
 .navigation-bar > .menu {
-  padding-top: 45px;
+  padding-top: 60px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -10979,7 +10979,42 @@ label.panel-block:active:not(.is-active) {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 99999;
+  z-index: 99991;
   padding: 15px;
+}
+
+.navigation-bar.is-static {
+  border-right: 1px solid rgba(236, 236, 236, 0.95);
+  min-width: 70px;
+  width: 0;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.navigation-bar.is-static > button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99992;
+}
+
+.navigation-bar.is-static.active {
+  width: 100%;
+}
+
+.navigation-bar.is-static:not(.active) {
+  box-shadow: none;
+}
+
+.navigation-bar.is-static:not(.active) > button {
+  width: calc(100% + 1px);
+}
+
+.navigation-bar.is-static:not(.active) span:not(.icon) {
+  display: none;
+}
+
+.navigation-bar.is-static:not(.active) .menu-label {
+  opacity: 0;
 }
 /*# sourceMappingURL=bulma.css.map */

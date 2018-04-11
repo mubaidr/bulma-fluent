@@ -6,14 +6,14 @@
   width: 33%
   max-width: 420px
   min-width: 320px
-  transition: transform $speed $easing
+  transition: transform $speed $easing, opacity $speed $easing
   transform: translateX(-110%)
   box-shadow: 5px 1px 25px rgba(0,0,0,0.25)
-  z-index: 99998
+  z-index: 99990
   &.active
     transform: translateX(0%)
   & > .menu
-    padding-top: 45px
+    padding-top: 60px
     position: relative
     height: 100%
     width: 100%
@@ -21,5 +21,25 @@
     position: absolute
     top: 0
     right: 0
-    z-index: 99999
+    z-index: 99991
     padding: 15px
+  &.is-static
+    border-right: 1px solid $border
+    min-width: 70px
+    width: 0
+    transform: translateX(0%)
+    & > button
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 99992
+    &.active
+      width: 100%
+    &:not(.active)
+      box-shadow: none
+      & > button
+        width: calc(100% + 1px)
+      & span:not(.icon)
+        display: none
+      & .menu-label
+        opacity: 0

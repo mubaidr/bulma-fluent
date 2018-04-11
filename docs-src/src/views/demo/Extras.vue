@@ -128,6 +128,9 @@
             <br> &lt;div&gt;
           </p>
         </details>
+        <p>You can also add
+          <code>is-static</code> class to make navbar like demo. (Always visible, toggle
+          icon description)</p>
         <br>
         <br>
 
