@@ -50,7 +50,7 @@
       </button>
       <aside class="menu">
         <p class="menu-label">
-          Main Menu
+          Menu oalalal
         </p>
         <ul class="menu-list">
           <li :class="{'is-active': $route.path === '/home' || $route.path === '/'}">

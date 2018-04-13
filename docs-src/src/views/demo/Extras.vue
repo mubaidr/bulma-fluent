@@ -130,7 +130,9 @@
         </details>
         <p>You can also add
           <code>is-static</code> class to make navbar like demo. (Always visible, toggle
-          icon description)</p>
+          icon description). Please make sure to add
+          <code>has-static-navigation-bar</code> class to body to make room for static
+          navigation bar. </p>
         <br>
         <br>
 

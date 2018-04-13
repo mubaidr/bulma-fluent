@@ -11192,8 +11192,8 @@ label.panel-block:active:not(.is-active) {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 33%;
-  max-width: 420px;
+  width: 320px;
+  max-width: 320px;
   min-width: 320px;
   transition: opacity 250ms ease-out, -webkit-transform 250ms ease-out;
   transition: transform 250ms ease-out, opacity 250ms ease-out;
@@ -11238,18 +11238,15 @@ label.panel-block:active:not(.is-active) {
   top: 0;
   left: 0;
   z-index: 99992;
+  width: 70px;
 }
 
 .navigation-bar.is-static.active {
-  width: 100%;
+  width: 320px;
 }
 
 .navigation-bar.is-static:not(.active) {
   box-shadow: none;
-}
-
-.navigation-bar.is-static:not(.active) > button {
-  width: calc(100% + 1px);
 }
 
 .navigation-bar.is-static:not(.active) span:not(.icon) {
@@ -11257,6 +11254,40 @@ label.panel-block:active:not(.is-active) {
 }
 
 .navigation-bar.is-static:not(.active) .menu-label {
-  opacity: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 1024px) {
+  .navigation-bar.is-static {
+    width: 320px;
+    box-shadow: none;
+  }
+  .navigation-bar.is-static > button {
+    display: none;
+  }
+  .navigation-bar.is-static span:not(.icon) {
+    display: inline-block !important;
+  }
+  .navigation-bar.is-static .menu-label {
+    text-align: left !important;
+    margin-left: 2.25em !important;
+    display: inline-block !important;
+  }
+}
+
+body.has-static-navigation-bar {
+  padding-left: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  body.has-static-navigation-bar {
+    padding-left: 320px;
+  }
 }
 /*# sourceMappingURL=bulma.css.map */

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header-view/>
-    <menu-view/>
+    <!-- <menu-view/> -->
     <div class="content-custom">
       <transition name="slide-right"
                   appear="appear"
