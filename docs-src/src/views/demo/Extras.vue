@@ -19,13 +19,18 @@
           <button class="button is-primary"
                   @click="isNavigationBarOpen = !isNavigationBarOpen">
             <span class="icon is-small">
-              <i class="fa fa-align-center" />
+              <i class="fa fa-bars" />
           </span> &nbsp; Open Navigation view</button>
         </div>
-        <div :class="{'active': isNavigationBarOpen}"
+        <div :class="{'is-active': isNavigationBarOpen}"
              class="navigation-bar">
-          <button class="delete"
-                  @click="isNavigationBarOpen = !isNavigationBarOpen" />
+          <button class="button"
+                  title="Close Main Menu"
+                  @click="isNavigationBarOpen = !isNavigationBarOpen">
+            <span class="icon">
+              <i class="fa fa-times" />
+            </span>
+          </button>
           <aside class="menu">
             <p class="menu-label">
               General
@@ -117,7 +122,7 @@
         </div>
         <h2 class="subtitle is-5">How to use</h2>
         Toggling
-        <code>active</code> class on
+        <code>is-active</code> class on
         <code>navigation-bar</code> will open/close it.
         <details>
           <summary>Sample Mark up Code</summary>

@@ -9,8 +9,8 @@
   transition: transform $speed $easing, opacity $speed $easing
   transform: translateX(-110%)
   box-shadow: 5px 1px 25px rgba(0,0,0,0.25)
-  z-index: 99990
-  &.active
+  z-index: 37
+  &.is-active
     transform: translateX(0%)
   & > .menu
     box-shadow: none
@@ -18,26 +18,29 @@
     position: relative
     height: 100%
     width: 100%
-  & > .delete
+    & > li
+      cursor: ponter
+  & > .button
     position: absolute
     top: 0
     right: 0
-    z-index: 99991
-    padding: 15px
+    z-index: 38
+    margin: 0
+    // padding: 15px
   &.is-static
     border-right: 1px solid $border
     min-width: 70px
     width: 0
     transform: translateX(0%)
-    & > button
+    & > .button
       position: absolute
       top: 0
       left: 0
-      z-index: 99992
+      z-index: 39
       width: 70px
-    &.active
+    &.is-active
       width: 320px
-    &:not(.active)
+    &:not(.is-active)
       box-shadow: none
       & span:not(.icon)
         display: none
@@ -52,7 +55,7 @@
     +desktop
       width: 320px
       box-shadow: none
-      & > button
+      & > .button
         display: none
       & span:not(.icon)
         display: inline-block!important

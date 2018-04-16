@@ -11201,10 +11201,10 @@ label.panel-block:active:not(.is-active) {
   -webkit-transform: translateX(-110%);
           transform: translateX(-110%);
   box-shadow: 5px 1px 25px rgba(0, 0, 0, 0.25);
-  z-index: 99990;
+  z-index: 37;
 }
 
-.navigation-bar.active {
+.navigation-bar.is-active {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
 }
@@ -11217,12 +11217,16 @@ label.panel-block:active:not(.is-active) {
   width: 100%;
 }
 
-.navigation-bar > .delete {
+.navigation-bar > .menu > li {
+  cursor: ponter;
+}
+
+.navigation-bar > .button {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 99991;
-  padding: 15px;
+  z-index: 38;
+  margin: 0;
 }
 
 .navigation-bar.is-static {
@@ -11233,27 +11237,27 @@ label.panel-block:active:not(.is-active) {
           transform: translateX(0%);
 }
 
-.navigation-bar.is-static > button {
+.navigation-bar.is-static > .button {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 99992;
+  z-index: 39;
   width: 70px;
 }
 
-.navigation-bar.is-static.active {
+.navigation-bar.is-static.is-active {
   width: 320px;
 }
 
-.navigation-bar.is-static:not(.active) {
+.navigation-bar.is-static:not(.is-active) {
   box-shadow: none;
 }
 
-.navigation-bar.is-static:not(.active) span:not(.icon) {
+.navigation-bar.is-static:not(.is-active) span:not(.icon) {
   display: none;
 }
 
-.navigation-bar.is-static:not(.active) .menu-label {
+.navigation-bar.is-static:not(.is-active) .menu-label {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -11268,7 +11272,7 @@ label.panel-block:active:not(.is-active) {
     width: 320px;
     box-shadow: none;
   }
-  .navigation-bar.is-static > button {
+  .navigation-bar.is-static > .button {
     display: none;
   }
   .navigation-bar.is-static span:not(.icon) {

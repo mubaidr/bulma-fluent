@@ -39,18 +39,18 @@
       </div>
     </section>
 
-    <div :class="{'active': isNavigationBarOpen}"
+    <div :class="{'is-active': isNavigationBarOpen}"
          class="navigation-bar is-static">
-      <button class="button is-dark"
+      <button class="button"
               title="Toggle Main Menu"
               @click="isNavigationBarOpen = !isNavigationBarOpen">
         <span class="icon">
-          <i class="fa fa-align-center" />
+          <i class="fa fa-bars" />
         </span>
       </button>
       <aside class="menu">
         <p class="menu-label">
-          Menu oalalal
+          Menu
         </p>
         <ul class="menu-list">
           <li :class="{'is-active': $route.path === '/home' || $route.path === '/'}">
