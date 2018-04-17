@@ -11211,7 +11211,7 @@ label.panel-block:active:not(.is-active) {
 
 .navigation-bar > .menu {
   box-shadow: none;
-  padding-top: 60px;
+  padding-top: 50px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -11227,11 +11227,12 @@ label.panel-block:active:not(.is-active) {
   right: 0;
   z-index: 38;
   margin: 0;
+  border-color: transparent !important;
 }
 
 .navigation-bar.is-static {
   border-right: 1px solid rgba(236, 236, 236, 0.95);
-  min-width: 70px;
+  min-width: 60px;
   width: 0;
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
@@ -11242,7 +11243,8 @@ label.panel-block:active:not(.is-active) {
   top: 0;
   left: 0;
   z-index: 39;
-  width: 70px;
+  padding: 0.25em 0;
+  width: 60px;
 }
 
 .navigation-bar.is-static.is-active {
@@ -11286,7 +11288,7 @@ label.panel-block:active:not(.is-active) {
 }
 
 body.has-static-navigation-bar {
-  padding-left: 70px;
+  padding-left: 60px;
 }
 
 @media screen and (min-width: 1024px) {
