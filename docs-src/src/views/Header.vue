@@ -57,7 +57,7 @@
             <router-link to="/home"
                          title="Getting Started">
               <span class="icon">
-                <i class="fas fa-arrow-right" />
+                <i class="fas fa-home" />
               </span>
               <span>Getting Started</span>
             </router-link>
@@ -75,7 +75,7 @@
             <router-link to="/elements"
                          title="Elements">
               <span class="icon">
-                <i class="fas fa-list" />
+                <i class="fas fa-box" />
               </span>
               <span>Elements</span>
             </router-link>
@@ -84,7 +84,7 @@
             <router-link to="/components"
                          title="Components">
               <span class="icon">
-                <i class="fas fa-box" />
+                <i class="fas fa-object-group" />
               </span>
               <span>Components</span>
             </router-link>
@@ -93,7 +93,7 @@
             <router-link to="/extras"
                          title="Extras">
               <span class="icon">
-                <i class="fas fa-box" />
+                <i class="fas fa-list" />
               </span>
               <span>Extras</span>
             </router-link>
@@ -108,7 +108,7 @@
                title="Github Repository"
                target="_blank">
               <span class="icon">
-                <i class="fas fa-github"
+                <i class="fas fa-star"
                    aria-hidden="true" />
               </span>
               <span>Github</span>

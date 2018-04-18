@@ -10,8 +10,7 @@ module.exports = {
     filename: '[name].js'
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.css$/,
         use: ['vue-style-loader', 'css-loader']
       },
@@ -21,7 +20,9 @@ module.exports = {
       },
       {
         test: /\.sass$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax']
+        use: ['vue-style-loader', 'css-loader',
+          'sass-loader?indentedSyntax'
+        ]
       },
       {
         test: /\.vue$/,
@@ -48,6 +49,13 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]?[hash]'
+        }
+      },
+      {
+        test: /\.(ttf|woff|woff2|otf|eot)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]'
