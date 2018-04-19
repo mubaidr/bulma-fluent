@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-primary is-medium">
+    <section class="hero is-primary is-medium is-bold">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -19,13 +19,17 @@
           </h2>
           <br>
           <p>
-            <a class="button is-highlighted"
+            <a class="button"
                href="https://github.com/mubaidr/bulma-fluent"
                title="Github Repository"
                target="_blank">
+              <span class="icon">
+                <i class="fas fa-star"
+                   aria-hidden="true" />
+              </span>
               <span>Visit Github Repo</span>
             </a>
-            <a class="button is-primary"
+            <a class="button"
                href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css"
 
                title="Download"

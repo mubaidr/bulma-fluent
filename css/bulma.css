@@ -3075,7 +3075,6 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 .input.is-small,
 .textarea.is-small {
-  border-radius: 1px;
   font-size: 0.75rem;
 }
 
@@ -3677,7 +3676,6 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .select.is-small {
-  border-radius: 1px;
   font-size: 0.75rem;
 }
 
@@ -4661,6 +4659,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .notification {
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative;
   transition: box-shadow 250ms ease-out;
@@ -6111,6 +6110,7 @@ a.dropdown-item.is-active {
 }
 
 .menu {
+  background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
   -webkit-user-select: none;
