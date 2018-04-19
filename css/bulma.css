@@ -10746,7 +10746,7 @@ label.panel-block:active:not(.is-active) {
 
 .navigation-bar > .menu {
   box-shadow: none;
-  padding-top: 50px;
+  padding-top: 36px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -10754,6 +10754,7 @@ label.panel-block:active:not(.is-active) {
 
 .navigation-bar > .menu > li {
   cursor: ponter;
+  padding-left: calc(0.75em - 2px);
 }
 
 .navigation-bar > .button {
