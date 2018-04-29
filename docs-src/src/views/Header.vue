@@ -45,7 +45,7 @@
 
     <div :class="{'is-active': isNavigationBarOpen}"
          class="navigation-bar is-static">
-      <button class="button"
+      <button class="button is-white"
               title="Toggle Main Menu"
               @click="isNavigationBarOpen = !isNavigationBarOpen">
         <span class="icon">

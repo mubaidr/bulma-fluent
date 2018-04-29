@@ -1,4 +1,7 @@
 const path = require('path')
+const {
+  VueLoaderPlugin
+} = require('vue-loader')
 
 module.exports = {
   entry: {
@@ -79,6 +82,9 @@ module.exports = {
   performance: {
     hints: false
   },
+  plugins: [
+    new VueLoaderPlugin()
+  ],
   devtool: '#eval-source-map'
 }
 

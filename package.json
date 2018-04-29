@@ -5,7 +5,7 @@
   },
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "autoprefixer": "^8.3.0",
+    "autoprefixer": "^8.4.1",
     "clean-css-cli": "^4.1.11",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -15,7 +15,7 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "node-sass": "^4.8.3",
+    "node-sass": "^4.9.0",
     "postcss-cli": "^5.0.0",
     "rimraf": "^2.6.2"
   },
@@ -52,5 +52,5 @@
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "bulma/css/bulma.css",
-  "version": "0.1.37"
+  "version": "0.1.38"
 }
