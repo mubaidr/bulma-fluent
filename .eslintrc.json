@@ -13,7 +13,7 @@
     "sourceType": "module"
   },
   "plugins": ["vue"],
-  "extends": ["airbnb", "plugin:vue/recommended", "prettier"],
+  "extends": ["airbnb", "plugin:vue/recommended"],
   "rules": {
     "vue/max-attributes-per-line": "off",
     "linebreak-style": "off",
