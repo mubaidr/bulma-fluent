@@ -10780,7 +10780,7 @@ label.panel-block:active:not(.is-active) {
   left: 0;
   z-index: 39;
   padding: 0.25em 0;
-  width: 60px;
+  width: 59px;
 }
 
 .navigation-bar.is-static.is-active {
