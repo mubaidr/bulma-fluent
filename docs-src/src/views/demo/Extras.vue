@@ -229,7 +229,7 @@
         </p>
 
         <br>
-
+<!--
         <h2 class="subtitle is-4">Acrylic Material</h2>
         <p> Acrylic is a Fluent Design System component that adds physical texture (material)
         and depth to your app. </p>
@@ -252,6 +252,7 @@
         </p>
 
         <br>
+        -->
 
         <h2 class="subtitle is-4">Highlighted Buttons</h2>
         <hr>

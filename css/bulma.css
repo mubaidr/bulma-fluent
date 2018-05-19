@@ -10780,6 +10780,7 @@ label.panel-block:active:not(.is-active) {
   left: 0;
   z-index: 39;
   padding: 0.25em 0;
+  padding-left: calc(0.25em + 2px);
   width: 59px;
 }
 
