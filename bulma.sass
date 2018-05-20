@@ -1,11 +1,16 @@
-@charset "utf-8"
-
 /*! https://mubaidr.github.io/bulma-fluent | MIT License | github.com/mubaidr/bulma-fluent */
 
-@import "sass/utilities/_all"
-@import "sass/base/_all"
-@import "sass/elements/_all"
-@import "sass/components/_all"
-@import "sass/grid/_all"
-@import "sass/layout/_all"
-@import "sass/extras/_all"
+@import "bulma/sass/utilities/functions.sass"
+
+// Import color customizations
+@import "./sass/color/initial-variables.sass"
+@import "./sass/color/derived-variables.sass"
+
+// Import the rest of Bulma
+@import "bulma/bulma.sass"
+
+// Import component customizations
+@import "./sass/component/_all.sass"
+
+// Import the extras
+@import "./sass/extras/_all.sass"

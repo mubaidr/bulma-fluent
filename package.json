@@ -3,6 +3,9 @@
   "bugs": {
     "url": "https://github.com/mubaidr/bulma-fluent/issues"
   },
+  "dependencies": {
+    "bulma": "^0.7.1"
+  },
   "description":
     "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
@@ -39,9 +42,9 @@
     "build-sass":
       "node-sass --output-style expanded --source-map true bulma.sass css/bulma.css",
     "dev": "cd docs-src && npm run dev && cd..",
-    "start": "npm run build-sass -- --watch",
+    "start": "npm run build-sass --watch",
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "bulma/css/bulma.css",
-  "version": "0.1.39"
+  "version": "0.2.0"
 }
