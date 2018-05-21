@@ -1,4 +1,60 @@
-textarea,
+// Remove bordeutton,
+progress,
+button.delete
+  border-radius: 0!important
+
+// Update border-width
 input,
-select
-  box-shadow: none!important
+textarea,
+select,
+button,
+.button,
+.file-cta,
+.file-name,
+.pagination-link,
+.pagination-previous,
+.pagination-next
+  border-width: 2px!important
+
+.file-name
+  border-left: 1px!important
+
+.file-cta,
+.file-name
+  border-color: $border !important
+  &:hover
+    border-color: $border-hover !important
+
+.buttons.has-addons
+  & .button:not(:first-child)
+    border-left-width: 1px !important
+  & .button:not(:last-child)
+    border-right-width: 1px !important
+
+// Update box component
+.box
+  border: 1px solid $grey-lighter
+
+// Update menu component
+.menu
+  padding-top: 0.5rem
+  padding-bottom: 0.5rem
+  border: 1px solid $grey-lighter
+  & > .menu-label
+    padding-left: 1rem
+
+// Update progress bar
+.progress
+  height: 4px
+  &.is-small
+    height: 2px
+  &.is-medium
+    height: 6px
+  &.is-large
+    height: 8px
+
+.table
+  .is-selected
+    td,
+    th
+      border-color: darken($primary, 5%)!important

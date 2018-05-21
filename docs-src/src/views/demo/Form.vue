@@ -8,27 +8,21 @@
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
-            <input class="input"
-                   type="text"
-                   placeholder="Text input">
+            <input class="input" type="text" placeholder="Text input">
           </div>
         </div>
 
         <div class="field">
           <label class="label">Nick</label>
           <div class="control">
-            <input class="input"
-                   type="text"
-                   placeholder="Text input">
+            <input class="input" type="text" placeholder="Text input">
           </div>
         </div>
 
         <div class="field">
           <label class="label">Username</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input"
-                   type="text"
-                   placeholder="Text input">
+            <input class="input" type="text" placeholder="Text input">
             <span class="icon is-small is-left">
               <i class="fas fa-user" />
             </span>
@@ -38,9 +32,7 @@
         <div class="field">
           <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input"
-                   type="email"
-                   placeholder="Email input">
+            <input class="input" type="email" placeholder="Email input">
             <span class="icon is-small is-left">
               <i class="fas fa-envelope" />
             </span>
@@ -62,16 +54,14 @@
         <div class="field">
           <label class="label">Message</label>
           <div class="control">
-            <textarea class="textarea"
-                      placeholder="Textarea" />
+            <textarea class="textarea" placeholder="Textarea" />
           </div>
         </div>
 
         <div class="field">
           <div class="control">
             <label class="checkbox is-primary">
-              <input type="checkbox"
-                     checked> I agree to the
+              <input type="checkbox" checked> I agree to the
               <a href="#">terms and conditions</a>
             </label>
           </div>
@@ -80,8 +70,7 @@
         <div class="field">
           <div class="control">
             <label class="toggle is-primary">
-              <input type="checkbox"
-                     checked> Subscribe to news-letter
+              <input type="checkbox" checked> Subscribe to news-letter
             </label>
           </div>
         </div>
@@ -89,13 +78,10 @@
         <div class="field">
           <div class="control">
             <label class="radio">
-              <input type="radio"
-                     name="question"> Yes
+              <input type="radio" name="question"> Yes
             </label>
             <label class="radio">
-              <input type="radio"
-                     name="question"
-                     checked> No
+              <input type="radio" name="question" checked> No
             </label>
           </div>
         </div>
@@ -114,9 +100,7 @@
             </span>
           </p>
           <p class="control is-expanded">
-            <input class="input"
-                   type="text"
-                   placeholder="Amount of money">
+            <input class="input" type="text" placeholder="Amount of money">
           </p>
           <p class="control">
             <a class="button">
@@ -156,16 +140,13 @@
             </span>
           </p>
           <p class="control">
-            <button class="button"
-                    type="submit">Choose
+            <button class="button" type="submit">Choose
             </button>
           </p>
         </div>
         <div class="file has-name">
           <label class="file-label">
-            <input class="file-input"
-                   type="file"
-                   name="resume">
+            <input class="file-input" type="file" name="resume">
             <span class="file-cta">
               <span class="file-icon">
                 <i class="fas fa-upload" />
@@ -198,5 +179,4 @@ export default {}
 </script>
 
 <style>
-
 </style>

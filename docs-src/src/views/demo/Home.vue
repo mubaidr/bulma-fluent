@@ -46,10 +46,9 @@
 
         <div class="content">
           <h2 class="subtitle is-4">Documentation</h2>
-          <p>Visit the
-            <router-link to="extras">Extras</router-link> link to check for new classes, for everything other
-            you can follow official bulma documentaion available
-          <a href="https://bulma.io">here</a>.</p>
+          <p>Visit the You can follow
+            <a href="https://bulma.io/documentation/">official bulma documentaion</a> or visit
+            <router-link to="extras">Extras</router-link> for some new components.</p>
         </div>
       </div>
     </section>
@@ -61,5 +60,4 @@ export default {}
 </script>
 
 <style>
-
 </style>
