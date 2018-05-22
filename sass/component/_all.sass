@@ -39,11 +39,15 @@ button,
 
 // Update menu component
 .menu
-  padding-top: 0.5rem
-  padding-bottom: 0.5rem
-  border: 1px solid $grey-light
   & > .menu-label
-    padding-left: 1rem
+    padding-left: calc(1rem + 8px)
+  a
+    border-left: 8px solid transparent
+    &.is-active
+      cursor: default
+      border-left-color: $primary
+      background-color: transparent
+      color: $text
 
 // Update table
 .table
