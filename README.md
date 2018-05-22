@@ -1,4 +1,4 @@
-# [Bulma-Fluent](https://mubaidr.github.io/bulma-fluent)
+# Bulma-Fluent
 
 Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 

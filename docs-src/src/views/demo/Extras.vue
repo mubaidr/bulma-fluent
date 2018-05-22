@@ -133,7 +133,7 @@
         <h2 class="subtitle is-4">Grid View</h2>
         <p>The Grid View presents a collection of items in rows and columns that can scroll vertically.</p>
         <hr>
-        <div class="grid-view is-revealed is-medium is-primary">
+        <div class="grid-view is-revealed is-small">
           <button class="grid-item" tabindex="1">A</button>
           <button class="grid-item" tabindex="2">B</button>
           <button class="grid-item" tabindex="3">C</button>
@@ -148,7 +148,6 @@
           <button class="grid-item" tabindex="12">K</button>
           <button class="grid-item" tabindex="13">L</button>
           <button class="grid-item" tabindex="14">M</button>
-          <button class="grid-item" tabindex="15">N</button>
         </div>
         <h2 class="subtitle is-5">How to use</h2>
         <details>
