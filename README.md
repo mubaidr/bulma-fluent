@@ -2,7 +2,9 @@
 
 Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
-[![npm version](https://badge.fury.io/js/bulma-fluent.svg)](https://badge.fury.io/js/bulma-fluent)
+[![NPM](https://nodei.co/npm/bulma-fluent.png?compact=true)](https://nodei.co/npm/bulma-fluent/)
+
+![dependencies](https://david-dm.org/mubaidr/bulma-fluent.svg)
 
 ## [Demo](https://mubaidr.github.io/bulma-fluent/)
 

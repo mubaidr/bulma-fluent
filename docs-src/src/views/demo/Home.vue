@@ -28,7 +28,7 @@
               <p class="title is-5">Use npm:
               </p>
               <p>
-                <code>npm install bulma-fluent</code>
+                <a href="https://nodei.co/npm/bulma-fluent/"><img src="https://nodei.co/npm/bulma-fluent.png?compact=true"></a>
               </p>
               <br>
             </li>
@@ -37,7 +37,7 @@
                 Download from the repository:
               </p>
               <p>
-                <a href="https://github.com/mubaidr/bulma-fluent/tree/master/css">https://github.com/mubaidr/bulma-fluent/tree/master/css</a>
+                <a href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css">https://github.com/mubaidr/bulma-fluent/tree/master/css</a>
               </p>
               <br>
             </li>

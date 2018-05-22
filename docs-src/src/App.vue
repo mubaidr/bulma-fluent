@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <header-view/>
-    <!-- <menu-view/> -->
     <div class="content-custom">
       <transition name="slide-right" appear="appear" mode="out-in">
         <router-view/>
@@ -14,14 +13,12 @@
 <script>
 import headerView from './views/Header.vue'
 import footerView from './views/Footer.vue'
-import menuView from './views/Menu.vue'
 
 export default {
   name: 'App',
   components: {
     headerView,
     footerView,
-    menuView,
   },
   data() {
     return {

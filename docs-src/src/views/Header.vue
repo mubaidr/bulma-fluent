@@ -45,40 +45,40 @@
           Menu
         </p>
         <ul class="menu-list">
-          <li :class="{'is-active': $route.path === '/home' || $route.path === '/'}">
-            <router-link to="/home" title="Getting Started">
+          <li>
+            <router-link to="/" title="Getting Started" exact-active-class="is-active">
               <span class="icon">
                 <i class="fas fa-home" />
               </span>
               <span>Getting Started</span>
             </router-link>
           </li>
-          <li :class="{'is-active': $route.path === '/form'}">
-            <router-link to="/form" title="Form Inputs">
+          <li>
+            <router-link to="/form" title="Form Inputs" active-class="is-active">
               <span class="icon">
                 <i class="fas fa-clipboard" />
               </span>
               <span>Form Inputs</span>
             </router-link>
           </li>
-          <li :class="{'is-active': $route.path === '/elements'}">
-            <router-link to="/elements" title="Elements">
+          <li>
+            <router-link to="/elements" title="Elements" active-class="is-active">
               <span class="icon">
                 <i class="fas fa-box" />
               </span>
               <span>Elements</span>
             </router-link>
           </li>
-          <li :class="{'is-active': $route.path === '/components'}">
-            <router-link to="/components" title="Components">
+          <li>
+            <router-link to="/components" title="Components" active-class="is-active">
               <span class="icon">
                 <i class="fas fa-object-group" />
               </span>
               <span>Components</span>
             </router-link>
           </li>
-          <li :class="{'is-active': $route.path === '/extras'}">
-            <router-link to="/extras" title="Extras">
+          <li>
+            <router-link to="/extras" title="Extras" active-class="is-active">
               <span class="icon">
                 <i class="fas fa-list" />
               </span>
