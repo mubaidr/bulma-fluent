@@ -5,6 +5,21 @@
 button.delete
   border-radius: 0
 
+// Button active state
+.button,
+.pagination-link,
+.pagination-previous,
+.pagination-next
+  &:active
+    transform: scale(0.96)
+
+// Pagination
+.pagination
+  .pagination-link,
+  .pagination-previous,
+  .pagination-next
+    box-shadow: none
+
 // Update border-width
 input,
 textarea,
