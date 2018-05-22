@@ -10,8 +10,7 @@
         <article class="media">
           <div class="media-left">
             <figure class="image is-64x64">
-              <img src="https://bulma.io/images/placeholders/128x128.png"
-                   alt="Image">
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
             </figure>
           </div>
           <div class="media-content">
@@ -20,9 +19,7 @@
                 <strong>John Smith</strong>
                 <small>@johnsmith</small>
                 <small>31m</small>
-                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                efficitur sit amet massa fringilla egestas. Nullam condimentum luctus
-                turpis.
+                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
               </p>
             </div>
           </div>
@@ -36,9 +33,9 @@
       <div>
         <div class="block">
           <a class="button">Default</a>
+          <a class="button is-light">Light</a>
           <a class="button is-dark">Dark</a>
           <a class="button is-primary">Primary</a>
-          <a class="button is-link">Link</a>
           <a class="button is-info">Info</a>
           <a class="button is-success">Success</a>
           <a class="button is-warning">Warning</a>
@@ -46,6 +43,8 @@
         </div>
         <div class="block">
           <a class="button is-loading"> Loading
+          </a>
+          <a class="button is-light is-loading"> Loading
           </a>
           <a class="button is-dark is-loading"> Loading</a>
           <a class="button is-primary is-loading"> Loading
@@ -64,7 +63,6 @@
           <a class="button is-outlined">Outlined</a>
           <a class="button is-dark is-outlined">Outlined</a>
           <a class="button is-primary is-outlined">Outlined</a>
-          <a class="button is-link is-outlined">Outlined</a>
           <a class="button is-info is-outlined">Outlined</a>
           <a class="button is-success is-outlined">Outlined</a>
           <a class="button is-danger is-outlined">Outlined</a>
@@ -169,32 +167,18 @@
       <h2 class="subtitle is-4">Progress bars</h2>
       <hr>
       <div id="progress">
-        <progress class="progress"
-                  max="1000">0%
+        <progress class="progress is-primary">0%</progress>
+        <progress class="progress" max="100" value="40"> 15%
         </progress>
-        <progress class="progress"
-                  max="100"
-                  value="15"> 15%
+        <progress class="progress is-primary" max="100" value="50"> 30%
         </progress>
-        <progress class="progress is-primary"
-                  max="100"
-                  value="30"> 30%
+        <progress class="progress is-info" max="100" value="60"> 45%
         </progress>
-        <progress class="progress is-info"
-                  max="100"
-                  value="45"> 45%
+        <progress class="progress is-success" max="100" value="70"> 60%
         </progress>
-        <progress class="progress is-success"
-                  max="100"
-                  value="60"> 60%
+        <progress class="progress is-warning" max="100" value="80"> 75%
         </progress>
-        <progress class="progress is-warning"
-                  max="100"
-                  value="75"> 75%
-        </progress>
-        <progress class="progress is-danger"
-                  max="100"
-                  value="90"> 90%
+        <progress class="progress is-danger" max="100" value="90"> 90%
         </progress>
       </div>
 
@@ -207,52 +191,44 @@
           <div class="notification">
             <button class="delete" /> Lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="notification is-dark">
             <button class="delete" /> Lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="notification is-primary">
             <button class="delete" /> Primar lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="notification is-info">
             <button class="delete" /> Info lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
         </div>
         <div class="column">
           <div class="notification is-light">
             <button class="delete" /> Lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="notification is-success">
             <button class="delete" /> Success lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="notification is-warning">
             <button class="delete" /> Warning lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="notification is-danger">
             <button class="delete" /> Danger lorem ipsum dolor sit amet,
             <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing
-            elit
+            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
         </div>
       </div>
@@ -353,5 +329,4 @@ export default {}
 </script>
 
 <style>
-
 </style>

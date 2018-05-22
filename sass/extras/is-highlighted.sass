@@ -1,0 +1,7 @@
+.is-highlighted
+  box-shadow: 0 0 15px $grey-light!important
+  // Colors
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      box-shadow: 0 0 15px lighten($color, 25%)!important

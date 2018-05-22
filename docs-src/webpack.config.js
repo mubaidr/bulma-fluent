@@ -1,31 +1,28 @@
 const path = require('path')
-const {
-  VueLoaderPlugin
-} = require('vue-loader')
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
   entry: {
-    build: './src/main.js'
+    build: './src/main.js',
   },
   output: {
     path: path.resolve(__dirname, '../docs'),
     publicPath: '',
-    filename: '[name].js'
+    filename: '[name].js',
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.css$/,
-        use: ['vue-style-loader', 'css-loader']
+        use: ['vue-style-loader', 'css-loader'],
       },
       {
         test: /\.scss$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader']
+        use: ['vue-style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.sass$/,
-        use: ['vue-style-loader', 'css-loader',
-          'sass-loader?indentedSyntax'
-        ]
+        use: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax'],
       },
       {
         test: /\.vue$/,
@@ -39,53 +36,51 @@ module.exports = {
             sass: [
               'vue-style-loader',
               'css-loader',
-              'sass-loader?indentedSyntax'
-            ]
-          }
+              'sass-loader?indentedSyntax',
+            ],
+          },
           // other vue-loader options go here
-        }
+        },
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
-        }
+          name: '[name].[ext]?[hash]',
+        },
       },
       {
         test: /\.(ttf|woff|woff2|otf|eot)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
-        }
-      }
-    ]
+          name: '[name].[ext]?[hash]',
+        },
+      },
+    ],
   },
   resolve: {
     alias: {
-      vue$: 'vue/dist/vue.esm.js'
+      vue$: 'vue/dist/vue.esm.js',
     },
-    extensions: ['*', '.js', '.vue', '.json']
+    extensions: ['*', '.js', '.vue', '.json', 'sass'],
   },
   devServer: {
     historyApiFallback: true,
     hot: true,
     open: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
   },
   performance: {
-    hints: false
+    hints: false,
   },
-  plugins: [
-    new VueLoaderPlugin()
-  ],
-  devtool: '#eval-source-map'
+  plugins: [new VueLoaderPlugin()],
+  devtool: '#eval-source-map',
 }
 
 if (process.env.NODE_ENV === 'production') {

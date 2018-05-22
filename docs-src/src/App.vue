@@ -1,11 +1,8 @@
 <template>
   <div id="app">
     <header-view/>
-    <!-- <menu-view/> -->
     <div class="content-custom">
-      <transition name="slide-right"
-                  appear="appear"
-                  mode="out-in">
+      <transition name="slide-right" appear="appear" mode="out-in">
         <router-view/>
       </transition>
     </div>
@@ -16,24 +13,22 @@
 <script>
 import headerView from './views/Header.vue'
 import footerView from './views/Footer.vue'
-import menuView from './views/Menu.vue'
 
 export default {
   name: 'App',
   components: {
     headerView,
     footerView,
-    menuView
   },
   data() {
     return {
-      transitionName: 'slide-up'
+      transitionName: 'slide-up',
     }
   },
   watch: {
     $route(to, from) {
       this.setTransition(to, from)
-    }
+    },
   },
   methods: {
     setTransition(to, from) {
@@ -44,8 +39,8 @@ export default {
       } else {
         this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

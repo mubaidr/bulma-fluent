@@ -28,7 +28,7 @@
               <p class="title is-5">Use npm:
               </p>
               <p>
-                <code>npm install bulma-fluent</code>
+                <a href="https://nodei.co/npm/bulma-fluent/"><img src="https://nodei.co/npm/bulma-fluent.png?compact=true"></a>
               </p>
               <br>
             </li>
@@ -37,7 +37,7 @@
                 Download from the repository:
               </p>
               <p>
-                <a href="https://github.com/mubaidr/bulma-fluent/tree/master/css">https://github.com/mubaidr/bulma-fluent/tree/master/css</a>
+                <a href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css">https://github.com/mubaidr/bulma-fluent/tree/master/css</a>
               </p>
               <br>
             </li>
@@ -46,10 +46,9 @@
 
         <div class="content">
           <h2 class="subtitle is-4">Documentation</h2>
-          <p>Visit the
-            <router-link to="extras">Extras</router-link> link to check for new classes, for everything other
-            you can follow official bulma documentaion available
-          <a href="https://bulma.io">here</a>.</p>
+          <p>Visit the You can follow
+            <a href="https://bulma.io/documentation/">official bulma documentaion</a> or visit
+            <router-link to="extras">Extras</router-link> for some new components.</p>
         </div>
       </div>
     </section>
@@ -61,5 +60,4 @@ export default {}
 </script>
 
 <style>
-
 </style>
