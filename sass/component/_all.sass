@@ -10,6 +10,7 @@ button.delete
 .pagination-link,
 .pagination-previous,
 .pagination-next
+  cursor: default
   &:active
     transform: scale(0.96)
 
@@ -121,3 +122,9 @@ progress:indeterminate
 .navbar
   &.is-transparent
     border: 1px solid $grey-lighter
+
+// Message
+.message
+  background-color: $white!important
+  .message-header + .message-body
+    border-width: 1px
