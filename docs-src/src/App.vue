@@ -3,9 +3,7 @@
     <header-view/>
     <!-- <menu-view/> -->
     <div class="content-custom">
-      <transition name="slide-right"
-                  appear="appear"
-                  mode="out-in">
+      <transition name="slide-right" appear="appear" mode="out-in">
         <router-view/>
       </transition>
     </div>
@@ -23,17 +21,17 @@ export default {
   components: {
     headerView,
     footerView,
-    menuView
+    menuView,
   },
   data() {
     return {
-      transitionName: 'slide-up'
+      transitionName: 'slide-up',
     }
   },
   watch: {
     $route(to, from) {
       this.setTransition(to, from)
-    }
+    },
   },
   methods: {
     setTransition(to, from) {
@@ -44,8 +42,8 @@ export default {
       } else {
         this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
