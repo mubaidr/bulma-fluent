@@ -1,3 +1,5 @@
+@import "./animation.sass"
+
 // Remove bordeutton,
 progress,
 button.delete
@@ -33,15 +35,22 @@ button,
 
 // Update box component
 .box
-  border: 1px solid $grey-lighter
+  border: 1px solid $grey-light
 
 // Update menu component
 .menu
   padding-top: 0.5rem
   padding-bottom: 0.5rem
-  border: 1px solid $grey-lighter
+  border: 1px solid $grey-light
   & > .menu-label
     padding-left: 1rem
+
+// Update table
+.table
+  .is-selected
+    td,
+    th
+      border-color: darken($primary, 5%)!important
 
 // Update progress bar
 .progress
@@ -53,8 +62,24 @@ button,
   &.is-large
     height: 8px
 
-.table
-  .is-selected
-    td,
-    th
-      border-color: darken($primary, 5%)!important
+// indeterminate progress
+progress:indeterminate
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 25%
+    height: 100%
+    background-color: $primary
+    -webkit-animation: progress-bar 5s infinite
+    animation: progress-bar 5s infinite
+    -webkit-animation-timing-function: linear
+    animation-timing-function: linear
+    // Colors
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      &:before
+        background-color: $color

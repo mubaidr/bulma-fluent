@@ -167,17 +167,16 @@
       <h2 class="subtitle is-4">Progress bars</h2>
       <hr>
       <div id="progress">
-        <progress class="progress" max="1000">0%
+        <progress class="progress is-primary">0%</progress>
+        <progress class="progress" max="100" value="40"> 15%
         </progress>
-        <progress class="progress" max="100" value="15"> 15%
+        <progress class="progress is-primary" max="100" value="50"> 30%
         </progress>
-        <progress class="progress is-primary" max="100" value="30"> 30%
+        <progress class="progress is-info" max="100" value="60"> 45%
         </progress>
-        <progress class="progress is-info" max="100" value="45"> 45%
+        <progress class="progress is-success" max="100" value="70"> 60%
         </progress>
-        <progress class="progress is-success" max="100" value="60"> 60%
-        </progress>
-        <progress class="progress is-warning" max="100" value="75"> 75%
+        <progress class="progress is-warning" max="100" value="80"> 75%
         </progress>
         <progress class="progress is-danger" max="100" value="90"> 90%
         </progress>
