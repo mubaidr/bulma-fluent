@@ -24,10 +24,49 @@ npm install bulma-fluent
 yarn add bulma-fluent
 ```
 
-### Download from this Repository
+### Import
 
-[Download](https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.css)
+After installation, you can import the CSS/Sass file into your project using this snippet:
+
+#### css
+
+```sh
+import 'bulma-fluent/css/bulma.css'
+```
+
+#### sass
+
+```sh
+import 'bulma-fluent/bulma.sass'
+```
+
+## Download from this Repository
+
+[Download Latest Minified Build](https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css)
+
+## Customize
+
+Simply set your own Sass variables before importing Bulma-fluent.
+
+```scss
+// Set your brand colors
+$primary: #8a4d76;
+$info: #fa7c91;
+$success: #757763;
+$warning: yellow;
+$danger: red;
+$light: #ccc;
+$dark: #444;
+
+// Update font family
+$family-sans-serif: 'Calibri', 'Arial';
+
+// Import the Bulma-fluent
+@import 'bulma-fluent/bulma.sass';
+```
 
 ## Copyright and license
 
-Code copyright 2018 [Muhammad Ubaid Raza](https://mubaidr.github.io). Code released under [the MIT license](https://github.com/jgthms/bulma/blob/master/LICENSE).
+Code copyright 2018 [Muhammad Ubaid Raza](https://mubaidr.github.io).
+
+Code released under [the MIT license](https://github.com/jgthms/bulma/blob/master/LICENSE).

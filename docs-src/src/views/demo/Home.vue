@@ -30,6 +30,15 @@
               <p>
                 <a href="https://nodei.co/npm/bulma-fluent/"><img src="https://nodei.co/npm/bulma-fluent.png?compact=true"></a>
               </p>
+              <p>
+                <code>
+                  import 'bulma-fluent/css/bulma.css'
+                </code>
+                <br/>or import sass file.<br/>
+                <code>
+                  import 'bulma-fluent/bulma.sass'
+                </code>
+              </p>
             </li>
             <li>
               <p class="title is-5">
@@ -61,7 +70,7 @@ $dark: #444
 $family-sans-serif: "Calibri", "Arial"
 
 // Import the Bulma-fluent
-@import "../bulma"
+@import "bulma-fluent/bulma.sass"
 </code></pre>
           </p>
         </div>
