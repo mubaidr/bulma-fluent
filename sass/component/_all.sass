@@ -1,9 +1,9 @@
 @import "./animation.sass"
 
 // Remove bordeutton,
-progress,
+.progress,
 button.delete
-  border-radius: 0!important
+  border-radius: 0
 
 // Update border-width
 input,
@@ -44,17 +44,16 @@ button,
   a
     border-left: 8px solid transparent
     &.is-active
-      cursor: default
       border-left-color: $primary
       background-color: transparent
       color: $text
 
 // Update table
 .table
-  .is-selected
+  tr.is-selected
     td,
     th
-      border-color: darken($primary, 5%)!important
+      border-color: darken($primary, 5%)
 
 // Update progress bar
 .progress
@@ -87,3 +86,18 @@ progress:indeterminate
     &.is-#{$name}
       &:before
         background-color: $color
+
+// Panel
+.panel
+  border: 1px solid $border
+  .panel-heading,
+  .panel-tabs,
+  .panel-block
+    border-width: 0 0 1px 8px
+    border-left-color: transparent
+    border-bottom-color: $grey-lighter
+  .panel-block
+    &:last-child
+      border-bottom-width: 0
+    &.is-active
+      border-left-color: $primary
