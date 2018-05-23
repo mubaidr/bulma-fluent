@@ -8,9 +8,7 @@
         <hr>
 
         <h2 class="subtitle is-4">Navigation view</h2>
-        <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app. This control implements the nav pane, or hamburger menu, pattern and automatically adapts the pane's display mode to different window sizes..</p>
-        <p>Navigation view is built using
-          <code>Menu</code> component.</p>
+        <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
         <hr>
         <div class="has-text-centered">
           <button class="button is-primary" @click="isNavigationBarOpen = !isNavigationBarOpen">
@@ -125,8 +123,11 @@
           <code>navigation-bar</code> will open/close it.</p>
         <p>
           <span class="tag is-info">Info:</span> You can also add
-          <code>is-static</code> class to make navbar like demo. (Always visible, toggle icon description). Please make sure to add
-          <code>has-static-navigation-bar</code> class to body to make room for static navigation bar. </p>
+          <code>is-static</code> class to make navbar like demo. (Always visible, toggle icon description). </p>
+        <p>
+          <span class="tag is-warning">Note:</span> Please make sure to add
+          <code>has-static-navigation-bar</code> class to body
+          <em>if</em> you are using static navigation bar.</p>
         <br>
         <br>
 
@@ -165,10 +166,18 @@
         </details>
         <br>
         <p>
-          <span class="tag is-info">info:</span> Add
-          <code>is-revealed</code> class to grid view for focus reveal animation. You can also choose any of the color variant i.e.
+          <span class="tag is-info">info:</span> You can also choose any of the color variant i.e.
           <code>is-primary</code>,
-          <code>is-info</code>
+          <code>is-warn</code>,
+          <code>is-danger</code>,
+          <code>is-info</code>,
+          <code>is-success</code>,
+          <code>is-light</code>,
+          <code>is-dark</code>
+        </p>
+        <p>
+          <span class="tag is-info">info:</span> Add
+          <code>is-revealed</code> class to grid view for focus reveal animation.
         </p>
 
         <br>
@@ -189,9 +198,16 @@
         <h2 class="subtitle is-5">How to use</h2>
         <p>
           <span class="tag is-info">info:</span> Add
-          <code>is-revealed</code> class to the parent of the container. All focusable childrens will be revealed when focused. You can also choose any of the color variant i.e.
+          <code>is-revealed</code> class to the parent of the container. All focusable childrens will be revealed when focused. </p>
+        <p>
+          <span class="tag is-info">info:</span> You can also choose any of the color variant i.e.
           <code>is-primary</code>,
-          <code>is-info</code>
+          <code>is-warn</code>,
+          <code>is-danger</code>,
+          <code>is-info</code>,
+          <code>is-success</code>,
+          <code>is-light</code>,
+          <code>is-dark</code>
         </p>
 
         <br>

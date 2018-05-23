@@ -23,7 +23,7 @@
               </span>
               <span>Star on Github</span>
             </a>
-            <a class="button is-primary" href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" title="Download" target="_blank">
+            <a class="button is-light" href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" title="Download" target="_blank">
               <span class="icon">
                 <i class="fa fa-download" />
               </span>
