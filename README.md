@@ -2,6 +2,8 @@
 
 Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
+<a href="https://liberapay.com/mubaidr/donate" target="_blank"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+
 [![NPM](https://nodei.co/npm/bulma-fluent.png?compact=true)](https://nodei.co/npm/bulma-fluent/)
 
 ![dependencies](https://david-dm.org/mubaidr/bulma-fluent.svg)
