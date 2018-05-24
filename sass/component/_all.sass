@@ -3,15 +3,32 @@
 // Remove bordeutton,
 .progress,
 button.delete
-  border-radius: 0
+  border-radius: 2px
 
 // Button active state
 .button,
 .pagination-link,
 .pagination-previous,
 .pagination-next
+  transition: all 0.25s ease-out
+  &:hover
+    box-shadow: 1px 4px 8px rgba(0,0,0,0.25)
   &:active
     transform: scale(0.96)
+
+.button
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      &:hover
+        background-color: lighten($color, 10%)
+
+.hero
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      border-bottom: 1px solid darken($color, 2.5%)
+      box-shadow: 0 7px 75px darken(desaturate($color, 50%), 10%), 0 1px 3px rgba(0,0,0,0.5)
 
 // Pagination
 .pagination
@@ -43,6 +60,8 @@ button,
     border-color: $border-hover !important
 
 .buttons.has-addons
+  .button
+    box-shadow: none
   & .button:not(:first-child)
     border-left-width: 1px !important
   & .button:not(:last-child)
