@@ -4,7 +4,7 @@
       <h1 class="title">Elements</h1>
       <hr>
 
-      <h2 class="subtitle is-4">Box</h2>
+      <h2 class="subtitle is-3">Box</h2>
       <hr>
       <div class="box">
         <article class="media">
@@ -28,7 +28,7 @@
 
       <br>
 
-      <h2 class="subtitle is-4">Buttons</h2>
+      <h2 class="subtitle is-3">Buttons</h2>
       <hr>
       <div>
         <div class="block">
@@ -164,16 +164,9 @@
 
       <br><br>
 
-      <h2 class="subtitle is-4">Progress bars</h2>
+      <h2 class="subtitle is-3">Progress bars</h2>
       <hr>
       <div id="progress">
-        <div class="progress is-circular">
-          <div class="dot one"></div>
-          <div class="dot two"></div>
-          <div class="dot three"></div>
-          <div class="dot four"></div>
-          <div class="dot five"></div>
-        </div>
         <progress class="progress is-primary">0%</progress>
         <progress class="progress" max="100" value="40"> 40%
         </progress>
@@ -191,7 +184,7 @@
 
       <br><br>
 
-      <h2 class="subtitle is-4">Notifications</h2>
+      <h2 class="subtitle is-3">Notifications</h2>
       <hr>
       <div class="columns">
         <div class="column">
@@ -242,7 +235,7 @@
 
       <br>
 
-      <h2 class="subtitle is-4">Tags</h2>
+      <h2 class="subtitle is-3">Tags</h2>
       <hr>
       <div class="tags">
         <span class="tag">Default</span>
@@ -288,7 +281,7 @@
 
       <br>
 
-      <h2 class="subtitle is-4">Tables</h2>
+      <h2 class="subtitle is-3">Tables</h2>
       <hr>
       <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
         <tr>

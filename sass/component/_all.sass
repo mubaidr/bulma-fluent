@@ -92,9 +92,7 @@ progress:indeterminate
     width: 25%
     height: 100%
     background-color: $primary
-    -webkit-animation: progress-bar 5s infinite
     animation: progress-bar 5s infinite
-    -webkit-animation-timing-function: linear
     animation-timing-function: linear
     // Colors
   @each $name, $pair in $colors
@@ -131,34 +129,19 @@ progress:indeterminate
     &+.message-body
       border-width: 1px
 
-// custom progress
-.progress.is-circular
-  position: relative
-  width: 64px
-  height: 64px
-  background-color: $background
-  border-radius: 50%
-  .dot
-    position: absolute
-    content: ''
-    width: 10%
-    height: 10%
-    top: 0
-    left: 0
-    background-color: $dark
-    border-radius: 50%
-    &.one
-      top: 20%
-      left: 14%
-    &.two
-      top: 7%
-      left: 25%
-    &.three
-      top: 0%
-      left: 42%
-    &.four
-      top: 7%
-      left: 59%
-    &.five
-      top: 20%
-      left: 71%
+// Progress bar animation
+@keyframes progress-bar
+  0%
+    left: 10%
+  17%
+    left: 65%
+  34%
+    left: 15%
+  51%
+    left: 60%
+  68%
+    left: 20%
+  85%
+    left: 55%
+  100%
+    left: 10%

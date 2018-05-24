@@ -6,7 +6,7 @@
 
       <hr>
 
-      <h2 class="subtitle is-4">Card</h2>
+      <h2 class="subtitle is-3">Card</h2>
 
       <hr>
       <div class="columns">
@@ -45,7 +45,7 @@
 
       <br>
       <br>
-      <h2 class="subtitle is-4">Breadcrumb</h2>
+      <h2 class="subtitle is-3">Breadcrumb</h2>
       <hr>
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
@@ -65,7 +65,7 @@
       </nav>
 
       <br>
-      <h2 class="subtitle is-4">Dropdown</h2>
+      <h2 class="subtitle is-3">Dropdown</h2>
       <hr>
       <div class="column is-4 is-offset-4">
         <div :class="{'is-active': dropdownActive}" class="dropdown" @click="toggleDropDown">
@@ -100,7 +100,7 @@
       <br>
       <br>
       <br>
-      <h2 class="subtitle is-4">Menu</h2>
+      <h2 class="subtitle is-3">Menu</h2>
       <hr>
       <div class="columns">
         <div class="column is-4 is-offset-4">
@@ -189,7 +189,7 @@
       <br>
       <br>
       <br>
-      <h2 class="subtitle is-4">Messages</h2>
+      <h2 class="subtitle is-3">Messages</h2>
       <hr>
       <div class="columns">
         <div class="column">
@@ -292,7 +292,7 @@
       </div>
 
       <br>
-      <h2 class="subtitle is-4">Navbar</h2>
+      <h2 class="subtitle is-3">Navbar</h2>
       <hr>
       <nav class="navbar is-transparent">
         <div class="navbar-brand">
@@ -371,7 +371,7 @@
 
       <br>
       <br>
-      <h2 class="subtitle is-4">Pagination</h2>
+      <h2 class="subtitle is-3">Pagination</h2>
       <hr>
       <nav class="pagination" role="navigation" aria-label="pagination">
         <a class="pagination-previous">Previous</a>
@@ -404,7 +404,7 @@
       <br>
       <br>
       <br>
-      <h2 class="subtitle is-4">Panel</h2>
+      <h2 class="subtitle is-3">Panel</h2>
       <hr>
       <div class="columns">
         <div class="column is-4 is-offset-4">
@@ -474,7 +474,7 @@
 
       <br>
       <br>
-      <h2 class="subtitle is-4">Tabs</h2>
+      <h2 class="subtitle is-3">Tabs</h2>
       <hr>
       <div class="tabs is-centered">
         <ul>

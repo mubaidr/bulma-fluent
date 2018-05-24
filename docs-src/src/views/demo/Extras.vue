@@ -7,15 +7,161 @@
         </p>
         <hr>
 
-        <h2 class="subtitle is-4">Navigation view</h2>
+        <h2 class="subtitle is-3">Loader</h2>
+        <p>A simple loader.</p>
+        <hr>
+        <div class="block loader-container">
+          <div class="custom-loader is-small is-primary">
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+          </div>
+          <div class="custom-loader is-primary">
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+          </div>
+          <div class="custom-loader is-medium is-primary">
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+          </div>
+          <div class="custom-loader is-large is-primary">
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+            <div class="dot">
+              <div class="inner-dot">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <h2 class="subtitle is-5">How to use</h2>
+
+        <details>
+          <summary>
+            <span class="tag is-primary">Sample Mark up Code</span>
+          </summary>
+          <p>
+            <pre>
+&lt;div class=&quot;custom-loader is-large is-primary&quot;&gt;
+  &lt;div class=&quot;dot&quot;&gt;
+    &lt;div class=&quot;inner-dot&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;dot&quot;&gt;
+    &lt;div class=&quot;inner-dot&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;dot&quot;&gt;
+    &lt;div class=&quot;inner-dot&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;dot&quot;&gt;
+    &lt;div class=&quot;inner-dot&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;dot&quot;&gt;
+    &lt;div class=&quot;inner-dot&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </pre>
+          </p>
+        </details>
+        <br/>
+        <p>
+          <span class="tag is-info">info:</span> You can also choose any of the color variant i.e.
+          <code>is-primary</code>,
+          <code>is-warn</code>,
+          <code>is-danger</code>,
+          <code>is-info</code>,
+          <code>is-success</code>,
+          <code>is-light</code>,
+          <code>is-dark</code>
+        </p>
+        <p>
+          <span class="tag is-info">info:</span> You can also choose any of the size variant i.e.
+          <code>is-small</code>,
+          <code>is-medium</code>,
+          <code>is-large</code>
+        </p>
+        <br/>
+        <h2 class="subtitle is-3">Navigation view</h2>
         <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
         <hr>
-        <div class="has-text-centered">
-          <button class="button is-primary" @click="isNavigationBarOpen = !isNavigationBarOpen">
-            <span class="icon is-small">
-              <i class="fa fa-bars" />
-            </span> &nbsp; Toggle Navigation view</button>
-        </div>
+        <button class="button is-primary" @click="isNavigationBarOpen = !isNavigationBarOpen">
+          <span class="icon is-small">
+            <i class="fa fa-bars" />
+          </span> &nbsp; Toggle Navigation view</button>
+        <br/>
+        <br/>
         <div :class="{'is-active': isNavigationBarOpen}" class="navigation-bar">
           <button class="button" title="Close Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
             <span class="icon">
@@ -108,12 +254,11 @@
             <span class="tag is-primary">Sample Mark up Code</span>
           </summary>
           <p>
-            <br/> &lt;div class="navigation-bar"&gt; &lt;button class="delete"/&gt;
-            <br>
-            <code>
-              <!--Place menu component here-->
-            </code>
-            <br> &lt;div&gt;
+            <pre>
+&lt;div class=&quot;navigation-bar&quot;&gt; &lt;button class=&quot;delete&quot;/&gt;
+Place menu component here
+&lt;div&gt;
+            </pre>
           </p>
         </details>
         <br/>
@@ -131,7 +276,7 @@
         <br>
         <br>
 
-        <h2 class="subtitle is-4">Grid View</h2>
+        <h2 class="subtitle is-3">Grid View</h2>
         <p>The Grid View presents a collection of items in rows and columns that can scroll vertically.</p>
         <hr>
         <div class="grid-view is-revealed is-small">
@@ -157,10 +302,10 @@
           </summary>
           <p>
             <pre>
-            &lt;div class="grid-view is-medium is-revealed is-success">
-              &lt;button class="grid-item"&gt; Content
-              &lt;/button&gt;
-            &lt;/div&gt;
+&lt;div class="grid-view is-medium is-revealed is-success">
+  &lt;button class="grid-item"&gt; Content
+  &lt;/button&gt;
+&lt;/div&gt;
             </pre>
           </p>
         </details>
@@ -182,7 +327,7 @@
 
         <br>
 
-        <h2 class="subtitle is-4">Reveal Focus</h2>
+        <h2 class="subtitle is-3">Reveal Focus</h2>
         <h2 class="subtitle is-5">Click a button below or press tab key to see this in action. </h2>
         <p>Animates the border of focusable elements, such as buttons, when the user moves focus to them.</p>
         <hr>
@@ -212,7 +357,7 @@
 
         <br>
         <!--
-        <h2 class="subtitle is-4">Acrylic Material</h2>
+        <h2 class="subtitle is-3">Acrylic Material</h2>
         <p> Acrylic is a Fluent Design System component that adds physical texture (material)
         and depth to your app. </p>
         <hr>
@@ -236,7 +381,7 @@
         <br>
         -->
 
-        <h2 class="subtitle is-4">Highlighted Buttons</h2>
+        <h2 class="subtitle is-3">Highlighted Buttons</h2>
         <hr>
         <div class="block has-text-centered">
           <a class="button is-dark is-highlighted"> Default
@@ -278,5 +423,9 @@ export default {
 .custom-buttons .button {
   padding: 1em 2.235em;
   height: 5em;
+}
+
+.loader-container .custom-loader {
+  margin: 0 25px;
 }
 </style>

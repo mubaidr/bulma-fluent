@@ -7,7 +7,7 @@
           <h1 class="title is-1">
             Bulma Fluent
           </h1>
-          <h2 class="subtitle is-4">
+          <h2 class="subtitle is-3">
             Fluent Design Theme for
             <a href="http://bulma.io" target="_blank">Bulma CSS Framework</a>
             <span class="is-size-6">
