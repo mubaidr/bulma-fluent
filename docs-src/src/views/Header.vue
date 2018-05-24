@@ -17,11 +17,16 @@
           </h2>
           <br>
           <p>
-            <a class="button is-light is-highlighted" href="https://github.com/mubaidr/bulma-fluent" title="Github Repository" target="_blank">
+            <a class="button is-white is-highlighted" href="https://github.com/mubaidr/bulma-fluent" title="Github Repository" target="_blank">
               <span class="icon">
                 <i class="fas fa-star" aria-hidden="true" />
               </span>
               <span>Star on Github</span>
+            </a>
+            <a class="button is-light" href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" title="Download Latest Minified Build" target="_blank">
+              <span class="icon">
+                <i class="fas fa-download" aria-hidden="true" />
+              </span>
             </a>
           </p>
           <br/>

@@ -9911,43 +9911,43 @@ label.panel-block:hover {
 }
 
 .hero.is-white {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-black {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-light {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-dark {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-primary {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-link {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-info {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-success {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-warning {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 .hero.is-danger {
-  box-shadow: 0 3px 100px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 input,
@@ -10642,7 +10642,6 @@ progress:indeterminate.is-danger:before {
   right: 0;
   z-index: 38;
   margin: 0;
-  background-color: transparent;
   border-color: transparent;
   cursor: pointer;
 }
@@ -10666,6 +10665,7 @@ progress:indeterminate.is-danger:before {
 }
 
 .navigation-view.is-static > .button {
+  left: 0 !important;
   padding: 0.33em 0;
   width: 64px;
 }

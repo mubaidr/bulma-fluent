@@ -159,14 +159,14 @@
         <h2 class="subtitle is-3">Navigation View</h2>
         <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
         <hr>
-        <button class="button is-primary" @click="isNavigationBarOpen = !isNavigationBarOpen">
+        <button class="button is-dark" @click="isNavigationBarOpen = !isNavigationBarOpen">
           <span class="icon is-small">
             <i class="fa fa-bars" />
           </span> &nbsp; Toggle Navigation view</button>
         <br/>
         <br/>
         <div :class="{'is-active': isNavigationBarOpen}" class="navigation-view">
-          <button class="button" title="Close Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
+          <button class="button is-dark" title="Close Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
             <span class="icon">
               <i class="fa fa-times" />
             </span>
