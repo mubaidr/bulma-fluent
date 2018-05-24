@@ -191,7 +191,7 @@
       <br>
       <h2 class="subtitle is-3">Messages</h2>
       <hr>
-      <div class="columns">
+      <div class="columns is-variable is-8 messages">
         <div class="column">
           <article class="message">
             <div class="message-header">
@@ -550,6 +550,13 @@ export default {
 <style>
 .box.custom-box {
   padding: 0;
-  padding: 0.5rem 0;
+}
+
+.box.custom-box .menu {
+  padding: 0.5em 0;
+}
+
+.columns.messages .message {
+  margin-bottom: 50px;
 }
 </style>

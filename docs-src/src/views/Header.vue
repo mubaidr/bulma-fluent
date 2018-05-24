@@ -7,7 +7,7 @@
           <h1 class="title is-1">
             Bulma Fluent
           </h1>
-          <h2 class="subtitle is-3">
+          <h2 class="subtitle is-4">
             Fluent Design Theme for
             <a href="http://bulma.io" target="_blank">Bulma CSS Framework</a>
             <span class="is-size-6">
@@ -17,17 +17,11 @@
           </h2>
           <br>
           <p>
-            <a class="button is-light" href="https://github.com/mubaidr/bulma-fluent" title="Github Repository" target="_blank">
+            <a class="button is-light is-highlighted" href="https://github.com/mubaidr/bulma-fluent" title="Github Repository" target="_blank">
               <span class="icon">
                 <i class="fas fa-star" aria-hidden="true" />
               </span>
               <span>Star on Github</span>
-            </a>
-            <a class="button is-light" href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" title="Download" target="_blank">
-              <span class="icon">
-                <i class="fa fa-download" />
-              </span>
-              <span>Download</span>
             </a>
           </p>
           <br/>
@@ -38,8 +32,8 @@
       </div>
     </section>
 
-    <div :class="{'is-active': isNavigationBarOpen}" class="navigation-bar is-static">
-      <button class="button is-white" title="Toggle Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
+    <div :class="{'is-active': isNavigationBarOpen}" class="navigation-view is-static">
+      <button class="button is-highlighted" title="Toggle Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
         <span class="icon">
           <i class="fa fa-bars" />
         </span>

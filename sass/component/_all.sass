@@ -1,9 +1,11 @@
 @import "./animation.sass"
 
-// Remove bordeutton,
-.progress,
-button.delete
-  border-radius: 2px
+// Pagination
+.pagination
+  .pagination-link,
+  .pagination-previous,
+  .pagination-next
+    box-shadow: none
 
 // Button active state
 .button,
@@ -12,7 +14,8 @@ button.delete
 .pagination-next
   transition: all 0.25s ease-out
   &:hover
-    box-shadow: 1px 4px 8px rgba(0,0,0,0.25)
+    transform: translateY(-1px)
+    box-shadow: 1px 5px 8px rgba(0,0,0,0.25)
   &:active
     transform: scale(0.96)
 
@@ -27,15 +30,7 @@ button.delete
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     &.is-#{$name}
-      border-bottom: 1px solid darken($color, 2.5%)
-      box-shadow: 0 7px 75px darken(desaturate($color, 50%), 10%), 0 1px 3px rgba(0,0,0,0.5)
-
-// Pagination
-.pagination
-  .pagination-link,
-  .pagination-previous,
-  .pagination-next
-    box-shadow: none
+      box-shadow: 0 3px 100px rgba(0,0,0,0.5), 0 1px 3px rgba(0,0,0,0.75)
 
 // Update border-width
 input,
@@ -60,19 +55,14 @@ button,
     border-color: $border-hover !important
 
 .buttons.has-addons
-  .button
-    box-shadow: none
   & .button:not(:first-child)
     border-left-width: 1px !important
   & .button:not(:last-child)
     border-right-width: 1px !important
 
-// Update box component
-.box
-  border: 1px solid $grey-light
-
 // Update menu component
 .menu
+  background-color: $white-ter
   & > .menu-label
     padding-left: calc(1rem + 8px)
   a
@@ -121,7 +111,9 @@ progress:indeterminate
 
 // Panel
 .panel
-  border: 1px solid $border
+  border: 1px solid $grey-lighter
+  box-shadow: $box-shadow
+  background-color: $white-ter
   .panel-heading,
   .panel-tabs,
   .panel-block
@@ -141,25 +133,13 @@ progress:indeterminate
 
 // Message
 .message
-  background-color: $white!important
   .message-header
     font-weight: normal!important
-    &+.message-body
-      border-width: 1px
 
-// Progress bar animation
-@keyframes progress-bar
-  0%
-    left: 10%
-  17%
-    left: 65%
-  34%
-    left: 15%
-  51%
-    left: 60%
-  68%
-    left: 20%
-  85%
-    left: 55%
-  100%
-    left: 10%
+.message,
+.notification
+  transition: all $speed $easing
+  box-shadow: 0 2px 35px rgba(0,0,0,0.5)
+  &:hover
+    transform: translateY(-1px)
+    box-shadow: 0 4px 35px rgba(0,0,0,0.5)

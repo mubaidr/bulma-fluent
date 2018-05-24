@@ -1,4 +1,4 @@
-.navigation-bar
+.navigation-view
   background-color: $white
   position: fixed
   top: 0
@@ -15,7 +15,7 @@
     transform: translateX(0%)
   & > .menu
     box-shadow: none
-    padding-top: 2em
+    padding-top: 3em
     position: relative
     height: 100%
     max-height: 100vh
@@ -63,9 +63,19 @@
         display: inline-block!important
       & .menu-label
         opacity: 1
-
-body.has-static-navigation-bar
+  &.is-dark
+    border-right: 1px solid $black-bis
+    & > .menu
+      background-color: $black-ter
+      .menu-label
+        color: $grey-light
+      .menu-list
+        a
+          color: $light
+          &:hover:not(.is-active)
+            color: $dark
+body.has-static-navigation-view
   padding-left: 65px
 +desktop
-  body.has-static-navigation-bar
+  body.has-static-navigation-view
     padding-left: 280px

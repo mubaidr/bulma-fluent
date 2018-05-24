@@ -186,7 +186,7 @@
 
       <h2 class="subtitle is-3">Notifications</h2>
       <hr>
-      <div class="columns">
+      <div class="columns is-variable is-8 notifications">
         <div class="column">
           <div class="notification">
             <button class="delete" /> Lorem ipsum dolor sit amet,
@@ -329,4 +329,7 @@ export default {}
 </script>
 
 <style>
+.columns.notifications .notification {
+  margin-bottom: 50px;
+}
 </style>
