@@ -27,10 +27,7 @@
         background-color: lighten($color, 10%)
 
 .hero
-  @each $name, $pair in $colors
-    $color: nth($pair, 1)
-    &.is-#{$name}
-      box-shadow: 0 0 75px rgba(0,0,0,0.5), 0 1px 3px rgba(0,0,0,0.75)
+  box-shadow: 0 0 75px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.3)
 
 // Update border-width
 input,
@@ -59,6 +56,10 @@ button,
     border-left-width: 1px !important
   & .button:not(:last-child)
     border-right-width: 1px !important
+
+.delete,
+.modal-close
+  border-radius: 0
 
 // Update menu component
 .menu
@@ -126,24 +127,6 @@ progress:indeterminate
     &.is-active
       border-left-color: $primary
 
-// Navbar
-.navbar
-  &.is-transparent
-    border: 1px solid $grey-lighter
-
-// Message
-.message
-  .message-header
-    font-weight: normal!important
-
-.message,
-.notification
-  transition: all $speed $easing
-  box-shadow: 0 2px 35px rgba(0,0,0,0.5)
-  &:hover
-    transform: translateY(-1px)
-    box-shadow: 0 4px 35px rgba(0,0,0,0.5)
-
 // Update details html
 details
   summary
@@ -152,3 +135,64 @@ details
     cursor: pointer
     border-radius: 2px
     border: 1px solid $grey-lighter
+
+// Message
+.message
+  .message-header
+    font-weight: normal!important
+
+.message
+  box-shadow: $box-shadow
+
+.notification
+  transition: all $speed $easing
+  box-shadow: 0 2px 50px rgba(0,0,0,0.5)
+  &:hover
+    transform: translateY(-1px)
+
+// Notifications position helper classes
+.notification
+  &.is-top-left
+    width: 320px
+    margin: 1em
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 40
+  &.is-top-right
+    width: 320px
+    margin: 1em
+    position: fixed
+    top: 0
+    right: 0
+    z-index: 40
+  &.is-top-center
+    width: 320px
+    margin: 1em
+    position: fixed
+    top: 0
+    left: 50%
+    margin-left: -160px
+    z-index: 40
+  &.is-bottom-left
+    width: 320px
+    margin: 1em
+    position: fixed
+    bottom: 0
+    left: 0
+    z-index: 40
+  &.is-bottom-right
+    width: 320px
+    margin: 1em
+    position: fixed
+    bottom: 0
+    right: 0
+    z-index: 40
+  &.is-bottom-center
+    width: 320px
+    margin: 1em
+    position: fixed
+    bottom: 0
+    left: 50%
+    margin-left: -160px
+    z-index: 40

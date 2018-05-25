@@ -7,7 +7,7 @@
         <hr>
 
         <h2 class="subtitle is-3">Loader</h2>
-        <p>A simple loader.</p>
+        <p>A simple loader to display indeterminate loading status.</p>
         <hr>
         <div class="block loader-container">
           <div class="custom-loader is-small is-primary">
@@ -159,7 +159,7 @@
         <p>The navigation view control provides a collapsible navigation menu for top-level navigation in your app.</p>
         <hr>
         <div class="has-centered-text">
-          <button class="button is-dark" @click="isNavigationBarOpen = !isNavigationBarOpen">
+          <button class="button is-primary" @click="isNavigationBarOpen = !isNavigationBarOpen">
             Toggle Navigation view
           </button>
         </div>
@@ -315,6 +315,7 @@
             <code>is-highlighted</code> class to the button to highlight a button.
           </p>
         </details>
+
         <br>
       </div>
     </section>
