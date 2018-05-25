@@ -1495,7 +1495,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .box {
   background-color: white;
   border-radius: 3px;
-  box-shadow: 0 2px 25px #b5b5b5;
+  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.33);
   color: rgba(9, 38, 66, 0.95);
   display: block;
   padding: 1.25rem;
@@ -5297,7 +5297,7 @@ a.tag:hover {
 
 .card {
   background-color: white;
-  box-shadow: 0 2px 25px #b5b5b5;
+  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.33);
   color: rgba(9, 38, 66, 0.95);
   max-width: 100%;
   position: relative;
@@ -5401,7 +5401,7 @@ a.tag:hover {
 .dropdown-content {
   background-color: white;
   border-radius: 2px;
-  box-shadow: 0 2px 10px #b5b5b5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.33);
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
@@ -9910,44 +9910,8 @@ label.panel-block:hover {
   background-color: rgba(245, 118, 82, 0.95);
 }
 
-.hero.is-white {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-black {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-light {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-dark {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-primary {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-link {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-info {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-success {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-warning {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
-}
-
-.hero.is-danger {
-  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.75);
+.hero {
+  box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 input,
@@ -9983,6 +9947,11 @@ button,
 
 .buttons.has-addons .button:not(:last-child) {
   border-right-width: 1px !important;
+}
+
+.delete,
+.modal-close {
+  border-radius: 0;
 }
 
 .menu {
@@ -10084,7 +10053,7 @@ progress:indeterminate.is-danger:before {
 
 .panel {
   border: 1px solid #dbdbdb;
-  box-shadow: 0 2px 25px #b5b5b5;
+  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.33);
   background-color: whitesmoke;
 }
 
@@ -10104,7 +10073,11 @@ progress:indeterminate.is-danger:before {
   border-left-color: rgba(55, 122, 195, 0.95);
 }
 
-.navbar.is-transparent {
+details summary {
+  padding-left: 7px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 2px;
   border: 1px solid #dbdbdb;
 }
 
@@ -10112,17 +10085,74 @@ progress:indeterminate.is-danger:before {
   font-weight: normal !important;
 }
 
-.message,
-.notification {
-  transition: all 250ms ease-out;
-  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.5);
+.message {
+  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.33);
 }
 
-.message:hover,
+.notification {
+  transition: all 250ms ease-out;
+  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.5);
+}
+
 .notification:hover {
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
-  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.5);
+}
+
+.notification.is-top-left {
+  width: 320px;
+  margin: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+}
+
+.notification.is-top-right {
+  width: 320px;
+  margin: 1em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 40;
+}
+
+.notification.is-top-center {
+  width: 320px;
+  margin: 1em;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -160px;
+  z-index: 40;
+}
+
+.notification.is-bottom-left {
+  width: 320px;
+  margin: 1em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 40;
+}
+
+.notification.is-bottom-right {
+  width: 320px;
+  margin: 1em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 40;
+}
+
+.notification.is-bottom-center {
+  width: 320px;
+  margin: 1em;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -160px;
+  z-index: 40;
 }
 
 .custom-loader {
