@@ -1,0 +1,57 @@
+.checkbox
+  user-select: none
+  cursor: pointer
+  & > [type="checkbox"]
+    display: inline-block
+    position: relative
+    z-index: 1
+    width: 1.5em
+    height: 1.5em
+    top: 0.25em
+    padding: 0
+    margin: 0
+    visibility: hidden
+    &:before
+      visibility: visible
+      content: ''
+      height: 100%
+      width: 100%
+      position: absolute
+      top: 0
+      left: 0
+      background-color: $white
+      border: 2px solid $border
+      border-radius: $radius-small
+      transition: all 0.25s ease-out
+    &:after
+      visibility: visible
+      display: none
+      content: ''
+      position: absolute
+      left: 0.5em
+      top: 10%
+      height: 66%
+      width: 33%
+      border: solid #fff
+      border-width: 0 2px 2px 0
+      -webkit-transform: rotate(30deg)
+      -ms-transform: rotate(30deg)
+      transform: rotate(30deg)
+    &:checked
+      &:before
+        background-color: $primary
+        border-color: darken($primary, 1%)
+      &:after
+        display: block
+  &:hover
+    & > [type="checkbox"]
+      &:before
+        border-color: rgba(0,0,0,0.5)
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      & > [type="checkbox"]
+        &:checked
+          &:before
+            background-color: $color
+            border-color: darken($color, 1%)
