@@ -9914,6 +9914,10 @@ label.panel-block:hover {
   box-shadow: 0 0 75px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+.hero a:not(.button) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
 input,
 textarea,
 select,
@@ -10672,12 +10676,13 @@ details summary {
   right: 0;
   z-index: 38;
   margin: 0;
-  border-color: transparent;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
   cursor: pointer;
 }
 
 .navigation-view.is-static {
-  border-right: 1px solid #dbdbdb;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
   min-width: 65px;
   max-width: 280px;
   width: 0;
@@ -10731,6 +10736,12 @@ details summary {
 
 .navigation-view.is-dark {
   border-right: 1px solid #121212;
+}
+
+.navigation-view.is-dark > button {
+  color: #dbdbdb !important;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .navigation-view.is-dark > .menu {
