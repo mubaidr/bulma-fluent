@@ -15,33 +15,18 @@
       <div id="navbarExampleTransparentExample" class="navbar-menu" :class="{'is-active': isNavigationBarOpen}">
         <div class="navbar-start">
           <router-link to="/" title="Getting Started" class="navbar-item" exact-active-class="is-active">
-            <span class="icon">
-              <i class="fas fa-home" />
-            </span>
             <span>Getting Started</span>
           </router-link>
           <router-link to="/form" title="Form Inputs" class="navbar-item" active-class="is-active">
-            <span class="icon">
-              <i class="fas fa-clipboard" />
-            </span>
             <span>Form Inputs</span>
           </router-link>
           <router-link to="/elements" title="Elements" class="navbar-item" active-class="is-active">
-            <span class="icon">
-              <i class="fas fa-box" />
-            </span>
             <span>Elements</span>
           </router-link>
           <router-link to="/components" title="Components" class="navbar-item" active-class="is-active">
-            <span class="icon">
-              <i class="fas fa-object-group" />
-            </span>
             <span>Components</span>
           </router-link>
           <router-link to="/extras" title="Extras" class="navbar-item" active-class="is-active">
-            <span class="icon">
-              <i class="fas fa-list" />
-            </span>
             <span>More</span>
           </router-link>
         </div>

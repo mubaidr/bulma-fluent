@@ -45,6 +45,6 @@
     "start": "npm run build-sass --watch",
     "test": "sh test/sass-compile-tester.sh"
   },
-  "style": "bulma/css/bulma.css",
-  "version": "0.3.3"
+  "style": "css/bulma.css",
+  "version": "0.3.4"
 }

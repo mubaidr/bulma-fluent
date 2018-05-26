@@ -193,18 +193,6 @@
 
       <h2 class="subtitle is-3">Notifications</h2>
       <hr>
-      <details>
-        <summary>Note:</summary>
-        <p>You can use one fo the helper classes to place notifications on screen:
-          <code>is-top-left</code>
-          <code>is-top-center</code>
-          <code>is-top-right</code>
-          <code>is-bottom-left</code>
-          <code>is-bottom-center</code>
-          <code>is-bottom-right</code>
-        </p>
-      </details>
-      <br/>
       <div class="columns notifications">
         <div class="column">
           <div class="notification">
