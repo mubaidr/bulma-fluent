@@ -40,7 +40,7 @@
     </section>
 
     <div :class="{'is-active': isNavigationBarOpen}" class="navigation-view is-static">
-      <button class="button is-highlighted" title="Toggle Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
+      <button class="button" title="Toggle Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
         <span class="icon">
           <i class="fa fa-bars" />
         </span>

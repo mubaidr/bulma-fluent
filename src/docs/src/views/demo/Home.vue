@@ -16,17 +16,18 @@
               <strong>npm</strong> to install the bulma-fluent package
             </li>
             <li>
+              use
+              <strong>CDN</strong>
+            </li>
+            <li>
               use the
               <strong>GitHub repository</strong> to get the latest development version
             </li>
           </ol>
-        </div>
-
-        <div class="content">
-          <ol>
+          <ol class="padded-list">
             <li>
-              <p class="title is-5">Use npm:
-              </p>
+              <span class="title is-5">Use npm:
+              </span>
               <p>
                 <a href="https://nodei.co/npm/bulma-fluent/"><img src="https://nodei.co/npm/bulma-fluent.png?compact=true"></a>
               </p>
@@ -34,16 +35,22 @@
                 <code>
                   import 'bulma-fluent/css/bulma.css'
                 </code>
-                <br/>or import sass file.<br/>
+                <br/>or<br/>
                 <code>
                   import 'bulma-fluent/bulma.sass'
                 </code>
               </p>
             </li>
             <li>
-              <p class="title is-5">
-                Download from the repository:
+              <span class="title is-5">CDN link</span>
+              <p>
+                <a href="https://unpkg.com/bulma-fluent/css/">unpkg.com/bulma-fluent</a>
               </p>
+            </li>
+            <li>
+              <span class="title is-5">
+                Download from the repository:
+              </span>
               <p>
                 <a href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css">https://github.com/mubaidr/bulma-fluent/tree/master/css</a>
               </p>
@@ -77,9 +84,8 @@ $family-sans-serif: "Calibri", "Arial"
 
         <div class="content">
           <h2 class="subtitle is-3">Documentation</h2>
-          <p>Visit the You can follow
-            <a href="https://bulma.io/documentation/">official bulma documentaion</a> or visit
-            <router-link to="extras">Extras</router-link> for some new components.</p>
+          <p>You can follow
+            <a href="https://bulma.io/documentation/">official bulma documentaion</a> for all components.</p>
         </div>
       </div>
     </section>
@@ -91,4 +97,7 @@ export default {}
 </script>
 
 <style>
+.padded-list li {
+  padding: 1em 0;
+}
 </style>

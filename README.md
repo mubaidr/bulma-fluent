@@ -1,6 +1,6 @@
-# Bulma-Fluent
+# Bulma-Fluent:
 
-Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
+> Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
 <a href="https://patreon.com/mubaidr">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="42">
@@ -10,9 +10,9 @@ Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Flu
 
 ![dependencies](https://david-dm.org/mubaidr/bulma-fluent.svg)
 
-## [Demo](https://mubaidr.github.io/bulma-fluent/)
+## Demo
 
-Browse the [online demo here.](https://mubaidr.github.io/bulma-fluent/)
+[mubaidr.github.io/bulma-fluent](https://mubaidr.github.io/bulma-fluent/)
 
 ## Quick install
 
@@ -43,6 +43,10 @@ import 'bulma-fluent/css/bulma.css'
 ```sh
 import 'bulma-fluent/bulma.sass'
 ```
+
+## CDN link
+
+[unpkg.com/bulma-fluent](https://unpkg.com/bulma-fluent/css/)
 
 ## Download from this Repository
 

@@ -5,11 +5,11 @@ import router from './router'
 
 import './assets/fontawesome/css/fontawesome-all.css'
 import './assets/animations.sass'
-import '../../bulma.sass'
+import '../../../bulma.sass'
 
 // eslint-disable-next-line
 new Vue({
   el: '#app',
   router,
-  render: h => h(App)
+  render: h => h(App),
 })

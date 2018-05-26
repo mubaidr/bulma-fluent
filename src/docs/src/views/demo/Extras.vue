@@ -2,7 +2,8 @@
   <div>
     <section class="section">
       <div class="container">
-        <p>This theme has some extra components implementing fluent design concepts.
+        <p>This theme has some extra components implementing fluent design concepts. For more available addons visit
+          <a href="https://bulma.io/extensions/">Bulma extensions</a>.
         </p>
         <hr>
 
@@ -166,7 +167,7 @@
         <br/>
         <br/>
         <div :class="{'is-active': isNavigationBarOpen}" class="navigation-view">
-          <button class="button is-dark" title="Close Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
+          <button class="button" title="Close Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
             <span class="icon">
               <i class="fa fa-times" />
             </span>
