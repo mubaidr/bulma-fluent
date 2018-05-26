@@ -294,15 +294,15 @@
       <br>
       <h2 class="subtitle is-3">Modal</h2>
       <hr>
-      <button class="button is-primary" @click="toggleDropDown">Launch Sample Modal</button>
+      <button class="button is-primary" @click="toggleModal">Launch Sample Modal</button>
       <div class="modal" :class="{'is-active': isModalOpen}">
-        <div class="modal-background" @click="toggleDropDown"></div>
+        <div class="modal-background" @click="toggleModal"></div>
         <div class="modal-content">
           <p class="image is-4by3">
             <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
           </p>
         </div>
-        <button class="modal-close is-large" aria-label="close" @click="toggleDropDown"></button>
+        <button class="modal-close is-large" aria-label="close" @click="toggleModal"></button>
       </div>
       <br/>
       <br/>
@@ -559,7 +559,7 @@ export default {
     toggleDropDown() {
       this.dropdownActive = !this.dropdownActive
     },
-    toggleDropDown() {
+    toggleModal() {
       this.isModalOpen = !this.isModalOpen
     },
   },

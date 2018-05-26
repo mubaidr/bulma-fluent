@@ -1,5 +1,66 @@
 <template>
   <div>
+    <nav class="navbar is-transparent is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="toggleNavBar" :class="{'is-active': isNavigationBarOpen}">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu" :class="{'is-active': isNavigationBarOpen}">
+        <div class="navbar-start">
+          <router-link to="/" title="Getting Started" class="navbar-item" exact-active-class="is-active">
+            <span class="icon">
+              <i class="fas fa-home" />
+            </span>
+            <span>Getting Started</span>
+          </router-link>
+          <router-link to="/form" title="Form Inputs" class="navbar-item" active-class="is-active">
+            <span class="icon">
+              <i class="fas fa-clipboard" />
+            </span>
+            <span>Form Inputs</span>
+          </router-link>
+          <router-link to="/elements" title="Elements" class="navbar-item" active-class="is-active">
+            <span class="icon">
+              <i class="fas fa-box" />
+            </span>
+            <span>Elements</span>
+          </router-link>
+          <router-link to="/components" title="Components" class="navbar-item" active-class="is-active">
+            <span class="icon">
+              <i class="fas fa-object-group" />
+            </span>
+            <span>Components</span>
+          </router-link>
+          <router-link to="/extras" title="Extras" class="navbar-item" active-class="is-active">
+            <span class="icon">
+              <i class="fas fa-list" />
+            </span>
+            <span>More</span>
+          </router-link>
+        </div>
+        <div class="navbar-end">
+          <a href="https://github.com/mubaidr/bulma-fluent" class="navbar-item" title="Github Repository" target="_blank">
+            <span class="icon">
+              <i class="fas fa-star" aria-hidden="true" />
+            </span>
+            <span>Github</span>
+          </a>
+          <a href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" class="navbar-item" title="Download" target="_blank">
+            <span class="icon">
+              <i class="fas fa-download" aria-hidden="true" />
+            </span>
+            <span>Download</span>
+          </a>
+        </div>
+      </div>
+    </nav>
     <section class="hero is-primary is-medium">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
@@ -38,82 +99,6 @@
         </div>
       </div>
     </section>
-
-    <div :class="{'is-active': isNavigationBarOpen}" class="navigation-view is-static">
-      <button class="button" title="Toggle Main Menu" @click="isNavigationBarOpen = !isNavigationBarOpen">
-        <span class="icon">
-          <i class="fa fa-bars" />
-        </span>
-      </button>
-      <aside class="menu">
-        <p class="menu-label">
-          Menu
-        </p>
-        <ul class="menu-list">
-          <li>
-            <router-link to="/" title="Getting Started" exact-active-class="is-active">
-              <span class="icon">
-                <i class="fas fa-home" />
-              </span>
-              <span>Getting Started</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/form" title="Form Inputs" active-class="is-active">
-              <span class="icon">
-                <i class="fas fa-clipboard" />
-              </span>
-              <span>Form Inputs</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/elements" title="Elements" active-class="is-active">
-              <span class="icon">
-                <i class="fas fa-box" />
-              </span>
-              <span>Elements</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/components" title="Components" active-class="is-active">
-              <span class="icon">
-                <i class="fas fa-object-group" />
-              </span>
-              <span>Components</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/extras" title="Extras" active-class="is-active">
-              <span class="icon">
-                <i class="fas fa-list" />
-              </span>
-              <span>Extras</span>
-            </router-link>
-          </li>
-        </ul>
-        <p class="menu-label">
-          Source
-        </p>
-        <ul class="menu-list">
-          <li>
-            <a href="https://github.com/mubaidr/bulma-fluent" title="Github Repository" target="_blank">
-              <span class="icon">
-                <i class="fas fa-star" aria-hidden="true" />
-              </span>
-              <span>Github</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" title="Download" target="_blank">
-              <span class="icon">
-                <i class="fas fa-download" aria-hidden="true" />
-              </span>
-              <span>Download</span>
-            </a>
-          </li>
-        </ul>
-      </aside>
-    </div>
   </div>
 </template>
 
@@ -124,6 +109,12 @@ export default {
     return {
       isNavigationBarOpen: false,
     }
+  },
+
+  methods: {
+    toggleNavBar() {
+      this.isNavigationBarOpen = !this.isNavigationBarOpen
+    },
   },
 }
 </script>

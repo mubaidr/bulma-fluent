@@ -4,7 +4,7 @@
       <h1 class="title"> Form Inputs
       </h1>
       <hr>
-      <div class="column is-6 is-offset-3">
+      <div class="column is-8 is-offset-2">
         <div class="box form-box">
           <div class="field">
             <label class="label">Name</label>

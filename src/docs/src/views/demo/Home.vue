@@ -13,7 +13,7 @@
           <ol>
             <li>
               use
-              <strong>npm</strong> to install the bulma-fluent package
+              <strong>npm</strong> to install the <em>bulma-fluent</em> package
             </li>
             <li>
               use
