@@ -191,7 +191,7 @@
       <br>
       <h2 class="subtitle is-3">Messages</h2>
       <hr>
-      <div class="columns is-variable is-8 messages">
+      <div class="columns messages">
         <div class="column">
           <article class="message">
             <div class="message-header">

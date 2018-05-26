@@ -185,20 +185,9 @@
 
       <h2 class="subtitle is-3">Image</h2>
       <hr>
-      <div class="columns">
-        <div class="column">
-          <h2 class="subtitle is-4">Normal</h2>
-          <figure class="image is-128x128">
-            <img src="https://bulma.io/images/placeholders/128x128.png">
-          </figure>
-        </div>
-        <div class="column">
-          <h2 class="subtitle is-4">Retina</h2>
-          <figure class="image is-128x128">
-            <img src="https://bulma.io/images/placeholders/256x256.png">
-          </figure>
-        </div>
-      </div>
+      <figure class="image is-128x128">
+        <img src="https://bulma.io/images/placeholders/128x128.png">
+      </figure>
 
       <br><br>
 
@@ -216,7 +205,7 @@
         </p>
       </details>
       <br/>
-      <div class="columns is-variable is-8 notifications">
+      <div class="columns notifications">
         <div class="column">
           <div class="notification">
             <button class="delete" /> Lorem ipsum dolor sit amet,
@@ -313,7 +302,7 @@
 
       <h2 class="subtitle is-3">Tables</h2>
       <hr>
-      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+      <table class="table is-narrow is-fullwidth">
         <tr>
           <th>Company</th>
           <th>Contact</th>
