@@ -46,7 +46,7 @@
         </div>
       </div>
     </nav>
-    <section class="hero is-primary is-medium">
+    <section class="hero is-primary is-medium static">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -105,4 +105,7 @@ export default {
 </script>
 
 <style>
+.hero.static {
+  margin-top: 50px;
+}
 </style>
