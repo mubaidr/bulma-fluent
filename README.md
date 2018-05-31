@@ -2,6 +2,10 @@
 
 > Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
 
+> [Fluent Design Components for Vue.js](https://github.com/mubaidr/vue-fluent) are also available.
+
+<br/>
+
 <a href="https://patreon.com/mubaidr">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="42">
 </a>
