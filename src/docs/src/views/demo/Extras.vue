@@ -3,7 +3,7 @@
     <section class="section">
       <h1 class="title">Looking for extensions or addons for bulma? </h1>
       <p>Checkout following projects: </p>
-      <br/>
+      <br>
       <div class="column is-6 is-offset-3">
         <div class="box">
           <article class="media">

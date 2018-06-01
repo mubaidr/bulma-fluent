@@ -10,7 +10,9 @@
         <article class="media">
           <div class="media-left">
             <figure class="image is-64x64">
-              <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+              <img 
+                src="https://bulma.io/images/placeholders/128x128.png" 
+                alt="Image">
             </figure>
           </div>
           <div class="media-content">
@@ -168,17 +170,35 @@
       <hr>
       <div id="progress">
         <progress class="progress is-primary">0%</progress>
-        <progress class="progress" max="100" value="40"> 40%
+        <progress 
+          class="progress" 
+          max="100" 
+          value="40"> 40%
         </progress>
-        <progress class="progress is-primary" max="100" value="50"> 50%
+        <progress 
+          class="progress is-primary" 
+          max="100" 
+          value="50"> 50%
         </progress>
-        <progress class="progress is-info" max="100" value="60"> 60%
+        <progress 
+          class="progress is-info" 
+          max="100" 
+          value="60"> 60%
         </progress>
-        <progress class="progress is-success" max="100" value="70"> 70%
+        <progress 
+          class="progress is-success" 
+          max="100" 
+          value="70"> 70%
         </progress>
-        <progress class="progress is-warning" max="100" value="80"> 80%
+        <progress 
+          class="progress is-warning" 
+          max="100" 
+          value="80"> 80%
         </progress>
-        <progress class="progress is-danger" max="100" value="90"> 90%
+        <progress 
+          class="progress is-danger" 
+          max="100" 
+          value="90"> 90%
         </progress>
       </div>
       <br><br>
@@ -338,7 +358,7 @@
       <h4 class="title is-4">Title 4</h4>
       <h5 class="title is-5">Title 5</h5>
       <h6 class="title is-6">Title 6</h6>
-      <br/>
+      <br>
       <h1 class="subtitle is-1">Subtitle 1</h1>
       <h2 class="subtitle is-2">Subtitle 2</h2>
       <h3 class="subtitle is-3">Subtitle 3</h3>

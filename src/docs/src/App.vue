@@ -2,7 +2,10 @@
   <div id="app">
     <header-view/>
     <div class="content-custom">
-      <transition name="slide-right" appear="appear" mode="out-in">
+      <transition 
+        name="slide-right" 
+        appear="appear" 
+        mode="out-in">
         <router-view/>
       </transition>
     </div>

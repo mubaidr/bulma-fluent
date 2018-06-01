@@ -11,6 +11,7 @@
   "devDependencies": {
     "autoprefixer": "^8.5.1",
     "clean-css-cli": "^4.1.11",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -45,7 +46,8 @@
     "build-sass":
       "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
     "dev": "cd src/docs && npm run dev && cd..",
-    "test": "sh test/sass-compile-tester.sh"
+    "test": "sh test/sass-compile-tester.sh",
+    "lint": "eslint --ext .js,.vue --fix src/"
   },
   "style": "css/bulma.css",
   "version": "0.3.8"

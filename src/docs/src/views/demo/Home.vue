@@ -35,7 +35,7 @@
                 <code>
                   import 'bulma-fluent/css/bulma.css'
                 </code>
-                <br/>or<br/>
+                <br>or<br>
                 <code>
                   import 'bulma-fluent/bulma.sass'
                 </code>
@@ -78,14 +78,14 @@ $family-sans-serif: "Calibri", "Arial"
 
 // Import the Bulma-fluent
 @import "bulma-fluent/bulma.sass"
-</code></pre>
+            </code></pre>
           </p>
         </div>
 
         <div class="content">
           <h2 class="subtitle is-3">Documentation</h2>
           <p>You can follow
-            <a href="https://bulma.io/documentation/">official bulma documentaion</a> for all components.</p>
+          <a href="https://bulma.io/documentation/">official bulma documentaion</a> for all components.</p>
         </div>
       </div>
     </section>

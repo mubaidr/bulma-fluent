@@ -15,6 +15,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.1.6",
     "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-friendly-formatter": "^4.0.1",
