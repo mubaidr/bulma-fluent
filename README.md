@@ -4,6 +4,8 @@
 
 > [Fluent Design Components for Vue.js](https://github.com/mubaidr/vue-fluent) are also available.
 
+> [Addons for Bulma](https://github.com/mubaidr/bulma-addons) are also available.
+
 <br/>
 
 <a href="https://patreon.com/mubaidr">
