@@ -17,7 +17,7 @@
                     <a href="//github.com/mubaidr">mubaidr</a>
                   </small>
                   <br> Fluent Design Components for Vue.js using Bulma, inspired by Microsoft’s Fluent Design System:
-                  <a href="//mubaidr.github.io/bulma-addons">Homepage</a>
+                  <a href="//mubaidr.github.io/vue-fluent">Homepage</a>
                 </p>
               </div>
             </div>
