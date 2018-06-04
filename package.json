@@ -6,10 +6,9 @@
   "dependencies": {
     "bulma": "^0.7.1"
   },
-  "description":
-    "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
+  "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "autoprefixer": "^8.5.1",
+    "autoprefixer": "^8.6.0",
     "clean-css-cli": "^4.1.11",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -18,16 +17,27 @@
     "eslint-plugin-html": "^4.0.3",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react": "^7.9.1",
     "eslint-plugin-vue": "^4.5.0",
     "node-sass": "^4.9.0",
     "node-sass-import": "^2.0.1",
     "postcss-cli": "^5.0.0",
     "rimraf": "^2.6.2"
   },
-  "files": ["css", "src/sass", "bulma.sass", "LICENSE", "README.md"],
+  "files": [
+    "css",
+    "src/sass",
+    "bulma.sass",
+    "LICENSE",
+    "README.md"
+  ],
   "homepage": "https://mubaidr.github.io/bulma-fluent",
-  "keywords": ["css3", "bulma", "theme", "fluent"],
+  "keywords": [
+    "css3",
+    "bulma",
+    "theme",
+    "fluent"
+  ],
   "license": "MIT",
   "main": "bulma.sass",
   "name": "bulma-fluent",
@@ -36,19 +46,16 @@
     "url": "git+https://github.com/mubaidr/bulma-fluent.git"
   },
   "scripts": {
-    "build":
-      "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
-    "build-autoprefix":
-      "postcss --use autoprefixer --map true --output css/bulma.css css/bulma.css",
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
+    "build-autoprefix": "postcss --use autoprefixer --map true --output css/bulma.css css/bulma.css",
     "build-clean": "rimraf css",
     "build-docs": "cd src/docs && npm run build && cd..",
     "build-minify": "cleancss --level 2 -o css/bulma.min.css css/bulma.css",
-    "build-sass":
-      "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
+    "build-sass": "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
     "dev": "cd src/docs && npm run dev && cd..",
     "test": "sh test/sass-compile-tester.sh",
     "lint": "eslint --ext .js,.vue --fix src/"
   },
   "style": "css/bulma.css",
-  "version": "0.3.8"
+  "version": "0.3.9"
 }
