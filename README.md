@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="https://raw.githubusercontent.com/jbeguna04/bulma-fluent/master/LogoDesign/banner1.png" width=900 align="center">
+</p>
+
 # Bulma-Fluent:
 
 > Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
