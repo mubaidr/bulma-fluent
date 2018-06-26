@@ -2,9 +2,9 @@
   <div id="app">
     <header-view/>
     <div class="content-custom">
-      <transition 
-        name="slide-right" 
-        appear="appear" 
+      <transition
+        name="slide-right"
+        appear="appear"
         mode="out-in">
         <router-view/>
       </transition>
@@ -48,14 +48,6 @@ export default {
 </script>
 
 <style>
-body {
-  /* background-image: url('./assets/logo.png'); */
-}
-
-hr {
-  background-color: #f2f2f2;
-}
-
 .content-custom {
   min-height: 320px;
 }

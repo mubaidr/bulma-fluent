@@ -1,20 +1,18 @@
 <template>
   <div>
-    <nav class="navbar is-transparent is-fixed-top">
+    <nav class="navbar is-white is-fixed-top">
       <div class="navbar-brand">
-        <a 
-          class="navbar-item" 
+        <a
+          class="navbar-item"
           href="https://bulma.io">
-          <img 
-            src="https://bulma.io/images/bulma-logo.png" 
-            alt="Bulma: a modern CSS framework based on Flexbox" 
-            width="112" 
-            height="28">
+          <img
+            src="~../assets/logotype12.png"
+            alt="Bulma-fluent">
         </a>
-        <div 
-          :class="{'is-active': isNavigationBarOpen}" 
-          class="navbar-burger burger" 
-          data-target="navbarExampleTransparentExample" 
+        <div
+          :class="{'is-active': isNavigationBarOpen}"
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
           @click="toggleNavBar">
           <span/>
           <span/>
@@ -22,68 +20,68 @@
         </div>
       </div>
 
-      <div 
-        id="navbarExampleTransparentExample" 
-        :class="{'is-active': isNavigationBarOpen}" 
+      <div
+        id="navbarExampleTransparentExample"
+        :class="{'is-active': isNavigationBarOpen}"
         class="navbar-menu">
         <div class="navbar-start">
-          <router-link 
-            to="/" 
-            title="Getting Started" 
-            class="navbar-item" 
+          <router-link
+            to="/"
+            title="Getting Started"
+            class="navbar-item"
             exact-active-class="is-active">
             <span>Getting Started</span>
           </router-link>
-          <router-link 
-            to="/form" 
-            title="Form Inputs" 
-            class="navbar-item" 
+          <router-link
+            to="/form"
+            title="Form Inputs"
+            class="navbar-item"
             active-class="is-active">
             <span>Form Inputs</span>
           </router-link>
-          <router-link 
-            to="/elements" 
-            title="Elements" 
-            class="navbar-item" 
+          <router-link
+            to="/elements"
+            title="Elements"
+            class="navbar-item"
             active-class="is-active">
             <span>Elements</span>
           </router-link>
-          <router-link 
-            to="/components" 
-            title="Components" 
-            class="navbar-item" 
+          <router-link
+            to="/components"
+            title="Components"
+            class="navbar-item"
             active-class="is-active">
             <span>Components</span>
           </router-link>
-          <router-link 
-            to="/extras" 
-            title="Extras" 
-            class="navbar-item" 
+          <router-link
+            to="/extras"
+            title="Extras"
+            class="navbar-item"
             active-class="is-active">
             <span>More</span>
           </router-link>
         </div>
         <div class="navbar-end">
-          <a 
-            href="https://github.com/mubaidr/bulma-fluent" 
-            class="navbar-item" 
-            title="Github Repository" 
+          <a
+            href="https://github.com/mubaidr/bulma-fluent"
+            class="navbar-item"
+            title="Github Repository"
             target="_blank">
             <span class="icon">
-              <i 
-                class="fas fa-star" 
+              <i
+                class="fas fa-star"
                 aria-hidden="true" />
             </span>
             <span>Github</span>
           </a>
-          <a 
-            href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" 
-            class="navbar-item" 
-            title="Download" 
+          <a
+            href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css"
+            class="navbar-item"
+            title="Download"
             target="_blank">
             <span class="icon">
-              <i 
-                class="fas fa-download" 
+              <i
+                class="fas fa-download"
                 aria-hidden="true" />
             </span>
             <span>Download</span>
@@ -91,47 +89,48 @@
         </div>
       </div>
     </nav>
-    <section class="hero is-primary is-medium static">
+    <section class="hero is-medium is-dark static">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
+          <img src="~../assets/logomark11.png">
           <h1 class="title is-1">
             Bulma Fluent
           </h1>
           <h2 class="subtitle is-4">
-            Fluent Design Theme for
-            <a 
-              href="http://bulma.io" 
+            Fluent Design Theme based on
+            <a
+              href="http://bulma.io"
               target="_blank">Bulma CSS Framework</a>
             <span class="is-size-6">
               <br> inspired by
-              <a 
-                href="https://fluent.microsoft.com" 
+              <a
+                href="https://fluent.microsoft.com"
                 target="_blank">Microsoft’s Fluent Design System</a>
             </span>
           </h2>
           <br>
           <p>
-            <a 
-              class="button is-white is-highlighted" 
-              href="https://github.com/mubaidr/bulma-fluent" 
-              title="Github Repository" 
+            <a
+              class="button is-white is-highlighted"
+              href="https://github.com/mubaidr/bulma-fluent"
+              title="Github Repository"
               target="_blank">
               <span class="icon">
-                <i 
-                  class="fas fa-star" 
+                <i
+                  class="fas fa-star"
                   aria-hidden="true" />
               </span>
               <span>Star on Github</span>
             </a>
-            <a 
-              class="button is-light" 
-              href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css" 
-              title="Download Latest Minified Build" 
+            <a
+              class="button is-light"
+              href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css"
+              title="Download Latest Minified Build"
               target="_blank">
               <span class="icon">
-                <i 
-                  class="fas fa-download" 
+                <i
+                  class="fas fa-download"
                   aria-hidden="true" />
               </span>
             </a>
@@ -139,8 +138,8 @@
           <br>
           <p>
             <a href="https://patreon.com/mubaidr">
-              <img 
-                src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" 
+              <img
+                src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"
                 style="height: 42px; width: auto;" >
             </a>
           </p>

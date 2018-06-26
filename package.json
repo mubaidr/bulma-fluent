@@ -6,7 +6,7 @@
   "dependencies": {
     "bulma": "^0.7.1"
   },
-  "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
+  "description": "Fluent Design Theme based on Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
     "autoprefixer": "^8.6.0",
     "clean-css-cli": "^4.1.11",
