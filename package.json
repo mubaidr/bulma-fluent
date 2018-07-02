@@ -10,7 +10,7 @@
   "devDependencies": {
     "autoprefixer": "^8.6.4",
     "clean-css-cli": "^4.1.11",
-    "eslint": "^5.0.0",
+    "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-friendly-formatter": "^4.0.1",
