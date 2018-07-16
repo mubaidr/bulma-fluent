@@ -8,7 +8,7 @@
   },
   "description": "Fluent Design Theme based on Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "autoprefixer": "^8.6.5",
+    "autoprefixer": "^9.0.0",
     "clean-css-cli": "^4.1.11",
     "eslint": "^5.1.0",
     "eslint-config-airbnb": "^17.0.0",
