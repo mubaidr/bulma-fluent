@@ -427,18 +427,18 @@ class-utils@^0.3.5:
     static-extend "^0.1.1"
 
 clean-css-cli@^4.1.11:
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/clean-css-cli/-/clean-css-cli-4.1.11.tgz#01c5689f05bc512a23285f1defdbde00bc11d86c"
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/clean-css-cli/-/clean-css-cli-4.2.0.tgz#a1aaf1ce3fd4e1ef5c5646c8b4539d116e3f01b7"
   dependencies:
-    clean-css "^4.1.9"
+    clean-css "^4.2.0"
     commander "2.x"
     glob "7.x"
 
-clean-css@^4.1.9:
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
+clean-css@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.0.tgz#0a9d62040cddc7904c5edaee9bdeca642d9b9c1c"
   dependencies:
-    source-map "0.5.x"
+    source-map "~0.6.0"
 
 cli-cursor@^2.1.0:
   version "2.1.0"
@@ -2915,17 +2915,17 @@ source-map-url@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/source-map-url/-/source-map-url-0.4.0.tgz#3e935d7ddd73631b97659956d55128e87b5084a3"
 
-source-map@0.5.x, source-map@^0.5.6:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
-
 source-map@^0.4.2:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.6.1:
+source-map@^0.5.6:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+
+source-map@^0.6.1, source-map@~0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
