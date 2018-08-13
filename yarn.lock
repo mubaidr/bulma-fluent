@@ -431,16 +431,16 @@ class-utils@^0.3.5:
     static-extend "^0.1.1"
 
 clean-css-cli@^4.1.11:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/clean-css-cli/-/clean-css-cli-4.2.0.tgz#a1aaf1ce3fd4e1ef5c5646c8b4539d116e3f01b7"
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/clean-css-cli/-/clean-css-cli-4.2.1.tgz#0a367077ad85cb4451148ac1f2edb4eb1992b4ed"
   dependencies:
-    clean-css "^4.2.0"
+    clean-css "^4.2.1"
     commander "2.x"
     glob "7.x"
 
-clean-css@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.0.tgz#0a9d62040cddc7904c5edaee9bdeca642d9b9c1c"
+clean-css@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
   dependencies:
     source-map "~0.6.0"
 
