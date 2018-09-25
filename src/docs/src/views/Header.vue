@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar is-white is-fixed-top">
+    <nav class="navbar is-dark is-fixed-top">
       <div class="navbar-brand">
         <a
           class="navbar-item"
@@ -89,7 +89,7 @@
         </div>
       </div>
     </nav>
-    <section class="hero is-medium is-dark static">
+    <section class="hero is-medium static">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -112,7 +112,7 @@
           <br>
           <p>
             <a
-              class="button is-white is-highlighted"
+              class="button is-dark is-highlighted"
               href="https://github.com/mubaidr/bulma-fluent"
               title="Github Repository"
               target="_blank">

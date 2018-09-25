@@ -53,9 +53,10 @@
     "build-minify": "cleancss --level 2 -o css/bulma.min.css css/bulma.css",
     "build-sass": "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
     "dev": "cd src/docs && npm run dev && cd..",
-    "test": "sh test/sass-compile-tester.sh",
-    "lint": "eslint --ext .js,.vue --fix src/"
+    "lint": "eslint --ext .js,.vue --fix src/",
+    "test": "sh test/sass-compile-tester.sh"
   },
   "style": "css/bulma.css",
-  "version": "0.3.11"
+  "unpkg": "css/bulma.min.css",
+  "version": "0.3.12"
 }
