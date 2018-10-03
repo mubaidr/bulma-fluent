@@ -2,13 +2,11 @@
   <div>
     <nav class="navbar is-dark is-fixed-top">
       <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          href="https://bulma.io">
-          <img
+        <router-link
+          to="/"
+          class="navbar-item"><img
             src="~../assets/logotype12.png"
-            alt="Bulma-fluent">
-        </a>
+            alt="Bulma-fluent"></router-link>
         <div
           :class="{'is-active': isNavigationBarOpen}"
           class="navbar-burger burger"
@@ -89,10 +87,13 @@
         </div>
       </div>
     </nav>
-    <section class="hero is-medium static">
+    <section
+      :class="{'is-medium': this.$route.path === '/'}"
+      class="hero is-dark">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
+          <br>
           <img src="~../assets/logomark11.png">
           <h1 class="title is-1">
             Bulma Fluent
@@ -111,38 +112,14 @@
           </h2>
           <br>
           <p>
-            <a
-              class="button is-dark is-highlighted"
-              href="https://github.com/mubaidr/bulma-fluent"
-              title="Github Repository"
-              target="_blank">
-              <span class="icon">
-                <i
-                  class="fas fa-star"
-                  aria-hidden="true" />
-              </span>
-              <span>Star on Github</span>
-            </a>
-            <a
-              class="button is-light"
-              href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css"
-              title="Download Latest Minified Build"
-              target="_blank">
-              <span class="icon">
-                <i
-                  class="fas fa-download"
-                  aria-hidden="true" />
-              </span>
-            </a>
-          </p>
-          <br>
-          <p>
             <a href="https://patreon.com/mubaidr">
               <img
                 src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"
-                style="height: 42px; width: auto;" >
+                style="height: 36px; width: auto;" >
             </a>
           </p>
+          <br>
+          <p/>
         </div>
       </div>
     </section>
@@ -167,7 +144,7 @@ export default {
 </script>
 
 <style>
-.hero.static {
-  margin-top: 50px;
+.hero-body {
+  transition: all 600ms ease-out;
 }
 </style>

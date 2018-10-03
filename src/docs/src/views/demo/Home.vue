@@ -32,13 +32,15 @@
                 <a href="https://nodei.co/npm/bulma-fluent/"><img src="https://nodei.co/npm/bulma-fluent.png?compact=true"></a>
               </p>
               <p>
-                <code>
-                  import 'bulma-fluent/css/bulma.css'
-                </code>
-                <br>or<br>
-                <code>
-                  import 'bulma-fluent/bulma.sass'
-                </code>
+                <pre>
+<code>
+import 'bulma-fluent/css/bulma.css'</code>
+                </pre>
+                OR <br>
+                <pre>
+<code>
+import 'bulma-fluent/bulma.sass'</code>
+                </pre>
               </p>
             </li>
             <li>

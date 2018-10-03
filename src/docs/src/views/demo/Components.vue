@@ -381,17 +381,14 @@
       <br>
       <h2 class="subtitle is-3">Navbar</h2>
       <hr>
-      <nav class="navbar is-primary">
+      <nav class="navbar is-dark">
         <div class="navbar-brand">
-          <a
-            class="navbar-item"
-            href="https://bulma.io">
+          <router-link
+            to="/"
+            class="navbar-item">
             <img
-              src="https://bulma.io/images/bulma-logo.png"
-              alt="Bulma: a modern CSS framework based on Flexbox"
-              width="112"
-              height="28">
-          </a>
+              src="../../assets/logotype12.png"
+              alt="Bulma-fluent"></router-link>
           <div
             class="navbar-burger burger"
             data-target="navbarExampleTransparentExample">
@@ -478,7 +475,7 @@
                 </p>
                 <p class="control">
                   <a
-                    class="button is-primary"
+                    class="button is-light"
                     href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
                     <span class="icon">
                       <i class="fas fa-download"/>

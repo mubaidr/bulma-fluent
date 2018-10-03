@@ -16,33 +16,36 @@ const router = new VueRouter({
   routes: [
     {
       path: '/home',
-      redirect: '/'
+      redirect: '/',
     },
     {
       path: '/',
-      component: Home
+      component: Home,
     },
     {
       path: '/Form',
-      component: Form
+      component: Form,
     },
     {
       path: '/Elements',
-      component: Elements
+      component: Elements,
     },
     {
       path: '/Components',
-      component: Components
+      component: Components,
     },
     {
       path: '/Extras',
-      component: Extras
+      component: Extras,
     },
     {
       path: '*',
-      component: View404
-    }
-  ]
+      component: View404,
+    },
+  ],
+  scrollBehavior() {
+    return { x: 0, y: 0 }
+  },
 })
 
 export default router

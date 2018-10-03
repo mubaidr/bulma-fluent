@@ -1,18 +1,29 @@
 @import "./animation.sass"
 
+%hover-style
+  box-shadow: $box-shadow
+  transition-property: box-shadow, transform
+  transition-duration: 600ms
+  transition-timing-function: cubic-bezier(.16,1,.29,.99)
+  &:hover
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
+    transform: translate3d(0,-4px,0)
+
 // Pagination
 .pagination
   .pagination-link,
   .pagination-previous,
   .pagination-next
+    background-color: $white
     box-shadow: none
+  .pagination-link.is-current
+    color: $dark
 
 // Button active state
 .button,
 .pagination-link,
 .pagination-previous,
 .pagination-next
-  transition: background-color 0.25s ease-out
   &:hover
     // box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 0.5px 1px;
   &:active
@@ -42,6 +53,7 @@ button,
 .pagination-previous,
 .pagination-next
   border-width: 2px!important
+  transition: all 600ms cubic-bezier(.16,1,.29,.99)
 
 .file-name
   border-left: 1px!important
@@ -60,7 +72,7 @@ button,
 
 .delete,
 .modal-close
-  border-radius: 0
+  border-radius: 0!important
 
 // Update menu component
 .menu
@@ -79,7 +91,7 @@ button,
 .table
   tr
     td
-      border-color: whitesmoke
+      border-color: $white-ter
     &.is-selected
       td,
       th
@@ -119,18 +131,22 @@ progress:indeterminate
 .panel
   // border: 1px solid $grey-lighter
   box-shadow: $box-shadow
-  // background-color: $white-ter
+  background-color: $white
   .panel-heading,
   .panel-tabs,
   .panel-block
     border-width: 0 0 1px 8px
     border-left-color: transparent
-    border-bottom-color: $grey-lighter
+    border-bottom-color: $white-ter
   .panel-block
     &:last-child
       border-bottom-width: 0
     &.is-active
       border-left-color: $primary
+      .panel-icon
+        color: $grey
+  .panel-heading
+    background-color: transparent
 
 // Update details html
 details
@@ -143,14 +159,27 @@ details
 
 // Message
 .message
+  @extend %hover-style
   .message-header
     font-weight: normal!important
 
-.message
+.notification
+  box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
+
+//card
+.card
+  @extend %hover-style
+
+// dropdown
+.dropdown-content
+  box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
+
+// hr
+hr
+  background-color: $white-ter
+
+img
   box-shadow: $box-shadow
 
-.notification
-  transition: all $speed $easing
-  box-shadow: $box-shadow
-  &:hover
-    transform: translateY(-1px)
+.label
+  font-weight: 500
