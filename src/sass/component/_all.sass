@@ -24,8 +24,9 @@
 .pagination-link,
 .pagination-previous,
 .pagination-next
+  // box-shadow: $box-shadow
   &:hover
-    // box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 0.5px 1px;
+    // box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
   &:active
     transform: scale(0.96)
 
@@ -37,7 +38,7 @@
         background-color: lighten($color, 10%)
 
 .hero
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  box-shadow: $box-shadow
   a:not(.button)
     border-bottom: 1px solid rgba(0,0,0,0.25)
 
@@ -158,28 +159,23 @@ details
     border: 1px solid $grey-lighter
 
 // Message
-.message
-  @extend %hover-style
-  .message-header
-    font-weight: normal!important
-
-.notification
-  box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
+.message,
+img
+  box-shadow: $box-shadow
+  box-shadow: $box-shadow
 
 //card
 .card
   @extend %hover-style
 
 // dropdown
+.notification,
 .dropdown-content
   box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
 
 // hr
 hr
   background-color: $white-ter
-
-img
-  box-shadow: $box-shadow
 
 .label
   font-weight: 500

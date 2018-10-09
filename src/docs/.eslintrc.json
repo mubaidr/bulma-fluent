@@ -5,13 +5,10 @@
   },
   "extends": ["airbnb", "plugin:vue/recommended", "prettier"],
   "globals": {
-    "Vue": true,
-    "chrome": true,
-    "document": true,
-    "window": true
+    "Vue": true
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module"
   },
   "plugins": ["vue"],

@@ -1495,7 +1495,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .box {
   background-color: white;
   border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
   color: rgba(9, 38, 66, 0.95);
   display: block;
   padding: 1.25rem;
@@ -5297,7 +5297,7 @@ a.tag:hover {
 
 .card {
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
   color: rgba(9, 38, 66, 0.95);
   max-width: 100%;
   position: relative;
@@ -10050,8 +10050,8 @@ label.panel-block:hover {
   }
 }
 
-.message, .card {
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+.card {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
   transition-property: box-shadow, -webkit-transform;
   transition-property: box-shadow, transform;
   transition-property: box-shadow, transform, -webkit-transform;
@@ -10059,7 +10059,7 @@ label.panel-block:hover {
   transition-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
 }
 
-.message:hover, .card:hover {
+.card:hover {
   box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
   -webkit-transform: translate3d(0, -4px, 0);
           transform: translate3d(0, -4px, 0);
@@ -10125,7 +10125,7 @@ label.panel-block:hover {
 }
 
 .hero {
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
 }
 
 .hero a:not(.button) {
@@ -10272,7 +10272,7 @@ progress:indeterminate.is-danger:before {
 }
 
 .panel {
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
   background-color: white;
 }
 
@@ -10308,24 +10308,19 @@ details summary {
   border: 1px solid #dbdbdb;
 }
 
-.message .message-header {
-  font-weight: normal !important;
+.message,
+img {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
 }
 
-.notification {
-  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
-}
-
+.notification,
 .dropdown-content {
   box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 hr {
   background-color: whitesmoke;
-}
-
-img {
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
 }
 
 .label {

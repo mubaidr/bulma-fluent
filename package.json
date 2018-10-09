@@ -58,5 +58,5 @@
   },
   "style": "css/bulma.css",
   "unpkg": "css/bulma.min.css",
-  "version": "0.3.13"
+  "version": "0.3.14"
 }
