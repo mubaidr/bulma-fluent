@@ -4,22 +4,22 @@
     "url": "https://github.com/mubaidr/bulma-fluent/issues"
   },
   "dependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.2"
   },
   "description": "Fluent Design Theme based on Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "autoprefixer": "^9.0.2",
-    "clean-css-cli": "^4.1.11",
-    "eslint": "^5.2.0",
-    "eslint-config-airbnb": "^17.0.0",
+    "autoprefixer": "^9.2.1",
+    "clean-css-cli": "^4.2.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^4.0.3",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-vue": "^4.7.1",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.4",
     "node-sass-import": "^2.0.1",
     "postcss-cli": "^6.0.0",
     "rimraf": "^2.6.2"
