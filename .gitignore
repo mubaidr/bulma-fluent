@@ -58,3 +58,4 @@ typings/
 .env
 
 test/output/
+customize-colors/

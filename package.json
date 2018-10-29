@@ -46,13 +46,14 @@
     "url": "git+https://github.com/mubaidr/bulma-fluent.git"
   },
   "scripts": {
-    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
+    "build": "yarn run build-clean && yarn run build-sass && yarn run build-autoprefix && yarn run build-minify",
     "build-autoprefix": "postcss --use autoprefixer --map true --output css/bulma.css css/bulma.css",
     "build-clean": "rimraf css",
-    "build-docs": "cd src/docs && npm run build && cd..",
+    "build-docs": "cd src/docs && yarn run build && cd..",
     "build-minify": "cleancss --level 2 -o css/bulma.min.css css/bulma.css",
     "build-sass": "node-sass --output-style expanded bulma.sass css/bulma.css --importer node_modules/node-sass-import",
-    "dev": "cd src/docs && npm run dev && cd..",
+    "customize-colors": "node-sass --output-style expanded customize-colors.sass customize-colors/bulma.css --importer node_modules/node-sass-import",
+    "dev": "cd src/docs && yarn run dev && cd..",
     "lint": "eslint --ext .js,.vue --fix src/",
     "test": "sh test/sass-compile-tester.sh"
   },
