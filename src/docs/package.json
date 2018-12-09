@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.1.6",
     "babel-loader": "^8.0.4",
     "cross-env": "^5.2.0",
-    "css-loader": "^1.0.1",
+    "css-loader": "^2.0.0",
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
