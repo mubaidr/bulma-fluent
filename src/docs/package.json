@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "bulma-addons": "^0.1.12",
-    "vue": "^2.5.21",
+    "vue": "^2.5.22",
     "vue-router": "^3.0.2"
   },
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
@@ -32,7 +32,7 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "vue-loader": "^15.5.0",
-    "vue-template-compiler": "^2.5.21",
+    "vue-template-compiler": "^2.5.22",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
     "webpack-dev-server": "^3.1.14"
