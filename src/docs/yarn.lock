@@ -2069,7 +2069,7 @@ eslint-plugin-react@^7.12.4:
     prop-types "^15.6.2"
     resolve "^1.9.0"
 
-eslint-plugin-vue@^5.1.0:
+eslint-plugin-vue@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-5.2.1.tgz#89795895c08da56fe3a201955bd645ae67e01918"
   dependencies:
