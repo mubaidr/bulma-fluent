@@ -10544,7 +10544,7 @@ label.panel-block:hover {
   visibility: hidden;
 }
 
-.checkbox > [type="checkbox"]:before {
+.checkbox > [type="checkbox"]::before {
   visibility: visible;
   content: '';
   height: 100%;
@@ -10558,7 +10558,7 @@ label.panel-block:hover {
   transition: all 0.25s ease-out;
 }
 
-.checkbox > [type="checkbox"]:after {
+.checkbox > [type="checkbox"]::after {
   visibility: visible;
   display: none;
   content: '';
@@ -10573,67 +10573,79 @@ label.panel-block:hover {
   transform: rotate(30deg);
 }
 
-.checkbox > [type="checkbox"]:checked:before {
+.checkbox > [type="checkbox"]:checked::before {
   background-color: rgba(55, 122, 195, 0.95);
   border-color: rgba(54, 120, 191, 0.95);
 }
 
-.checkbox > [type="checkbox"]:checked:after {
+.checkbox > [type="checkbox"]:checked::after {
   display: block;
 }
 
-.checkbox:hover > [type="checkbox"]:before {
+.checkbox:hover > [type="checkbox"]::before {
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.checkbox.is-white > [type="checkbox"]:checked:before {
+.checkbox.is-white > [type="checkbox"]:checked::before {
   background-color: white;
   border-color: #fcfcfc;
 }
 
-.checkbox.is-black > [type="checkbox"]:checked:before {
+.checkbox.is-black > [type="checkbox"]:checked::before {
   background-color: #0a0a0a;
   border-color: #080808;
 }
 
-.checkbox.is-light > [type="checkbox"]:checked:before {
+.checkbox.is-light > [type="checkbox"]:checked::before {
   background-color: #dbdbdb;
   border-color: #d9d9d9;
 }
 
-.checkbox.is-dark > [type="checkbox"]:checked:before {
+.checkbox.is-dark > [type="checkbox"]:checked::before {
   background-color: rgba(9, 38, 66, 0.95);
   border-color: rgba(8, 35, 62, 0.95);
 }
 
-.checkbox.is-primary > [type="checkbox"]:checked:before {
+.checkbox.is-primary > [type="checkbox"]:checked::before {
   background-color: rgba(55, 122, 195, 0.95);
   border-color: rgba(54, 120, 191, 0.95);
 }
 
-.checkbox.is-link > [type="checkbox"]:checked:before {
+.checkbox.is-link > [type="checkbox"]:checked::before {
   background-color: rgba(55, 122, 195, 0.95);
   border-color: rgba(54, 120, 191, 0.95);
 }
 
-.checkbox.is-info > [type="checkbox"]:checked:before {
+.checkbox.is-info > [type="checkbox"]:checked::before {
   background-color: rgba(80, 230, 255, 0.95);
   border-color: rgba(75, 229, 255, 0.95);
 }
 
-.checkbox.is-success > [type="checkbox"]:checked:before {
+.checkbox.is-success > [type="checkbox"]:checked::before {
   background-color: rgba(127, 186, 0, 0.95);
   border-color: rgba(124, 181, 0, 0.95);
 }
 
-.checkbox.is-warning > [type="checkbox"]:checked:before {
+.checkbox.is-warning > [type="checkbox"]:checked::before {
   background-color: rgba(255, 185, 0, 0.95);
   border-color: rgba(250, 181, 0, 0.95);
 }
 
-.checkbox.is-danger > [type="checkbox"]:checked:before {
+.checkbox.is-danger > [type="checkbox"]:checked::before {
   background-color: rgba(242, 80, 34, 0.95);
   border-color: rgba(242, 76, 29, 0.95);
+}
+
+@supports (-ms-ime-align: auto) {
+  .checkbox > [type="checkbox"] {
+    visibility: visible !important;
+  }
+}
+
+@media screen and (min-width: 0\0) {
+  .checkbox > [type="checkbox"] {
+    visibility: visible !important;
+  }
 }
 
 .radio {
@@ -10655,7 +10667,7 @@ label.panel-block:hover {
   visibility: hidden;
 }
 
-.radio > [type="radio"]:before {
+.radio > [type="radio"]::before {
   visibility: visible;
   content: '';
   height: 100%;
@@ -10669,7 +10681,7 @@ label.panel-block:hover {
   transition: all 0.25s ease-out;
 }
 
-.radio > [type="radio"]:after {
+.radio > [type="radio"]::after {
   visibility: visible;
   display: none;
   content: '';
@@ -10682,56 +10694,68 @@ label.panel-block:hover {
   background-color: rgba(9, 38, 66, 0.95);
 }
 
-.radio > [type="radio"]:checked:before {
+.radio > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio > [type="radio"]:checked:after {
+.radio > [type="radio"]:checked::after {
   display: block;
 }
 
-.radio:hover > [type="radio"]:not(:checked):before {
+.radio:hover > [type="radio"]:not(:checked)::before {
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-.radio.is-white > [type="checkbox"]:checked:before {
+.radio.is-white > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-black > [type="checkbox"]:checked:before {
+.radio.is-black > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-light > [type="checkbox"]:checked:before {
+.radio.is-light > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-dark > [type="checkbox"]:checked:before {
+.radio.is-dark > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-primary > [type="checkbox"]:checked:before {
+.radio.is-primary > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-link > [type="checkbox"]:checked:before {
+.radio.is-link > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-info > [type="checkbox"]:checked:before {
+.radio.is-info > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-success > [type="checkbox"]:checked:before {
+.radio.is-success > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-warning > [type="checkbox"]:checked:before {
+.radio.is-warning > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
 }
 
-.radio.is-danger > [type="checkbox"]:checked:before {
+.radio.is-danger > [type="radio"]:checked::before {
   border-color: rgba(55, 122, 195, 0.95);
+}
+
+@supports (-ms-ime-align: auto) {
+  .radio > [type="radio"] {
+    visibility: visible !important;
+  }
+}
+
+@media screen and (min-width: 0\0) {
+  .radio > [type="radio"] {
+    visibility: visible !important;
+  }
 }
 
 @-webkit-keyframes progress-bar {
@@ -11071,7 +11095,7 @@ progress:indeterminate {
   position: relative;
 }
 
-progress:indeterminate:before {
+progress:indeterminate::before {
   content: '';
   position: absolute;
   left: 0;
@@ -11085,43 +11109,43 @@ progress:indeterminate:before {
           animation-timing-function: linear;
 }
 
-progress:indeterminate.is-white:before {
+progress:indeterminate.is-white::before {
   background-color: white;
 }
 
-progress:indeterminate.is-black:before {
+progress:indeterminate.is-black::before {
   background-color: #0a0a0a;
 }
 
-progress:indeterminate.is-light:before {
+progress:indeterminate.is-light::before {
   background-color: #dbdbdb;
 }
 
-progress:indeterminate.is-dark:before {
+progress:indeterminate.is-dark::before {
   background-color: rgba(9, 38, 66, 0.95);
 }
 
-progress:indeterminate.is-primary:before {
+progress:indeterminate.is-primary::before {
   background-color: rgba(55, 122, 195, 0.95);
 }
 
-progress:indeterminate.is-link:before {
+progress:indeterminate.is-link::before {
   background-color: rgba(55, 122, 195, 0.95);
 }
 
-progress:indeterminate.is-info:before {
+progress:indeterminate.is-info::before {
   background-color: rgba(80, 230, 255, 0.95);
 }
 
-progress:indeterminate.is-success:before {
+progress:indeterminate.is-success::before {
   background-color: rgba(127, 186, 0, 0.95);
 }
 
-progress:indeterminate.is-warning:before {
+progress:indeterminate.is-warning::before {
   background-color: rgba(255, 185, 0, 0.95);
 }
 
-progress:indeterminate.is-danger:before {
+progress:indeterminate.is-danger::before {
   background-color: rgba(242, 80, 34, 0.95);
 }
 

@@ -10,7 +10,7 @@
     padding: 0
     margin: 0
     visibility: hidden
-    &:before
+    &::before
       visibility: visible
       content: ''
       height: 100%
@@ -22,7 +22,7 @@
       background-color: $white
       border: 2px solid $border
       transition: all 0.25s ease-out
-    &:after
+    &::after
       visibility: visible
       display: none
       content: ''
@@ -34,18 +34,28 @@
       width: 50%
       background-color: $dark
     &:checked
-      &:before
+      &::before
         border-color: $primary
-      &:after
+      &::after
         display: block
   &:hover
     & > [type="radio"]:not(:checked)
-      &:before
+      &::before
         border-color: rgba(0,0,0,0.5)
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     &.is-#{$name}
-      & > [type="checkbox"]
+      & > [type="radio"]
         &:checked
-          &:before
+          &::before
             border-color: $primary
+
+@supports (-ms-ime-align:auto)
+  .radio
+    & > [type="radio"]
+      visibility: visible!important
+
+@media screen and (min-width:0\0)
+  .radio
+    & > [type="radio"]
+      visibility: visible!important

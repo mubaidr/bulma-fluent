@@ -111,7 +111,7 @@ button,
 // indeterminate progress
 progress:indeterminate
   position: relative
-  &:before
+  &::before
     content: ''
     position: absolute
     left: 0
@@ -125,7 +125,7 @@ progress:indeterminate
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     &.is-#{$name}
-      &:before
+      &::before
         background-color: $color
 
 // Panel
