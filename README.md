@@ -1,9 +1,7 @@
 <p align="center">
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
  <img src="https://raw.githubusercontent.com/jbeguna04/bulma-fluent/master/LogoDesign/banner1.png" width=900 align="center">
 </p>
 
-Logo Design by Jibbie Eguna(jbeguna04)
 # Bulma-Fluent:
 
 > Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
