@@ -27,10 +27,6 @@ export default {
 </script>
 
 <style>
-body {
-  background-color: #e7ecf0;
-}
-
 .content-custom {
   min-height: 320px;
 }
