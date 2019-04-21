@@ -5817,9 +5817,9 @@ vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-router@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.4.tgz#d6023e9db64d0b335771f0316c8bde8956f2d75d"
+vue-router@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.6.tgz#2e4f0f9cbb0b96d0205ab2690cfe588935136ac3"
 
 vue-style-loader@^4.1.0:
   version "4.1.0"
