@@ -2103,9 +2103,9 @@ eslint-module-utils@^2.4.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-html@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-5.0.3.tgz#3db133995e49a73596f6a473c16a1b83634deffd"
+eslint-plugin-html@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-5.0.4.tgz#3bd0cc8279bf3d77d049942aa238a9118f9fafbe"
   dependencies:
     htmlparser2 "^3.10.0"
 
