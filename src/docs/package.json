@@ -21,7 +21,7 @@
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^2.1.2",
+    "eslint-loader": "^2.2.1",
     "eslint-plugin-html": "^5.0.5",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
