@@ -100,6 +100,7 @@ button,
 
 // Update progress bar
 .progress
+  border-radius: 0
   height: 4px
   &.is-small
     height: 2px
@@ -107,26 +108,6 @@ button,
     height: 6px
   &.is-large
     height: 8px
-
-// indeterminate progress
-progress:indeterminate
-  position: relative
-  &::before
-    content: ''
-    position: absolute
-    left: 0
-    top: 0
-    width: 25%
-    height: 100%
-    background-color: $primary
-    animation: progress-bar 5s infinite
-    animation-timing-function: linear
-    // Colors
-  @each $name, $pair in $colors
-    $color: nth($pair, 1)
-    &.is-#{$name}
-      &::before
-        background-color: $color
 
 // Panel
 .panel
@@ -162,7 +143,6 @@ details
 .message,
 img
   box-shadow: $box-shadow
-  box-shadow: $box-shadow
 
 //card
 .card
@@ -175,7 +155,7 @@ img
 
 // hr
 hr
-  background-color: $white-ter
+  background-color: rgba(0,0,0,0.075)
 
 .label
   font-weight: 500
