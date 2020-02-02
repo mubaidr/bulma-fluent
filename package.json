@@ -9,20 +9,24 @@
   },
   "description": "Fluent Design Theme based on Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "autoprefixer": "^9.7.3",
+    "@types/autoprefixer": "^9.6.1",
+    "@types/eslint": "^6.1.7",
+    "@types/rimraf": "^2.0.3",
+    "@types/sass": "^1.16.0",
+    "autoprefixer": "^9.7.4",
     "clean-css-cli": "^4.3.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-vue": "^6.0.1",
-    "postcss-cli": "^6.1.3",
-    "rimraf": "^3.0.0",
-    "sass": "^1.23.7"
+    "eslint-plugin-react": "^7.18.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "postcss-cli": "^7.1.0",
+    "rimraf": "^3.0.1",
+    "sass": "^1.25.0"
   },
   "files": [
     "css",
@@ -59,5 +63,5 @@
   },
   "style": "css/bulma.min.css",
   "unpkg": "css/bulma.min.css",
-  "version": "0.3.19"
+  "version": "0.3.20"
 }
