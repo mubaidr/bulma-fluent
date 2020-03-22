@@ -11,7 +11,7 @@
   "devDependencies": {
     "@types/autoprefixer": "^9.6.1",
     "@types/eslint": "^6.1.7",
-    "@types/rimraf": "^2.0.3",
+    "@types/rimraf": "^3.0.0",
     "@types/sass": "^1.16.0",
     "autoprefixer": "^9.7.4",
     "clean-css-cli": "^4.3.0",
