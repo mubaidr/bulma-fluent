@@ -12,7 +12,7 @@
   },
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
     "cross-env": "^5.2.0",
