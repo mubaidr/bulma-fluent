@@ -5,28 +5,28 @@
     "url": "https://github.com/mubaidr/bulma-fluent/issues"
   },
   "dependencies": {
-    "bulma": "^0.8.0"
+    "bulma": "^0.8.2"
   },
   "description": "Fluent Design Theme based on Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
-    "@types/autoprefixer": "^9.6.1",
-    "@types/eslint": "^6.1.7",
-    "@types/rimraf": "^2.0.3",
+    "@types/autoprefixer": "^9.7.2",
+    "@types/eslint": "^6.8.0",
+    "@types/rimraf": "^3.0.0",
     "@types/sass": "^1.16.0",
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^9.7.6",
     "clean-css-cli": "^4.3.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.2",
-    "eslint-plugin-vue": "^6.1.2",
-    "postcss-cli": "^7.1.0",
-    "rimraf": "^3.0.1",
-    "sass": "^1.25.0"
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "postcss-cli": "^7.1.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.5"
   },
   "files": [
     "css",
@@ -63,5 +63,5 @@
   },
   "style": "css/bulma.min.css",
   "unpkg": "css/bulma.min.css",
-  "version": "0.3.20"
+  "version": "0.3.21"
 }

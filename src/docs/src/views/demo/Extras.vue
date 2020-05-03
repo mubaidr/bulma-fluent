@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <section class="section">
-      <h1 class="title">Looking for extensions or addons for bulma? </h1>
-      <p>Checkout following projects: </p>
-      <br>
+      <h1 class="title">
+        Looking for extensions or addons for bulma?
+      </h1>
+      <p>Checkout following projects:</p>
+      <br />
       <div class="column is-6 is-offset-3">
         <div class="box">
           <article class="media">
@@ -13,10 +15,13 @@
                   <strong>
                     <a href="//github.com/mubaidr/vue-fluent">Vue-Fluent</a>
                   </strong>
-                  <small>by
+                  <small
+                    >by
                     <a href="//github.com/mubaidr">mubaidr</a>
                   </small>
-                  <br> Fluent Design Components for Vue.js using Bulma, inspired by Microsoft’s Fluent Design System:
+                  <br />
+                  Fluent Design Components for Vue.js using Bulma, inspired by
+                  Microsoft’s Fluent Design System:
                   <a href="//mubaidr.github.io/vue-fluent">Homepage</a>
                 </p>
               </div>
@@ -31,10 +36,12 @@
                   <strong>
                     <a href="//github.com/mubaidr/bulma-addons">Bulma-Addons</a>
                   </strong>
-                  <small>by
+                  <small
+                    >by
                     <a href="//github.com/mubaidr">mubaidr</a>
                   </small>
-                  <br> Addons for Bulma CSS framework:
+                  <br />
+                  Addons for Bulma CSS framework:
                   <a href="//mubaidr.github.io/bulma-addons">Homepage</a>
                 </p>
               </div>
@@ -47,12 +54,16 @@
               <div class="content">
                 <p>
                   <strong>
-                    <a href="//github.com/Wikiki/bulma-extensions">Bulma-Extensions</a>
+                    <a href="//github.com/Wikiki/bulma-extensions"
+                      >Bulma-Extensions</a
+                    >
                   </strong>
-                  <small>by
+                  <small
+                    >by
                     <a href="//github.com/Wikiki">Wikiki</a>
                   </small>
-                  <br> Extensions for Bulma CSS framework:
+                  <br />
+                  Extensions for Bulma CSS framework:
                   <a href="//wikiki.github.io">Homepage</a>
                 </p>
               </div>
@@ -64,8 +75,7 @@
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 .project-list li {

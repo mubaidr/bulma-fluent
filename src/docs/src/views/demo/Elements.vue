@@ -1,18 +1,23 @@
 <template>
   <div class="container">
     <section class="section">
-      <h1 class="title">Elements</h1>
-      <hr>
+      <h1 class="title">
+        Elements
+      </h1>
+      <hr />
 
-      <h2 class="subtitle is-3">Box</h2>
-      <hr>
+      <h2 class="subtitle is-3">
+        Box
+      </h2>
+      <hr />
       <div class="box">
         <article class="media">
-          <div class="media-left">
+          <div class="media -left">
             <figure class="image is-64x64">
-              <img 
-                src="https://bulma.io/images/placeholders/128x128.png" 
-                alt="Image">
+              <img
+                src="https://bulma.io/images/placeholders/128x128.png"
+                alt="Image"
+              />
             </figure>
           </div>
           <div class="media-content">
@@ -21,17 +26,22 @@
                 <strong>John Smith</strong>
                 <small>@johnsmith</small>
                 <small>31m</small>
-                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                <br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                efficitur sit amet massa fringilla egestas. Nullam condimentum
+                luctus turpis.
               </p>
             </div>
           </div>
         </article>
       </div>
 
-      <br>
+      <br />
 
-      <h2 class="subtitle is-3">Buttons</h2>
-      <hr>
+      <h2 class="subtitle is-3">
+        Buttons
+      </h2>
+      <hr />
       <div>
         <div class="block">
           <a class="button">Default</a>
@@ -44,21 +54,14 @@
           <a class="button is-danger">Danger</a>
         </div>
         <div class="block">
-          <a class="button is-loading"> Loading
-          </a>
-          <a class="button is-light is-loading"> Loading
-          </a>
+          <a class="button is-loading"> Loading </a>
+          <a class="button is-light is-loading"> Loading </a>
           <a class="button is-dark is-loading"> Loading</a>
-          <a class="button is-primary is-loading"> Loading
-          </a>
-          <a class="button is-info is-loading"> Loading
-          </a>
-          <a class="button is-success is-loading"> Loading
-          </a>
-          <a class="button is-warning is-loading"> Loading
-          </a>
-          <a class="button is-danger is-loading"> Loading
-          </a>
+          <a class="button is-primary is-loading"> Loading </a>
+          <a class="button is-info is-loading"> Loading </a>
+          <a class="button is-success is-loading"> Loading </a>
+          <a class="button is-warning is-loading"> Loading </a>
+          <a class="button is-danger is-loading"> Loading </a>
         </div>
 
         <div class="block">
@@ -90,29 +93,25 @@
             <span class="icon">
               <i class="fa fa-github" />
             </span>
-            <span> GitHub
-            </span>
+            <span> GitHub </span>
           </a>
           <a class="button">
             <span class="icon">
               <i class="fa fa-twitter" />
             </span>
-            <span> Twitter
-            </span>
+            <span> Twitter </span>
           </a>
           <a class="button">
             <span class="icon is-small">
               <i class="fa fa-check" />
             </span>
-            <span> Save
-            </span>
+            <span> Save </span>
           </a>
           <a class="button">
             <span class="icon is-small">
               <i class="fa fa-times" />
             </span>
-            <span> Delete
-            </span>
+            <span> Delete </span>
           </a>
         </p>
 
@@ -122,148 +121,141 @@
               <span class="icon is-small">
                 <i class="fa fa-bold" />
               </span>
-              <span> Bold
-              </span>
+              <span> Bold </span>
             </a>
             <a class="button">
               <span class="icon is-small">
                 <i class="fa fa-italic" />
               </span>
-              <span> Italic
-              </span>
+              <span> Italic </span>
             </a>
             <a class="button">
               <span class="icon is-small">
                 <i class="fa fa-underline" />
               </span>
-              <span> Underline
-              </span>
+              <span> Underline </span>
             </a>
             <a class="button">
               <span class="icon is-small">
                 <i class="fa fa-align-left" />
               </span>
-              <span> Left
-              </span>
+              <span> Left </span>
             </a>
             <a class="button">
               <span class="icon is-small">
                 <i class="fa fa-align-center" />
               </span>
-              <span> Center
-              </span>
+              <span> Center </span>
             </a>
             <a class="button">
               <span class="icon is-small">
                 <i class="fa fa-align-right" />
               </span>
-              <span> Right
-              </span>
+              <span> Right </span>
             </a>
           </p>
         </div>
       </div>
 
-      <br><br>
+      <br /><br />
 
-      <h2 class="subtitle is-3">Progress bars</h2>
-      <hr>
+      <h2 class="sub t i tle is-3">
+        Progress bars
+      </h2>
+      <hr />
       <div id="progress">
-        <progress class="progress is-primary">0%</progress>
-        <progress 
-          class="progress" 
-          max="100" 
-          value="40"> 40%
+        <progress class="progress is-primary">
+          0%
         </progress>
-        <progress 
-          class="progress is-primary" 
-          max="100" 
-          value="50"> 50%
+        <progress class="progress" max="100" value="40">
+          40%
         </progress>
-        <progress 
-          class="progress is-info" 
-          max="100" 
-          value="60"> 60%
+        <progress class="progress is-primary" max="100" value="50">
+          50%
         </progress>
-        <progress 
-          class="progress is-success" 
-          max="100" 
-          value="70"> 70%
+        <progress class="progress is-info" max="100" value="60">
+          60%
         </progress>
-        <progress 
-          class="progress is-warning" 
-          max="100" 
-          value="80"> 80%
+        <progress class="progress is-suc cess" max="100" value="70">
+          70%
         </progress>
-        <progress 
-          class="progress is-danger" 
-          max="100" 
-          value="90"> 90%
+        <progress class="progress is-warning" max="100" value="80">
+          80%
+        </progress>
+        <progress class="progress is-danger" max="100" value="90">
+          90%
         </progress>
       </div>
-      <br><br>
+      <br /><br />
 
-      <h2 class="subtitle is-3">Image</h2>
-      <hr>
+      <h2 class="subtitle is-3">
+        Image
+      </h2>
+      <hr />
       <figure class="image is-128x128">
-        <img src="https://bulma.io/images/placeholders/128x128.png">
+        <img src="https://bulma.io/images/placeholders/128x128.png" />
       </figure>
 
-      <br><br>
+      <br /><br />
 
-      <h2 class="subtitle is-3">Notifications</h2>
-      <hr>
+      <h2 class="subtitle is-3">
+        Notifications
+      </h2>
+      <hr />
       <div class="columns notifications">
         <div class="column">
           <div class="notification">
             <button class="delete" /> Lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
           <div class="notification is-dark">
             <button class="delete" /> Lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
           <div class="notification is-primary">
             <button class="delete" /> Primar lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
           <div class="notification is-info">
             <button class="delete" /> Info lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
         </div>
+
         <div class="column">
           <div class="notification is-light">
             <button class="delete" /> Lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
           <div class="notification is-success">
             <button class="delete" /> Success lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
           <div class="notification is-warning">
             <button class="delete" /> Warning lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
           <div class="notification is-danger">
             <button class="delete" /> Danger lorem ipsum dolor sit amet,
-            <a href="#">consectetur
-            </a> adipiscing elit lorem ipsum dolor sit amet, consectetur adipiscing elit
+            <a href="#">consectetur </a> adipiscing elit lorem ipsum dolor sit
+            amet, consectetur adipiscing elit
           </div>
         </div>
       </div>
 
-      <br>
+      <br />
 
-      <h2 class="subtitle is-3">Tags</h2>
-      <hr>
+      <h2 class="subtitle is-3">
+        Tags
+      </h2>
+      <hr />
       <div class="tags">
         <span class="tag">Default</span>
         <span class="tag is-light">Light</span>
@@ -279,7 +271,7 @@
         <div class="field is-grouped is-grouped-multiline">
           <div class="control">
             <div class="tags has-addons">
-              <a class="tag is-link">Technology</a>
+              <a class="tag is-l ink">T echnology</a>
               <a class="tag is-delete" />
             </div>
           </div>
@@ -306,10 +298,12 @@
         </span>
       </div>
 
-      <br>
+      <br />
 
-      <h2 class="subtitle is-3">Tables</h2>
-      <hr>
+      <h2 class="subtitle is-3">
+        Tables
+      </h2>
+      <hr />
       <table class="table is-narrow is-fullwidth">
         <tr>
           <th>Company</th>
@@ -321,19 +315,30 @@
           <td>Maria Anders</td>
           <td>Germany</td>
         </tr>
-        <tr class="is-selected">
-          <td>Centro comercial</td>
-          <td>Francisco Chang</td>
+        <tr class="is-selecte d">
+          <td>
+            Centro comercia l
+          </td>
+
+          <td>
+            Francisco Chang
+          </td>
+
           <td>Mexico</td>
         </tr>
+
         <tr>
           <td>Ernst Handel</td>
           <td>Roland Mendel</td>
+
           <td>Austria</td>
         </tr>
+
         <tr>
           <td>Island Trading</td>
+
           <td>Helen Bennett</td>
+
           <td>UK</td>
         </tr>
         <tr>
@@ -348,23 +353,49 @@
         </tr>
       </table>
 
-      <br>
+      <br />
 
-      <h2 class="subtitle is-3">Titles</h2>
-      <hr>
-      <h1 class="title is-1">Title 1</h1>
-      <h2 class="title is-2">Title 2</h2>
-      <h3 class="title is-3">Title 3</h3>
-      <h4 class="title is-4">Title 4</h4>
-      <h5 class="title is-5">Title 5</h5>
-      <h6 class="title is-6">Title 6</h6>
-      <br>
-      <h1 class="subtitle is-1">Subtitle 1</h1>
-      <h2 class="subtitle is-2">Subtitle 2</h2>
-      <h3 class="subtitle is-3">Subtitle 3</h3>
-      <h4 class="subtitle is-4">Subtitle 4</h4>
-      <h5 class="subtitle is-5">Subtitle 5</h5>
-      <h6 class="subtitle is-6">Subtitle 6</h6>
+      <h2 class="subtitle is-3">
+        Titles
+      </h2>
+      <hr />
+      <h1 class="title is-1">
+        Title 1
+      </h1>
+      <h2 class="title is-2">
+        Title 2
+      </h2>
+      <h3 class="title is-3">
+        Title 3
+      </h3>
+      <h4 class="title is-4">
+        Title 4
+      </h4>
+      <h5 class="title is-5">
+        Title 5
+      </h5>
+      <h6 class="title is-6">
+        Title 6
+      </h6>
+      <br />
+      <h1 class="subtitle is-1">
+        Subtitle 1
+      </h1>
+      <h2 class="subtitle is-2">
+        Subtitle 2
+      </h2>
+      <h3 class="subtitle is-3">
+        Subtitle 3
+      </h3>
+      <h4 class="subtitle is-4">
+        Subtitle 4
+      </h4>
+      <h5 class="subtitle is-5">
+        Subtitle 5
+      </h5>
+      <h6 class="subtitle is-6">
+        Subtitle 6
+      </h6>
     </section>
   </div>
 </template>

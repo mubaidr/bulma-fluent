@@ -17,26 +17,23 @@ module.exports = {
         use: ['vue-style-loader', 'css-loader'],
       },
       {
-        test: /\.scss$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader'],
-      },
-      {
-        test: /\.sass$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax'],
+        test: /\.s[ac]ss$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              // Prefer `dart-sass`
+              // eslint-disable-next-line global-require
+              implementation: require('sass'),
+            },
+          },
+        ],
       },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
-        options: {
-          loaders: {
-            scss: ['vue-style-loader', 'css-loader', 'sass-loader'],
-            sass: [
-              'vue-style-loader',
-              'css-loader',
-              'sass-loader?indentedSyntax',
-            ],
-          },
-        },
       },
       {
         test: /\.js$/,
@@ -48,6 +45,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]',
+          esModule: false,
         },
       },
       {
@@ -55,6 +53,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]',
+          esModule: false,
         },
       },
     ],
