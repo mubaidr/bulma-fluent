@@ -9,24 +9,14 @@
     box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
     transform: translate3d(0,-4px,0)
 
-// Pagination
-.pagination
-  .pagination-link,
-  .pagination-previous,
-  .pagination-next
-    background-color: $white
-    box-shadow: none
-  .pagination-link.is-current
-    color: $dark
-
 // Button active state
 .button,
 .pagination-link,
 .pagination-previous,
 .pagination-next
   // box-shadow: $box-shadow
-  &:hover
-    // box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
+  // &:hover
+    // box-shadow: 0 3px 6px 0 rgba(0,0,0,.2)
   &:active
     transform: scale(0.96)
 
@@ -36,44 +26,50 @@
     &.is-#{$name}
       &:hover
         background-color: lighten($color, 10%)
+        border-color: $color
 
 .hero
   box-shadow: $box-shadow
   a:not(.button)
     border-bottom: 1px solid rgba(0,0,0,0.25)
 
+.pagination-previous,
+.pagination-next
+  padding: 0 2em
+
 // Update border-width
-input,
-textarea,
-select,
-button,
+.input,
+.textarea,
+.select,
+.delete,
 .button,
 .file-cta,
 .file-name,
 .pagination-link,
 .pagination-previous,
 .pagination-next
-  border-width: 2px!important
+  border-width: 1px!important
   transition: all 600ms cubic-bezier(.16,1,.29,.99)
-
-.file-name
-  border-left: 1px!important
 
 .file-cta,
 .file-name
+  height: 2.25em
+  line-height: 1.25em
   border-color: $border !important
   &:hover
     border-color: $border-hover !important
 
-.buttons.has-addons
-  & .button:not(:first-child)
-    border-left-width: 1px !important
-  & .button:not(:last-child)
-    border-right-width: 1px !important
+.file-name
+  border-left-width: 0!important
 
 .delete,
 .modal-close
-  border-radius: 0!important
+  border-radius: $radius!important
+
+.navbar-dropdown.is-boxed
+  border-radius: $radius!important
+  top: 52px
+  padding: 0
 
 // Update menu component
 .menu
@@ -155,7 +151,13 @@ img
 
 // hr
 hr
+  height: 1px
   background-color: rgba(0,0,0,0.075)
 
 .label
   font-weight: 500
+
+.select:not(.is-multiple):not(.is-loading)::after
+  border-color: $border-hover
+  border-width: 2px
+  top: 1.35em

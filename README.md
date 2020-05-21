@@ -1,6 +1,6 @@
-<p align="center">
- <img src="https://raw.githubusercontent.com/jbeguna04/bulma-fluent/master/LogoDesign/banner1.png" width=900 align="center">
-</p>
+<a href="https://mubaidr.github.io/bulma-fluent/">
+ <img src="screenshot.png" width=900 align="center">
+</a>
 
 # Bulma-Fluent:
 
@@ -97,6 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/35353768?v=4" width="100px;" alt="Jibbie R. Eguna"/><br /><sub><b>Jibbie R. Eguna</b></sub>](https://github.com/jbeguna04)<br />[🎨](#design-jbeguna04 "Design") |
 | :---: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

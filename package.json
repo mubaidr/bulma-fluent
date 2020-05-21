@@ -12,7 +12,7 @@
     "@types/autoprefixer": "^9.7.2",
     "@types/rimraf": "^3.0.0",
     "@types/sass": "^1.16.0",
-    "autoprefixer": "^9.7.6",
+    "autoprefixer": "^9.8.0",
     "clean-css-cli": "^4.3.0",
     "postcss-cli": "^7.1.1",
     "rimraf": "^3.0.2",
@@ -54,5 +54,5 @@
   },
   "style": "css/bulma.min.css",
   "unpkg": "css/bulma.min.css",
-  "version": "0.3.22"
+  "version": "0.3.25"
 }
