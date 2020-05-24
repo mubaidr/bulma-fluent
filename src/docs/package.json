@@ -17,7 +17,7 @@
     "@types/babel__preset-env": "^7.9.0",
     "@types/eslint": "^6.8.1",
     "@types/file-loader": "^4.2.0",
-    "@types/prettier": "^2.0.0",
+    "@types/prettier": "^2.0.1",
     "@types/sass": "^1.16.0",
     "@types/webpack": "^4.41.13",
     "@types/webpack-dev-server": "^3.10.1",
