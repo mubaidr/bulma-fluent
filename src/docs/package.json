@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "vue": "^2.6.11",
-    "vue-router": "^3.1.6"
+    "vue-router": "^3.2.0"
   },
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
