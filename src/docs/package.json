@@ -19,7 +19,7 @@
     "@types/file-loader": "^4.2.0",
     "@types/prettier": "^2.0.0",
     "@types/sass": "^1.16.0",
-    "@types/webpack": "^4.41.13",
+    "@types/webpack": "^4.41.16",
     "@types/webpack-dev-server": "^3.10.1",
     "babel-loader": "^8.1.0",
     "cross-env": "^7.0.2",
