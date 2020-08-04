@@ -1,0 +1,44 @@
+%hover-style
+  box-shadow: $box-shadow
+  transition-property: box-shadow, transform
+  transition-duration: 600ms
+  transition-timing-function: cubic-bezier(.16,1,.29,.99)
+  &:hover
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,.2)
+    transform: translate3d(0,-4px,0)
+
+// Update border-width for all inputs
+.input,
+.textarea,
+.select,
+.delete,
+.button,
+.file-cta,
+.file-name,
+.pagination-link,
+.pagination-previous,
+.pagination-next
+  border-width: 1px!important
+  transition: all 600ms cubic-bezier(.16,1,.29,.99)
+
+// details and summary tag
+details
+  summary
+    padding-left: 7px
+    background-color: $background
+    cursor: pointer
+    border-radius: 2px
+    border: 1px solid $grey-lighter
+
+// image
+img
+  box-shadow: $box-shadow
+
+// horizontal rule
+hr
+  height: 1px
+  background-color: rgba(0,0,0,0.075)
+
+// label style
+.label
+  font-weight: 500

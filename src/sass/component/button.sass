@@ -1,0 +1,23 @@
+.button
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      &:hover
+        background-color: lighten($color, 10%)
+        border-color: $color
+
+// Button active state
+.button,
+.pagination-link,
+.pagination-previous,
+.pagination-next
+  &:active
+    transform: scale(0.96)
+
+.pagination-previous,
+.pagination-next
+  padding: 0 2em
+
+.delete,
+.modal-close
+  border-radius: $radius!important

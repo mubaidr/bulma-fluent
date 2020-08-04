@@ -1,0 +1,19 @@
+.panel
+  // border: 1px solid $grey-lighter
+  box-shadow: $box-shadow
+  background-color: $white
+  .panel-heading,
+  .panel-tabs,
+  .panel-block
+    border-width: 0 0 1px 8px
+    border-left-color: transparent
+    border-bottom-color: $white-ter
+  .panel-block
+    &:last-child
+      border-bottom-width: 0
+    &.is-active
+      border-left-color: $primary
+      .panel-icon
+        color: $grey
+  .panel-heading
+    background-color: transparent
