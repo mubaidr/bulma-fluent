@@ -38,7 +38,7 @@
     "url": "git+https://github.com/mubaidr/bulma-fluent.git"
   },
   "scripts": {
-    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
+    "build": "npm run build-docs && npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-minify",
     "build-autoprefix": "postcss --use autoprefixer --map true --output css/bulma.css css/bulma.css",
     "build-clean": "rimraf css",
     "build-docs": "cd src/docs && npm run build && cd..",
