@@ -2,8 +2,14 @@
   <div>
     <nav class="navbar is-dark is-fixed-top">
       <div class="navbar-brand">
-        <router-link to="/" class="navbar-item">
-          <img src="~../assets/logotype12.png" alt="Bulma-fluent" />
+        <router-link
+          to="/"
+          class="navbar-item"
+        >
+          <img
+            src="~../assets/logotype12.png"
+            alt="Bulma-fluent"
+          >
         </router-link>
         <div
           :class="{ 'is-active': isNavigationBarOpen }"
@@ -72,7 +78,10 @@
             target="_blank"
           >
             <span class="icon">
-              <i class="fas fa-star" aria-hidden="true" />
+              <i
+                class="fas fa-star"
+                aria-hidden="true"
+              />
             </span>
             <span>Github</span>
           </a>
@@ -83,7 +92,10 @@
             target="_blank"
           >
             <span class="icon">
-              <i class="fas fa-download" aria-hidden="true" />
+              <i
+                class="fas fa-download"
+                aria-hidden="true"
+              />
             </span>
             <span>Download</span>
           </a>
@@ -97,32 +109,36 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
-          <br />
-          <img src="~../assets/logomark11.png" />
+          <br>
+          <img src="~../assets/logomark11.png">
           <h1 class="title is-1">
             Bulma Fluent
           </h1>
           <h2 class="subtitle is-4">
             Fluent Design Theme based on
-            <a href="http://bulma.io" target="_blank">Bulma CSS Framework</a>
+            <a
+              href="http://bulma.io"
+              target="_blank"
+            >Bulma CSS Framework</a>
             <span class="is-size-6">
-              <br />
+              <br>
               inspired by
-              <a href="https://fluent.microsoft.com" target="_blank"
-                >Microsoft’s Fluent Design System</a
-              >
+              <a
+                href="https://fluent.microsoft.com"
+                target="_blank"
+              >Microsoft’s Fluent Design System</a>
             </span>
           </h2>
-          <br />
+          <br>
           <p>
             <a href="https://patreon.com/mubaidr">
               <img
                 src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"
                 style="height: 36px; width: auto;"
-              />
+              >
             </a>
           </p>
-          <br />
+          <br>
           <p />
         </div>
       </div>

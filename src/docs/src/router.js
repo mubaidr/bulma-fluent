@@ -1,13 +1,13 @@
 import vue from 'vue'
 import VueRouter from 'vue-router'
-
+import View404 from './views/404.vue'
+import Components from './views/demo/Components.vue'
+import Elements from './views/demo/Elements.vue'
+import Extras from './views/demo/Extras.vue'
+import Form from './views/demo/Form.vue'
 // home
 import Home from './views/demo/Home.vue'
-import Form from './views/demo/Form.vue'
-import Elements from './views/demo/Elements.vue'
-import Components from './views/demo/Components.vue'
-import Extras from './views/demo/Extras.vue'
-import View404 from './views/404.vue'
+
 
 vue.use(VueRouter)
 

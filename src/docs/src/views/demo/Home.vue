@@ -6,7 +6,7 @@
           Getting started
         </h1>
 
-        <hr />
+        <hr>
 
         <div class="content">
           <p>
@@ -31,23 +31,24 @@
             <li>
               <span class="title is-5">Use npm: </span>
               <p>
-                <a href="https://nodei.co/npm/bulma-fluent/"
-                  ><img
-                    src="https://nodei.co/npm/bulma-fluent.png?compact=true"
-                /></a>
+                <a
+                  href="https://nodei.co/npm/bulma-fluent/"
+                ><img
+                  src="https://nodei.co/npm/bulma-fluent.png?compact=true"
+                ></a>
               </p>
               <p>
                 <code> import 'bulma-fluent/css/bulma.css'</code>
-                <br />OR <br />
+                <br>OR <br>
                 <code> import 'bulma-fluent/bulma.sass'</code>
               </p>
             </li>
             <li>
               <span class="title is-5">CDN link</span>
               <p>
-                <a href="https://unpkg.com/bulma-fluent/css/"
-                  >unpkg.com/bulma-fluent</a
-                >
+                <a
+                  href="https://unpkg.com/bulma-fluent/css/"
+                >unpkg.com/bulma-fluent</a>
               </p>
             </li>
             <li>
@@ -57,8 +58,7 @@
               <p>
                 <a
                   href="https://raw.githubusercontent.com/mubaidr/bulma-fluent/master/css/bulma.min.css"
-                  >https://github.com/mubaidr/bulma-fluent/tree/master/css</a
-                >
+                >https://github.com/mubaidr/bulma-fluent/tree/master/css</a>
               </p>
             </li>
           </ol>
@@ -73,20 +73,20 @@
           </p>
           <p>
             <code lang="scss">
-              // Set your brand colors <br />
-              $primary: #8A4D76 <br />
-              $info: #FA7C91 <br />
-              $success: #757763 <br />
-              $warning: yellow <br />
-              $danger: red <br />
-              $light: #ccc <br />
-              $dark: #444 <br />
-              <br />
-              // Update font family <br />
-              $family-sans-serif: "Calibri", "Arial" <br />
-              <br />
-              // Import the Bulma-fluent <br />
-              @import "bulma-fluent/bulma.sass" <br />
+              // Set your brand colors <br>
+              $primary: #8A4D76 <br>
+              $info: #FA7C91 <br>
+              $success: #757763 <br>
+              $warning: yellow <br>
+              $danger: red <br>
+              $light: #ccc <br>
+              $dark: #444 <br>
+              <br>
+              // Update font family <br>
+              $family-sans-serif: "Calibri", "Arial" <br>
+              <br>
+              // Import the Bulma-fluent <br>
+              @import "bulma-fluent/bulma.sass" <br>
             </code>
           </p>
         </div>
@@ -97,9 +97,9 @@
           </h2>
           <p>
             You can follow
-            <a href="https://bulma.io/documentation/"
-              >official bulma documentaion</a
-            >
+            <a
+              href="https://bulma.io/documentation/"
+            >official bulma documentaion</a>
             for all components.
           </p>
         </div>
