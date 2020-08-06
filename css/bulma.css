@@ -10417,10 +10417,20 @@ hr {
   height: 8px;
 }
 
+.select {
+  min-width: 180px;
+}
 .select:not(.is-multiple):not(.is-loading)::after {
   border-color: #b5b5b5;
   border-width: 2px;
   top: 1.35em;
+}
+.select select {
+  width: 100%;
+}
+.select select option {
+  font-size: 1.25em;
+  background-color: #f2f2f2;
 }
 
 .table tr td {
