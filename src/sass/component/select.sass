@@ -1,4 +1,11 @@
-.select:not(.is-multiple):not(.is-loading)::after
-  border-color: $border-hover
-  border-width: 2px
-  top: 1.35em
+.select
+  min-width: 180px
+  &:not(.is-multiple):not(.is-loading)::after
+    border-color: $border-hover
+    border-width: 2px
+    top: 1.35em
+  select
+    width: 100%
+    option
+      font-size: 1.25em
+      background-color: #f2f2f2
