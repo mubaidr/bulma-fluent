@@ -1,2 +1,7 @@
 .notification
   box-shadow: $box-shadow-large
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      +backdrop-filter()
+      background-color: rgba(nth($pair, 1), 0.75)

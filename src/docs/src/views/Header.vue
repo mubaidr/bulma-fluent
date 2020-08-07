@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar is-dark is-fixed-top">
+    <nav class="navbar is-fixed-top">
       <div class="navbar-brand">
         <router-link
           to="/"
@@ -131,14 +131,21 @@
           </h2>
           <br>
           <p>
-            <a href="https://patreon.com/mubaidr">
-              <img
-                src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"
-                style="height: 36px; width: auto;"
-              >
+            <a
+              class="button is-light is-large"
+              href="https://patreon.com/mubaidr"
+            >
+              <span class="icon">
+                <i
+                  class="fas fa-hand-holding-usd"
+                  aria-hidden="true"
+                />
+              </span>
+              <span>
+                Become a Patron
+              </span>
             </a>
           </p>
-          <br>
           <p />
         </div>
       </div>
@@ -164,7 +171,4 @@ export default {
 </script>
 
 <style>
-.hero-body {
-  transition: all 600ms ease-out;
-}
 </style>

@@ -1,2 +1,6 @@
 .message
   box-shadow: $box-shadow
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      +backdrop-filter()

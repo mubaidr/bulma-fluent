@@ -1,18 +1,7 @@
-$box-shadow-large: 0 12px 30px 0 rgba(0,0,0,.2)
-
-%hover-style
-  box-shadow: $box-shadow
-  transition-property: box-shadow, transform
-  transition-duration: 600ms
-  transition-timing-function: cubic-bezier(.16,1,.29,.99)
-  &:hover
-    box-shadow: $box-shadow-large
-    transform: translate3d(0,-4px,0)
-
 // Update border-width for all inputs
 .input,
 .textarea,
-.select,
+.select select,
 .delete,
 .button,
 .file-cta,
@@ -20,7 +9,7 @@ $box-shadow-large: 0 12px 30px 0 rgba(0,0,0,.2)
 .pagination-link,
 .pagination-previous,
 .pagination-next
-  border-width: 1px!important
+  border-width: 2px
   transition: all 600ms cubic-bezier(.16,1,.29,.99)
 
 // details and summary tag
@@ -31,10 +20,6 @@ details
     cursor: pointer
     border-radius: 2px
     border: 1px solid $grey-lighter
-
-// image
-img
-  box-shadow: $box-shadow
 
 // horizontal rule
 hr

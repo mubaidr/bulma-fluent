@@ -2,9 +2,19 @@
   @each $name, $pair in $colors
     $color: nth($pair, 1)
     &.is-#{$name}
-      &:hover
-        background-color: lighten($color, 10%)
-        border-color: $color
+      +backdrop-filter()
+      background-color: rgba(nth($pair, 1), 0.8)
+
+.hero .button
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.is-#{$name}
+      +backdrop-filter-light()
+      background-color: rgba(nth($pair, 1), 0.5)
+
+.button.is-outlined
+  +backdrop-filter-light()
+  background-image: none
 
 // Button active state
 .button,
@@ -12,11 +22,14 @@
 .pagination-previous,
 .pagination-next
   &:active
-    transform: scale(0.96)
+    transform: scale(0.98)
 
 .pagination-previous,
 .pagination-next
   padding: 0 2em
+
+.pagination-link
+  padding: 0 1em
 
 .delete,
 .modal-close

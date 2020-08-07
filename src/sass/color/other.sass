@@ -12,7 +12,9 @@ $button-padding-horizontal: 2em
 
 $pagination-shadow-inset: none
 
-$box-shadow: rgba(0,0,0,.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px
+$box-shadow: 0px 2px 8px rgba(0,0,0,.06), 0px 0.5px 1px rgba(0, 0, 0, 0.05)
+$box-shadow-large: 0 6px 24px 0 rgba(0,0,0,0.18), 0px 1px 2px rgba(0, 0, 0, 0.1)
+
 $card-shadow: $box-shadow
 
 $dropdown-content-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px
@@ -27,3 +29,29 @@ $menu-item-hover-background-color: $white-ter
 $message-background-color: $white-ter
 
 $panel-block-hover-background-color: $white-ter
+
+%hover-style
+  box-shadow: $box-shadow
+  transition-property: box-shadow, transform
+  transition-duration: 600ms
+  transition-timing-function: cubic-bezier(.16,1,.29,.99)
+  &:hover
+    box-shadow: $box-shadow-large
+    transform: translate3d(0,-4px,0)
+
+$background-noise-texture: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEfUlEQVRYR41Xu04rSRDtsbGv793AshCJI/L+AFJSPmByIgdIDviD+QMCJIKJnM8HkDrlAzohRhbJyAHa3WtfzKxObVfrTLm9ey0h7H5WnTp1qrpwmc9isRjN5/NDVVVfmK6q6qyqqk98L8ty6L0v8Bvr6rr+ZY/AmqZpsL+3D2O6VucKDFxfX5+t12u5gA7FXKcbdBwbN5tNsd1uC+/952azGdZ1jb1pbTR6AAfUGD3n5ubm2/Pz817XiwF8iX5Xz8qyHDdNgw3yYQRy6JGHk7Ztu/f3d3EM3rMxVVWJgYBy4Jz74Zz7qTAr7G3bDj8+PorVavXTXhYhPNzd3f3x9PT0Z5wXFHBmROYoPHwOzhAEojXYnGCsqmrsnPuKRsFQ/PXWnEKAuXF7ezuBA8wH3YfQ90Jg4+WcEx4oXPpfD1gul98eHx93PK5nEGcGLy8vo6urK5wjoWRjcAE8GzL8JzwTY3Dp+fm5QIsY4rCI1FHG3N/ff59Op7/0bL24ZwB7F0IoYvpIDOfzeRFCOGhKhRAGIKRFInormaCoEGHhuRjHHyV3LwSw+OHh4e/cYu/9Vwihs2z+DS0AyQUtc25RluVASQgYsQjiAa/PkOPOOQhJihtB3dMIRYQ5FMkHfqTwYn42mw2Q4rpWDIAX+/1+eHl5CXgR1zFfHIXnS5UMF3K4jHdK3KSCkcxwcBidkqyAQ2IAWx5lGHEDAhqizgoQqycTOYMCNEQRk/+0ppAssDKqsYIx+A7IomGA80iUnHOIs2QE1QxRUBUsozGiguBcYTyRuzkE+J1bY2sGkzGjJyJ24BaM4mJlOSC6ndGEk0rIaUd1QDiC37FyHhaLxZnWF3ZQOSBwkWUT59wnG4I5HMgl9ZQU58qxNVS5lkiI9EAmrFarHccrXjz23ouiMbwQk9ls1uV6AhiHGL+9ve05ezAOdIBMyoLoCfgwXK/XaBqS/hOsnFaDsixFNZnErJAs0UxORgLre0qIhap2iFMIAZDv2RObjlaW1ZnohNaJXhWN9QSi91n8B5tPpqeiEo3RHgBpKOlFFU/QZHLqfAzlv0LEnsff6SBTQCwRTxoZm5JJXdd/2TM4dEchoNKpRkjRaJoGwjGZTqfQ99Trca+I8GmmKFlRE8bj8QFEZYR0nyIwgcIpWTC53W6h/YB1hLqQ62iw7vX1tVPial2JlyH+IK4oJ+/Hd7R7u91OQvC/seaYWx3IkTAyfc/iQ2FIqEs5JtHI1m0mmjaa1Nn0uGLHWZ4tAqiwQEq6YoopYot491porZj6ILGNRa5vZMGyKqhz+A8EuO9P4cjF3MbSlnJOPzQ2qJIgNT1mpKdYLBY/6rpG59UBgdR82APjm0FCE0IYee8lAzhVVZjiWC/vT9UKHk8cwCCXXWpWkwTn+j/7CGHkoqeiA7aY9VoySxDAlnsvRqPccrkc4T1wqk7EdT00mOxt26b9LEQp/uqprXzOuYP3/qjNzvCl14Jxsbu4uOiYzMkAy4VcCMwLqdM853cBdAWZZDNGuYK3BVp8Vdx/AP/Cms7RiGKdAAAAAElFTkSuQmCC)
+// $background-noise-texture: url(data:image/png;base64,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)
+
+=backdrop-filter()
+  background: rgba(255, 255, 255, .75)
+  background-blend-mode: exclusion
+  background-image: $background-noise-texture
+  -webkit-backdrop-filter: blur(30px) saturate(200%)
+  backdrop-filter: blur(30px) saturate(200%)
+
+=backdrop-filter-light()
+  background: rgba(255, 255, 255, .6)
+  background-blend-mode: exclusion
+  background-image: $background-noise-texture
+  -webkit-backdrop-filter: blur(10px) saturate(200%)
+  backdrop-filter: blur(10px) saturate(200%)

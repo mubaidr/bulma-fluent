@@ -1,28 +1,23 @@
+# Bulma-Fluent:
+
+Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
+
+<i>Also check out [Fluent Design Components for Vue.js](https://github.com/mubaidr/vue-fluent) or [Addons for Bulma](https://github.com/mubaidr/bulma-addons).</i>
+
+<br/>
+
+[![NPM](https://nodei.co/npm/bulma-fluent.png?compact=true)](https://nodei.co/npm/bulma-fluent/)
+
+## Demo
+
+[Bulma Fluent Demo](https://mubaidr.github.io/bulma-fluent/)
+
+## Screenshot
+
 <a href="https://mubaidr.github.io/bulma-fluent/">
  <img src="screenshot.png" width=900 align="center">
 </a>
 
-# Bulma-Fluent:
-
-> Fluent Design Theme for [Bulma](http://bulma.io), inspired by [Microsoft’s Fluent Design System](https://fluent.microsoft.com).
-
-> [Fluent Design Components for Vue.js](https://github.com/mubaidr/vue-fluent) are also available.
-
-> [Addons for Bulma](https://github.com/mubaidr/bulma-addons) are also available.
-
-<br/>
-
-<a href="https://patreon.com/mubaidr">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="42">
-</a>
-
-[![NPM](https://nodei.co/npm/bulma-fluent.png?compact=true)](https://nodei.co/npm/bulma-fluent/)
-
-![dependencies](https://david-dm.org/mubaidr/bulma-fluent.svg)
-
-## Demo
-
-[mubaidr.github.io/bulma-fluent](https://mubaidr.github.io/bulma-fluent/)
 
 ## Quick install
 
