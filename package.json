@@ -47,10 +47,9 @@
     "customize-colors": "sass --load-path node_modules --indented --style expanded customize-colors.sass customize-colors/bulma.css",
     "dev": "cd src/docs && npm run dev && cd../..",
     "lint": "cd src/docs/ && npm run lint && cd ../..",
-    "postinstall": "cd src/docs && npm install && cd ../..",
     "test": "sh test/sass-compile-tester.sh"
   },
   "style": "css/bulma.min.css",
   "unpkg": "css/bulma.min.css",
-  "version": "0.4.2"
+  "version": "0.4.3"
 }
