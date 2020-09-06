@@ -4,12 +4,12 @@
       <h1 class="title">
         Elements
       </h1>
-      <hr>
+      <hr />
 
       <h2 class="subtitle is-3">
         Buttons
       </h2>
-      <hr>
+      <hr />
       <div>
         <div class="block">
           <a class="button">Default</a>
@@ -125,12 +125,12 @@
         </div>
       </div>
 
-      <br><br>
+      <br /><br />
 
       <h2 class="subtitle is-3">
         Box
       </h2>
-      <hr>
+      <hr />
       <div class="box">
         <article class="media">
           <div class="media-left">
@@ -138,7 +138,7 @@
               <img
                 src="https://bulma.io/images/placeholders/128x128.png"
                 alt="Image"
-              >
+              />
             </figure>
           </div>
           <div class="media-content">
@@ -147,7 +147,7 @@
                 <strong>John Smith</strong>
                 <small>@johnsmith</small>
                 <small>31m</small>
-                <br>
+                <br />
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 efficitur sit amet massa fringilla egestas. Nullam condimentum
                 luctus turpis.
@@ -157,75 +157,51 @@
         </article>
       </div>
 
-      <br>
+      <br />
 
       <h2 class="subtitle is-3">
         Progress bars
       </h2>
-      <hr>
+      <hr />
       <div id="progress">
         <progress class="progress is-primary">
           0%
         </progress>
-        <progress
-          class="progress"
-          max="100"
-          value="40"
-        >
+        <progress class="progress" max="100" value="40">
           40%
         </progress>
-        <progress
-          class="progress is-primary"
-          max="100"
-          value="50"
-        >
+        <progress class="progress is-primary" max="100" value="50">
           50%
         </progress>
-        <progress
-          class="progress is-info"
-          max="100"
-          value="60"
-        >
+        <progress class="progress is-info" max="100" value="60">
           60%
         </progress>
-        <progress
-          class="progress is-suc cess"
-          max="100"
-          value="70"
-        >
+        <progress class="progress is-suc cess" max="100" value="70">
           70%
         </progress>
-        <progress
-          class="progress is-warning"
-          max="100"
-          value="80"
-        >
+        <progress class="progress is-warning" max="100" value="80">
           80%
         </progress>
-        <progress
-          class="progress is-danger"
-          max="100"
-          value="90"
-        >
+        <progress class="progress is-danger" max="100" value="90">
           90%
         </progress>
       </div>
-      <br><br>
+      <br /><br />
 
       <h2 class="subtitle is-3">
         Image
       </h2>
-      <hr>
+      <hr />
       <figure class="image is-128x128">
-        <img src="https://bulma.io/images/placeholders/128x128.png">
+        <img src="https://bulma.io/images/placeholders/128x128.png" />
       </figure>
 
-      <br><br>
+      <br /><br />
 
       <h2 class="subtitle is-3">
         Notifications
       </h2>
-      <hr>
+      <hr />
       <div class="columns notifications">
         <div class="column">
           <div class="notification">
@@ -274,12 +250,12 @@
         </div>
       </div>
 
-      <br>
+      <br />
 
       <h2 class="subtitle is-3">
         Tags
       </h2>
-      <hr>
+      <hr />
       <div class="tags">
         <span class="tag">Default</span>
         <span class="tag is-light">Light</span>
@@ -322,12 +298,12 @@
         </span>
       </div>
 
-      <br>
+      <br />
 
       <h2 class="subtitle is-3">
         Tables
       </h2>
-      <hr>
+      <hr />
       <table class="table is-narrow is-fullwidth">
         <tr>
           <th>Company</th>
@@ -377,12 +353,12 @@
         </tr>
       </table>
 
-      <br>
+      <br />
 
       <h2 class="subtitle is-3">
         Titles
       </h2>
-      <hr>
+      <hr />
       <h1 class="title is-1">
         Title 1
       </h1>
@@ -401,7 +377,7 @@
       <h6 class="title is-6">
         Title 6
       </h6>
-      <br>
+      <br />
       <h1 class="subtitle is-1">
         Subtitle 1
       </h1>

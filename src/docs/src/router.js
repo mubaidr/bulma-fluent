@@ -8,7 +8,6 @@ import Form from './views/demo/Form.vue'
 // home
 import Home from './views/demo/Home.vue'
 
-
 vue.use(VueRouter)
 
 const router = new VueRouter({

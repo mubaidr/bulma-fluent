@@ -5,7 +5,7 @@
         Looking for extensions or addons for bulma?
       </h1>
       <p>Checkout following projects:</p>
-      <br>
+      <br />
       <div class="column is-6 is-offset-3">
         <div class="box">
           <article class="media">
@@ -15,10 +15,11 @@
                   <strong>
                     <a href="//github.com/mubaidr/vue-fluent">Vue-Fluent</a>
                   </strong>
-                  <small>by
+                  <small
+                    >by
                     <a href="//github.com/mubaidr">mubaidr</a>
                   </small>
-                  <br>
+                  <br />
                   Fluent Design Components for Vue.js using Bulma, inspired by
                   Microsoft’s Fluent Design System:
                   <a href="//mubaidr.github.io/vue-fluent">Homepage</a>
@@ -35,10 +36,11 @@
                   <strong>
                     <a href="//github.com/mubaidr/bulma-addons">Bulma-Addons</a>
                   </strong>
-                  <small>by
+                  <small
+                    >by
                     <a href="//github.com/mubaidr">mubaidr</a>
                   </small>
-                  <br>
+                  <br />
                   Addons for Bulma CSS framework:
                   <a href="//mubaidr.github.io/bulma-addons">Homepage</a>
                 </p>
@@ -52,14 +54,15 @@
               <div class="content">
                 <p>
                   <strong>
-                    <a
-                      href="//github.com/Wikiki/bulma-extensions"
-                    >Bulma-Extensions</a>
+                    <a href="//github.com/Wikiki/bulma-extensions"
+                      >Bulma-Extensions</a
+                    >
                   </strong>
-                  <small>by
+                  <small
+                    >by
                     <a href="//github.com/Wikiki">Wikiki</a>
                   </small>
-                  <br>
+                  <br />
                   Extensions for Bulma CSS framework:
                   <a href="//wikiki.github.io">Homepage</a>
                 </p>

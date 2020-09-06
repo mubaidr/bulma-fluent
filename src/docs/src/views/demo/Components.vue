@@ -5,13 +5,13 @@
         Components
       </h1>
 
-      <hr>
+      <hr />
 
       <h2 class="subtitle is-3">
         Card
       </h2>
 
-      <hr>
+      <hr />
       <div class="columns">
         <div class="column is-4 is-offset-4">
           <div class="card">
@@ -20,7 +20,7 @@
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
-                >
+                />
               </figure>
             </div>
             <div class="card-content">
@@ -30,7 +30,7 @@
                     <img
                       src="https://bulma.io/images/placeholders/96x96.png"
                       alt="Placeholder image"
-                    >
+                    />
                   </figure>
                 </div>
                 <div>
@@ -49,7 +49,7 @@
                 <a>@bulmaio</a>.
                 <a href="#">#css</a>
                 <a href="#">#responsive</a>
-                <br>
+                <br />
                 <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
               </div>
             </div>
@@ -57,16 +57,13 @@
         </div>
       </div>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Breadcrumb
       </h2>
-      <hr>
-      <nav
-        class="breadcrumb"
-        aria-label="breadcrumbs"
-      >
+      <hr />
+      <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
           <li>
             <a href="#">Bulma</a>
@@ -78,19 +75,16 @@
             <a href="#">Components</a>
           </li>
           <li class="is-active">
-            <a
-              href="#"
-              aria-current="page"
-            >Breadcrumb</a>
+            <a href="#" aria-current="page">Breadcrumb</a>
           </li>
         </ul>
       </nav>
 
-      <br>
+      <br />
       <h2 class="subtitle is-3">
         Dropdown
       </h2>
-      <hr>
+      <hr />
       <div class="column is-4 is-offset-4">
         <div
           :class="{ 'is-active': dropdownActive }"
@@ -105,36 +99,20 @@
             >
               <span>Dropdown button</span>
               <span class="icon is-small">
-                <i
-                  class="fas fa-angle-down"
-                  aria-hidden="true"
-                />
+                <i class="fas fa-angle-down" aria-hidden="true" />
               </span>
             </button>
           </div>
-          <div
-            id="dropdown-menu"
-            class="dropdown-menu"
-            role="menu"
-          >
+          <div id="dropdown-menu" class="dropdown-menu" role="menu">
             <div class="dropdown-content">
-              <a
-                class="dropdown-item"
-                href="#"
-              >
+              <a class="dropdown-item" href="#">
                 Dropdown item
               </a>
-              <a
-                class="dropdown-item is-active"
-                href="#"
-              >
+              <a class="dropdown-item is-active" href="#">
                 dropdown item
               </a>
-              <hr class="dropdown-divider">
-              <a
-                class="dropdown-item"
-                href="#"
-              >
+              <hr class="dropdown-divider" />
+              <a class="dropdown-item" href="#">
                 With a divider
               </a>
             </div>
@@ -142,16 +120,16 @@
         </div>
       </div>
 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Menu
       </h2>
-      <hr>
+      <hr />
       <div class="columns">
         <div class="column is-4 is-offset-4">
           <div class="box custom-box">
@@ -163,10 +141,7 @@
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-box"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-box" aria-hidden="true" />
                     </span>
                     Dashboard
                   </a>
@@ -174,12 +149,10 @@
                 <li>
                   <a class="is-active">
                     <span class="icon">
-                      <i
-                        class="fas fa-address-card"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-address-card" aria-hidden="true" />
                     </span>
-                    Customers</a>
+                    Customers</a
+                  >
                 </li>
               </ul>
               <p class="menu-label">
@@ -189,52 +162,42 @@
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-cog"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-cog" aria-hidden="true" />
                     </span>
-                    Team Settings</a>
+                    Team Settings</a
+                  >
                 </li>
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-child"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-child" aria-hidden="true" />
                     </span>
-                    Manage Your Team</a>
+                    Manage Your Team</a
+                  >
                 </li>
                 <li class="is-disabled">
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-at"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-at" aria-hidden="true" />
                     </span>
-                    Invitations</a>
+                    Invitations</a
+                  >
                 </li>
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-cloudversify"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-cloudversify" aria-hidden="true" />
                     </span>
-                    Cloud Storage Settings</a>
+                    Cloud Storage Settings</a
+                  >
                 </li>
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-user"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-user" aria-hidden="true" />
                     </span>
-                    Authentication</a>
+                    Authentication</a
+                  >
                 </li>
               </ul>
               <p class="menu-label">
@@ -244,54 +207,45 @@
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-amazon-pay"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-amazon-pay" aria-hidden="true" />
                     </span>
-                    Payments</a>
+                    Payments</a
+                  >
                 </li>
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-align-center"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-align-center" aria-hidden="true" />
                     </span>
-                    Transfers</a>
+                    Transfers</a
+                  >
                 </li>
                 <li>
                   <a>
                     <span class="icon">
-                      <i
-                        class="fas fa-briefcase"
-                        aria-hidden="true"
-                      />
+                      <i class="fas fa-briefcase" aria-hidden="true" />
                     </span>
-                    Balance</a>
+                    Balance</a
+                  >
                 </li>
               </ul>
             </aside>
           </div>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
+      <br />
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Messages
       </h2>
-      <hr>
+      <hr />
       <div class="columns messages">
         <div class="column">
           <article class="message">
             <div class="message-header">
               <p>Default Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -305,10 +259,7 @@
           <article class="message is-dark">
             <div class="message-header">
               <p>Dark Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -322,10 +273,7 @@
           <article class="message is-primary">
             <div class="message-header">
               <p>Primary Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -339,10 +287,7 @@
           <article class="message is-info">
             <div class="message-header">
               <p>Info Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -357,10 +302,7 @@
           <article class="message is-light">
             <div class="message-header">
               <p>Light Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -373,10 +315,7 @@
           <article class="message is-success">
             <div class="message-header">
               <p>Success Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -390,10 +329,7 @@
           <article class="message is-warning">
             <div class="message-header">
               <p>Warning Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -407,10 +343,7 @@
           <article class="message is-danger">
             <div class="message-header">
               <p>Danger Message</p>
-              <button
-                class="delete"
-                aria-label="delete"
-              />
+              <button class="delete" aria-label="delete" />
             </div>
             <div class="message-body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -423,31 +356,22 @@
         </div>
       </div>
 
-      <br>
+      <br />
       <h2 class="subtitle is-3">
         Modal
       </h2>
-      <hr>
-      <button
-        class="button is-primary"
-        @click="toggleModal"
-      >
+      <hr />
+      <button class="button is-primary" @click="toggleModal">
         Launch Sample Modal
       </button>
-      <div
-        :class="{ 'is-active': isModalOpen }"
-        class="modal"
-      >
-        <div
-          class="modal-background"
-          @click="toggleModal"
-        />
+      <div :class="{ 'is-active': isModalOpen }" class="modal">
+        <div class="modal-background" @click="toggleModal" />
         <div class="modal-content">
           <p class="image is-4by3">
             <img
               src="https://bulma.io/images/placeholders/1280x960.png"
               alt=""
-            >
+            />
           </p>
         </div>
         <button
@@ -456,23 +380,17 @@
           @click="toggleModal"
         />
       </div>
-      <br>
-      <br>
-      <br>
+      <br />
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Navbar
       </h2>
-      <hr>
+      <hr />
       <nav class="navbar is-dark">
         <div class="navbar-brand">
-          <router-link
-            to="/"
-            class="navbar-item"
-          >
-            <img
-              src="../../assets/logotype12.png"
-              alt="Bulma-fluent"
-            >
+          <router-link to="/" class="navbar-item">
+            <img src="../../assets/logotype12.png" alt="Bulma-fluent" />
           </router-link>
           <div
             class="navbar-burger burger"
@@ -484,29 +402,17 @@
           </div>
         </div>
 
-        <div
-          id="navbarExampleTransparentExample"
-          class="navbar-menu"
-        >
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-start">
-            <a
-              class="navbar-item"
-              href="https://bulma.io/"
-            >
+            <a class="navbar-item" href="https://bulma.io/">
               Home
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a
-                class="navbar-link"
-                href="/documentation/overview/start/"
-              >
+              <a class="navbar-link" href="/documentation/overview/start/">
                 Docs
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a
-                  class="navbar-item"
-                  href="/documentation/overview/start/"
-                >
+                <a class="navbar-item" href="/documentation/overview/start/">
                   Overview
                 </a>
                 <a
@@ -533,7 +439,7 @@
                 >
                   Form
                 </a>
-                <hr class="navbar-divider">
+                <hr class="navbar-divider" />
                 <a
                   class="navbar-item"
                   href="https://bulma.io/documentation/elements/box/"
@@ -587,67 +493,52 @@
         </div>
       </nav>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Pagination
       </h2>
-      <hr>
-      <nav
-        class="pagination"
-        role="navigation"
-        aria-label="pagination"
-      >
+      <hr />
+      <nav class="pagination" role="navigation" aria-label="pagination">
         <a class="pagination-previous">Previous</a>
         <a class="pagination-next">Next page</a>
         <ul class="pagination-list">
           <li>
-            <a
-              class="pagination-link"
-              aria-label="Goto page 1"
-            >1</a>
+            <a class="pagination-link" aria-label="Goto page 1">1</a>
           </li>
           <li>
             <span class="pagination-ellipsis">&hellip;</span>
           </li>
           <li>
-            <a
-              class="pagination-link"
-              aria-label="Goto page 45"
-            >45</a>
+            <a class="pagination-link" aria-label="Goto page 45">45</a>
           </li>
           <li>
             <a
               class="pagination-link is-current"
               aria-current="page"
               aria-label="Page 46"
-            >46</a>
+              >46</a
+            >
           </li>
           <li>
-            <a
-              class="pagination-link"
-              aria-label="Goto page 47"
-            >47</a>
+            <a class="pagination-link" aria-label="Goto page 47">47</a>
           </li>
           <li>
             <span class="pagination-ellipsis">&hellip;</span>
           </li>
           <li>
-            <a
-              class="pagination-link"
-              aria-label="Goto page 86"
-            >86</a>
+            <a class="pagination-link" aria-label="Goto page 86">86</a>
           </li>
         </ul>
       </nav>
 
-      <br>
-      <br>
-      <br>
+      <br />
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Panel
       </h2>
-      <hr>
+      <hr />
       <div class="columns">
         <div class="column is-4 is-offset-4">
           <nav class="panel">
@@ -660,7 +551,7 @@
                   class="input is-small"
                   type="text"
                   placeholder="search"
-                >
+                />
                 <span class="icon is-left">
                   <i class="fas fa-search" />
                 </span>
@@ -718,12 +609,12 @@
         </div>
       </div>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <h2 class="subtitle is-3">
         Tabs
       </h2>
-      <hr>
+      <hr />
       <div class="tabs is-centered">
         <ul>
           <li>

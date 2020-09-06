@@ -5,9 +5,6 @@ import './assets/fontawesome/css/fontawesome-all.css'
 import router from './router'
 import './styles.sass'
 
-
-
-
 // eslint-disable-next-line
 new Vue({
   el: '#app',
