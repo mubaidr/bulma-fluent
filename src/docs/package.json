@@ -29,7 +29,7 @@
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "prettier": "^2.0.5",
-    "sass": "^1.26.10",
+    "sass": "^1.29.0",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "vue-loader": "^15.9.3",
