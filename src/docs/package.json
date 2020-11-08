@@ -17,7 +17,7 @@
     "cross-env": "^7.0.2",
     "css-loader": "^4.2.0",
     "eslint": "^7.6.0",
-    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^4.0.2",
