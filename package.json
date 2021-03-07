@@ -10,7 +10,7 @@
   "description": "Fluent Design Theme based on Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "clean-css-cli": "^4.3.0",
+    "clean-css-cli": "^5.2.1",
     "postcss-cli": "^7.1.1",
     "rimraf": "^3.0.2",
     "sass": "^1.26.10"
