@@ -6,7 +6,7 @@
     "not ie <= 8"
   ],
   "dependencies": {
-    "vue": "^2.6.11",
+    "vue": "^2.6.13",
     "vue-router": "^3.3.4"
   },
   "description": "Fluent Design Theme for Bulma CSS framework, inspired by Microsoft’s Fluent Design System",
@@ -33,7 +33,7 @@
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "vue-loader": "^15.9.3",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.13",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
